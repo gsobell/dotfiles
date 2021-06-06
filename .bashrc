@@ -196,7 +196,8 @@ command_not_found_handle() {
 
 packlist() 
 {
-	pacman -Qet -q > "Packages-$(date +%F).txt"
+	pacman -Qet -q > ~/.packlist/"Packages-$(date +%F).txt"
+
 }
 
 present() {
