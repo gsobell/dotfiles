@@ -230,5 +230,11 @@ break; done;
 
 }
 
+dots() {
+	
+/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
+/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m $(date +%X)
+/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push 
 
+}
 recent
