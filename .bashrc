@@ -139,8 +139,6 @@ alias tetris='tint'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # alias tetris='mpv --no-video https://www.youtube.com/watch?v=9Fv5cuYZFC0 & disown && tint'
 
-#git aliases
-
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo
