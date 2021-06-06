@@ -232,7 +232,7 @@ break; done;
 
 dots() {
 /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
-if "$1"=""
+if [[ -z "$1" ]]
 then /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m $(date +%X)
 else /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$1"
 fi
