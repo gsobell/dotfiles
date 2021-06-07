@@ -98,56 +98,54 @@ alias i3='vim ~/.i3/config'
 alias i3status='vim ~/.config/i3status/config'
 alias bash='vim ~/.bashrc'
 alias X='vim .Xresources'
-alias td='vim ~/to.do.md'
+alias xx='xrdb ~/.Xresources'
 alias vimrc='vim ~/.vimrc'
 alias gitrc='vim ~/.gitconfig'
 alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.newsboat/urls ~/.newsboat/config'
-alias cp='cp -i'
+
 alias i='i3-swallow'
 alias diff='colordiff'
 alias df='df -h'
 alias ll='ls -la' 
 alias lsa='ls -a'
+alias cp='cp -i'
 alias yy='xclip'
-alias xx='xrdb ~/.Xresources'
 alias pp='xclip -o'
 alias v='vim'
+alias td='vim ~/to.do.md'
 alias r="ranger"
 alias sr='sudo ranger'
 alias sranger='sudo ranger'
-alias news='newsboat'
-alias nacp='cd $HOME/Notes; git acp; cd -'
 alias mkdir='mkdir -pv'
 alias yay='paru'
 alias free='free -m' 
+
 alias ttyc='tty-clock -cC 4'
 alias pipes='pipes.sh'
 alias neo='neofetch'
 alias mutt='neomutt'
+alias news='newsboat'
 alias ww='curl wttr.in'
 alias heb='trans :he'
+alias tetris='tint'
 alias please='sudo'
 alias doas='sudo'
+
 alias p='playerctl play-pause'
 alias b='playerctl previous'
 alias n='playerctl next'
 alias :q='exit'
 alias :q!='shutdown now'
-alias ZZ='i3exit suspend'
 alias :l='clear'
-alias tetris='tint'
+alias ZZ='i3exit suspend'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
 # alias tetris='mpv --no-video https://www.youtube.com/watch?v=9Fv5cuYZFC0 & disown && tint'
 
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo
-
-# Bash won't get SIGWINCH if another process is in the foreground.
-# Enable checkwinsize so that bash will check the terminal size when
-# it regains control.  #65623
-# http://cnswww.cns.cwru.edu/~chet/bash/FAQ (E11)
 shopt -s checkwinsize
 shopt -s expand_aliases
 shopt -s autocd
@@ -157,17 +155,16 @@ shopt -s cdspell
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
-#
 # # ex - archive extractor
 # # usage: ex <file>
-ex ()
-{
+
+ex () {
   if [ -f $1 ] ; then
     case $1 in
       *.tar.bz2)   tar xjf $1   ;;
       *.tar.gz)    tar xzf $1   ;;
       *.bz2)       bunzip2 $1   ;;
-      *.rar)       unrar x $1     ;;
+      *.rar)       unrar x $1   ;;
       *.gz)        gunzip $1    ;;
       *.tar)       tar xf $1    ;;
       *.tbz2)      tar xjf $1   ;;
@@ -195,20 +192,17 @@ command_not_found_handle() {
 
 #Prints a list of installed packages
 
-packlist() 
-{
+packlist() {
 	pacman -Qet -q > ~/.packlist/"Packages-$(date +%F).txt"
 	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"Packages-$(date +%F).txt"
 }
 
 present() {
-	
 	xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -T&& echo "Present mode is:" && xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -v
 
 }
 
 rdng() {
-
 	readable $1 | w3m -T text/html
 	#readable $1 | lynx -stdin
 }
@@ -218,19 +212,31 @@ pan() {
 }
 
 recent() {
-	
-find $HOME -maxdepth 1 -type l | xargs rm 2> /dev/null
-i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf $f $HOME/; ((i++));done
+	find $HOME -maxdepth 1 -type l | xargs rm 2> /dev/null
+	i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf $f $HOME/; ((i++));done
 
 }
 
 nn() {
-read -p "Optional title, enter to continue: " Title;
-select CLASS in Math Physics Hebrew;
-do vim $HOME/Notes/$CLASS/"$CLASS-$(date +%x).md"
-break; done;
+	read -p "Optional title, enter to continue: " Title;
+	select CLASS in Math Physics Hebrew;
+	do vim $HOME/Notes/$CLASS/"$CLASS-$(date +%x).md"
+	break; done;
 
 }
+
+ns() {
+	cd $HOME/Notes
+	git add -A
+	if [[ -n "$1" ]]
+	then git commit -S -m "$1"
+	else git commit -S -m $(date +%X)
+	fi
+	git push
+	cd -
+}
+
+
 
 dots() {
 /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
