@@ -134,6 +134,7 @@ alias b='playerctl previous'
 alias n='playerctl next'
 alias :q='exit'
 alias :q!='shutdown now'
+alias ZZ='i3exit suspend'
 alias :l='clear'
 alias tetris='tint'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -197,7 +198,7 @@ command_not_found_handle() {
 packlist() 
 {
 	pacman -Qet -q > ~/.packlist/"Packages-$(date +%F).txt"
-
+	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"Packages-$(date +%F).txt"
 }
 
 present() {

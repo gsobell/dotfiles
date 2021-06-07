@@ -18,6 +18,6 @@ inoremap ( ()<ESC>ha
 inoremap [ []<ESC>ha
 inoremap " ""<ESC>ha
 au BufRead /tmp/mutt-* set tw=72
-setlocal nospell
+setlocal spell
 set spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
