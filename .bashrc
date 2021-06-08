@@ -46,7 +46,6 @@ case ${TERM} in
 		PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
 		;;
 esac
-# just a random comment
 use_color=true
 
 # dircolors --print-database uses its own built-in database
