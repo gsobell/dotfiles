@@ -7,7 +7,7 @@ auto-reload yes
 
 color listnormal 		red default
 color listnormal_unread 	blue default bold
-color listfocus 		blue default standout
+color listfocus 		blue red standout bold
 color listfocus_unread 		blue default standout bold
 color info 			red default bold
 color article 			white default
