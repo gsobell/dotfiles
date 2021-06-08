@@ -237,7 +237,6 @@ ns() {
 }
 
 
-
 dots() {
 /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
 if [[ -n "$1" ]]

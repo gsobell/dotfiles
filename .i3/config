@@ -141,9 +141,9 @@ for_window [class="Qtconfig-qt4"]         floating enable sticky enable border n
 
 
 # set il keyboard, swap caps lock and escape
-exec_always --no-startup-id setxkbmap -layout us,il -option 'grp:shifts_toggle'
-exec_always --no-startup-id xmodmap -e "clear lock"
-exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+#exec_always --no-startup-id setxkbmap -layout us,il -option 'grp:shifts_toggle'
+#exec_always --no-startup-id xmodmap -e "clear lock"
+#exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 
 # switch to workspace with urgent window automatically
 # for_window     [urgent=latest] focus
