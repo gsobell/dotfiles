@@ -50,6 +50,8 @@ macro p set browser "readable %u | w3m -T text/html" ; open-in-browser ; set bro
 macro u set browser "readable %u -p text-content > article.tmp; clear; speedread article.tmp" ; open-in-browser ; set browser "w3m"
 macro y set browser "readable %u > .article.tmp; clear; firefox .article.tmp" ; open-in-browser ; set browser "w3m"
 macro i set browser "viewnior" ; open-in-browser ; set browser "w3m"
+macro f set browser "firefox" ; open-in-browser ; set browser "w3m"
 macro v set browser "setsid -f mpv" ; open-in-browser ; set browser w3m
 macro a set browser "tsp youtube-dl --add-metadata -xic -f bestaudio/best" ; open-in-browser ; set browser w3m
+macro c set browser "echo %u | xclip -r -sel c" ; open-in-browser ; set browser linkhandler
 macro C set browser "youtube-viewer --comments=%u" ; open-in-browser ; set browser w3m
