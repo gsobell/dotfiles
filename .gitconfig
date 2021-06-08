@@ -13,3 +13,5 @@
 	ac=!git add -A && git commit -m "$(date +%X)"
 	p = !git push origin $HOSTNAME
 	acp=!git add -A && git commit -S -m "$(date +%X)" && git push origin $HOSTNAME
+[commit]
+	gpgSign = true
