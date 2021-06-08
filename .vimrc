@@ -1,5 +1,7 @@
 syntax on
-colorscheme nord 
+autocmd BufEnter * colorscheme default
+autocmd BufEnter *.md colorscheme nord
+autocmd BufEnter *.py colorscheme Tomorrow-Night
 set mouse=a
 set noerrorbells
 set belloff=all
