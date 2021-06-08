@@ -5,6 +5,3 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 export BROWSER=/usr/bin/firefox
 export TRUEBROWSER=/usr/bin/firefox
 export READER='okular'
-
-setxkbmap -option caps:escape
-setxkbmap -option -layout us,il -option 'grp:shifts_toggle'

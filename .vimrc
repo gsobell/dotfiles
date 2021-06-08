@@ -1,4 +1,5 @@
 syntax on
+"colorscheme Tommorow-Night 
 set mouse=a
 set noerrorbells
 set belloff=all
