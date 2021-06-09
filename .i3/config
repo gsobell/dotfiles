@@ -78,6 +78,7 @@ bindsym Mod4+m       exec terminal -e 'mocp'
 bindsym Mod4+n       exec terminal -e 'newsboat'
 bindsym Mod4+v       exec terminal -e 'vim -c startinsert'
 bindsym Mod4+t       exec 'thunar'
+bindsym Mod4+k       exec 'kigo'
 bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+f       exec 'firefox'
 bindsym Mod4+s       exec 'signal-desktop'
@@ -140,7 +141,9 @@ for_window [class="Qtconfig-qt4"]         floating enable sticky enable border n
 
 
 # set il keyboard, swap caps lock and escape
-exec_always --no-startup-id setxkbmap -layout us,il -option 'grp:shifts_toggle'
+exec "setxkbmap -layout us,il"
+exec "setxkbmap -option 'grp:shifts_toggle'"
+#exec_always --no-startup-id setxkbmap -layout us,il -option grp:shifts_toggle
 exec_always --no-startup-id xmodmap -e "clear lock"
 exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 
