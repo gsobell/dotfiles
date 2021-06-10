@@ -78,13 +78,10 @@ URxvt*saveLines:                  5000
 !URxvt*shading:                  138
 
 ! Normal copy-paste keybindings without perls
-URxvt.iso14755:                   false
-URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
-URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+!URxvt.iso14755:                   false
+!URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+!URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
 
-URxvt.perl-ext-common: ...,font-size
-
-!URxvt.perl-ext-common:  resize-font
 !URvxt.iso14755: false
 !Urxvt.iso14755_52: false
 
@@ -97,7 +94,7 @@ URxvt.keysym.Control-Up:          \033[1;5A
 URxvt.keysym.Shift-Control-Up:    \033[1;6A
 URxvt.keysym.Control-Down:        \033[1;5B
 URxvt.keysym.Shift-Control-Down:  \033[1;6B
-!URxvt.perl-ext-common:             ...,font-size,clipboard
+URxvt.perl-ext-common:             ...,resize-font,clipboard
 !URxvt.keysym.M-C-c:               perl:clipboard:copy
 !URxvt.keysym.M-v:                 perl:clipboard:paste
 !URxvt.keysym.M-C-v:               perl:clipboard:paste_escaped
