@@ -6,6 +6,7 @@
 #                                 |___/ 
 #
 # Please see https://wiki.archlinux.irg/index.php/i3 for a complete reference!
+#
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod1
