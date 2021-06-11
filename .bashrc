@@ -103,7 +103,7 @@ alias vimrc='vim ~/.vimrc'
 alias gitrc='vim ~/.gitconfig'
 alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.newsboat/urls ~/.newsboat/config'
-alias ala='vim ~/.config/alacritty/.alacritty.yml'
+alias ala='vim ~/.config/alacritty.yml'
 
 alias i='i3-swallow'
 alias diff='colordiff'
