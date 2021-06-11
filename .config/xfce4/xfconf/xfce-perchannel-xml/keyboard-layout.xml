@@ -7,5 +7,6 @@
     </property>
     <property name="XkbLayout" type="string" value="us,il"/>
     <property name="XkbVariant" type="string" value=",biblical"/>
+    <property name="XkbDisable" type="bool" value="true"/>
   </property>
 </channel>
