@@ -1,0 +1,15 @@
+#Pagedown press
+"i3-msg workspace prev"
+b:8
+
+#Pagedown release
+#"i3-msg workspace prev"
+#b:8 + Release
+
+#Pagedup press
+"i3-msg workspace next"
+b:9
+
+#Pageup release
+#"i3-msg workspace next"
+#b:9 + Release
