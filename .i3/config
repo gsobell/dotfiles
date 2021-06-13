@@ -112,6 +112,8 @@ assign     [title="neomutt"]   $ws4
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec_always --no-startup-id autotiling
+exec_always --no-startup-id xbindkeys
+exec_always --no-startup-id libinput-gestures-setup start
 exec --no-startup-id nitrogen --restore; sleep 1; picom -b
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id nm-applet
@@ -123,7 +125,6 @@ exec --no-startup-id unclutter -grab --timeout 10
 exec --no-startup-id mpris-proxy
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-#exec --no-startup-id xxkb
 #exec --no-startup-id redshift-gtk
 
 # Open specific applications in floating mode
