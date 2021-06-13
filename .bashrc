@@ -231,7 +231,7 @@ ns() {
 	git add -A
 	if [[ -n "$1" ]]
 	then git commit -S -m "$1"
- 	else git commit -S -m  $HOSTNAME $(date +%X)
+ 	else git commit -S -m  "$HOSTNAME $(date +%X)"
 	fi
 	git push
 	cd -
