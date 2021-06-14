@@ -1,6 +1,8 @@
 syntax on
 autocmd BufEnter * colorscheme default
 autocmd BufEnter *.md colorscheme nord
+autocmd filetype markdown syn region match start=/\\$\\$/ end=/\\$\\$/
+autocmd filetype markdown syn match math '\\$[^$].\{-}\$'
 autocmd BufEnter *.py colorscheme Tomorrow-Night
 set mouse=a
 set noerrorbells
