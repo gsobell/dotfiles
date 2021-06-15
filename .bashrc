@@ -191,6 +191,7 @@ command_not_found_handle() {
     fi
 }
 
+
 #Prints a list of installed packages
 
 packlist() {
