@@ -2,7 +2,19 @@ syntax on
 autocmd BufEnter * colorscheme default
 autocmd BufEnter *.md colorscheme nord
 autocmd BufEnter *.py colorscheme Tomorrow-Night
+filetype on
+filetype plugin on
+set foldmethod=marker
 set mouse=a
+set showcmd
+set autoindent
+set expandtab
+set smarttab
+set smartcase
+set ignorecase
+set incsearch
+set hlsearch
+let g:clipbrdDefaultReg = '+'
 set showmatch
 set noerrorbells
 set belloff=all
@@ -22,17 +34,20 @@ inoremap [ []<ESC>ha
 inoremap " ""<ESC>ha
 inoremap { {}<ESC>ha
 inoremap $ $$<ESC>ha
-au BufRead /tmp/mutt-* set tw=72
+
 setlocal nospell
 set spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+au BufRead /tmp/mutt-* set tw=72
 
-""Portable basic LaTeX highlighting, in lieu of a plugin 
+"Portable basic LaTeX highlighting, in lieu of a plugin 
 function s:math()
-  syntax region Statement oneline matchgroup=Delimiter start="\$" end="\$" contains=Statement
-   syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
-  syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
+	syntax region Statement oneline matchgroup=Delimiter start="\$" end="\$" contains=Statement
+	syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
+	syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
 endfunction
 
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
+autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
 autocmd FileType markdown :call <SID>math()
+
