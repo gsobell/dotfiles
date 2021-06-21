@@ -19,7 +19,8 @@ set showmatch
 set noerrorbells
 set belloff=all
 set smartindent
-set nu
+"set termguicolors
+set number relativenumber
 set wrap linebreak
 set mouse=a
 set undodir=~/.vim/undodir
@@ -53,4 +54,4 @@ endfunction
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
 autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
 autocmd FileType markdown :call <SID>math()
-
+autocmd FileType markdown set norelativenumber number
