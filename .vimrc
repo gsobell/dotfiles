@@ -37,7 +37,6 @@ inoremap ( ()<ESC>ha
 inoremap [ []<ESC>ha
 inoremap " ""<ESC>ha
 inoremap { {}<ESC>ha
-inoremap $ $$<ESC>ha
 
 setlocal nospell
 set spelllang=en_us
@@ -55,3 +54,4 @@ autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
 autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
 autocmd FileType markdown :call <SID>math()
 autocmd FileType markdown set norelativenumber number
+autocmd FileType markdown inoremap $ $$<ESC>ha

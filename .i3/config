@@ -8,19 +8,18 @@
 # Please see https://wiki.archlinux.irg/index.php/i3 for a complete reference!
 #
 
-# Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod1
+# Set mod key and default terminal
+set $mod      Mod1
+set $terminal urxvt
 
 # Font for window titles. Define i3bar font{} below.
 # font xft:URWGothic-Book 11#
 # font pango: Fira Sans 14
 font pango: Noto Mono 12
 
-# Start default i3-sensible-terminal
-bindsym mod1+Return exec terminal
+# Start a terminal
 bindsym mod4+Return exec alacritty
-#bindsym $mod+Return exec urxvt
-#bindsym $mod+Return exec alacritty
+bindsym mod1+Return exec urxvt
 
 # Kill focused window
 bindsym $mod+q kill
@@ -28,7 +27,7 @@ bindsym $mod+q kill
 # Defaults to start various launchers
 bindsym Mod1+d exec --no-startup-id dmenu_recency
 bindsym Mod4+d exec --no-startup-id dmenu_recency
-bindsym Mod4+b exec --no-startup-id terminal -e 'bmenu'
+bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 bindsym Mod1+z exec --no-startup-id morc_menu
 
 # Allows pasting from primary [causes nightmarish glitching]
@@ -44,7 +43,7 @@ exec  --no-startup-id volumeicon
 #exec  --no-startup-id pulseaudio
 #exec  --no-startup-id pa-applet
 bindsym $mod+Shift+m exec pavucontrol
-bindsym $mod+Shift+a exec terminal -e 'alsamixer'
+bindsym $mod+Shift+a exec $terminal -e 'alsamixer'
 
 bindcode 164 	  exec    mocp --toggle-pause
 
@@ -74,12 +73,13 @@ bindsym XF86AudioNext exec pactl set-source-mute 1 toggle
 
 # bindings I use
 bindsym Mod1+Shift+b exec --no-startup-id 'blueman-manager'
-bindsym Mod4+r       exec terminal -e 'ranger'
-bindsym Mod4+g       exec terminal -e 'neomutt'
-bindsym Mod4+m       exec terminal -e 'mocp'
-bindsym Mod4+n       exec terminal -e 'newsboat'
-bindsym Mod4+v       exec terminal -e 'vim -c startinsert'
+bindsym Mod4+r       exec $terminal -e 'ranger'
+bindsym Mod4+g       exec $terminal -e 'neomutt'
+bindsym Mod4+m       exec $terminal -e 'mocp'
+bindsym Mod4+n       exec $terminal -e 'newsboat'
+bindsym Mod4+v       exec $terminal -e 'vim -c startinsert'
 bindsym Mod4+t       exec 'thunar'
+bindsym Mod4+p       exec 'cool-retro-term'
 bindsym Mod4+k       exec 'kigo'
 bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+f       exec 'firefox'
@@ -238,6 +238,7 @@ bindsym $mod+Shift+q split toggle
 
 # toggle fullscreen
 bindsym $mod+f fullscreen toggle
+popup_during_fullscreen smart
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking

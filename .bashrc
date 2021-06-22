@@ -122,8 +122,6 @@ alias mkdir='mkdir -pv'
 alias yay='paru'
 alias free='free -m' 
 alias journal='journalctl --boot=-1'
-alias pie='ssh gabriel@192.168.68.121'
-alias pieping='ping pie0.local || arp'
 
 alias ttyc='tty-clock -cC 4'
 alias pipes='pipes.sh'
@@ -251,3 +249,9 @@ dots() {
 	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push 
 }
 
+pie() {
+        ssh gabriel@192.168.68.121 ||
+        ping pie0.local -c1 | head -1 | grep -Eo '[0-9.]{4,}' |
+        ssh ||
+        arp
+}
