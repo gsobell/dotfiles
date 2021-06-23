@@ -124,7 +124,7 @@ alias free='free -m'
 alias journal='journalctl --boot=-1'
 
 alias ttyc='tty-clock -cC 4'
-alias pipes='pipes.sh'
+alias pipes='pipes.sh -p 5'
 alias neo='neofetch'
 alias mutt='neomutt'
 alias news='newsboat'

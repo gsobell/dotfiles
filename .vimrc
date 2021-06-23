@@ -5,10 +5,12 @@ autocmd BufEnter *.py colorscheme Tomorrow-Night
 filetype on
 filetype plugin on
 set foldmethod=marker
+set wrap linebreak
 set mouse=a
 set showcmd
-set autoindent
 set expandtab
+set autoindent
+set smartindent
 set smarttab
 set smartcase
 set ignorecase
@@ -18,14 +20,10 @@ let g:clipbrdDefaultReg = '+'
 set showmatch
 set noerrorbells
 set belloff=all
-set smartindent
 "set termguicolors
 set number relativenumber
-set wrap linebreak
-set mouse=a
 set undodir=~/.vim/undodir
 set undofile
-set incsearch
 set wildmenu
 set wildmode=list:longest,full
 set backup
@@ -49,6 +47,8 @@ function s:math()
 	syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
 	syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
 endfunction
+
+set showmatch
 
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
 autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
