@@ -28,7 +28,6 @@ bindsym $mod+q kill
 bindsym Mod1+d exec --no-startup-id dmenu_recency
 bindsym Mod4+d exec --no-startup-id dmenu_recency
 bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
-bindsym Mod1+z exec --no-startup-id morc_menu
 
 # Allows pasting from primary [causes nightmarish glitching]
 #bindsym --release ctrl+v exec --no-startup-id xdotool key --clearmodifiers shift+Insert
@@ -79,6 +78,7 @@ bindsym Mod4+m       exec $terminal -e 'mocp'
 bindsym Mod4+n       exec $terminal -e 'newsboat'
 bindsym Mod4+v       exec $terminal -e 'vim -c startinsert'
 bindsym Mod4+t       exec 'thunar'
+bindsym Mod1+z       exec 'zathura'
 bindsym Mod4+p       exec 'cool-retro-term'
 bindsym Mod4+k       exec 'kigo'
 bindsym Mod4+a       exec 'audacious'
@@ -320,6 +320,7 @@ bindsym $mod+Shift+r restart
 
 # Lock screen
 bindsym Mod4+L exec --no-startup-id blurlock
+exec --no-startup-id xautolock -time 5 -locker 'urxvt -e pipes.sh'
 exec --no-startup-id xautolock -time 10 -locker blurlock
 # Use light-locker to enable PAM fingerprint unlocking, via light-dm
 #bindsym $mod+9 exec --no-startup-id light-locker-command -l

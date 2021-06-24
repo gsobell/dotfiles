@@ -222,8 +222,6 @@ rpan(){
         curl $URL |
         readable  |
         pandoc -f html -o "$FILE".pdf --pdf-engine=xelatex
-
-
 }
 
 
