@@ -215,6 +215,18 @@ pan() {
        pandoc -r markdown -w pdf -o $1.pdf $1.md	
 }
 
+rpan(){
+        echo "Utility for converting online news articles to PDF"
+        read -p "Filename: " FILE
+        read -p "URL: " URL
+        curl $URL |
+        readable  |
+        pandoc -f html -o "$FILE".pdf --pdf-engine=xelatex
+
+
+}
+
+
 recent() {
 	find $HOME -maxdepth 1 -type l | xargs rm 2> /dev/null
 	i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf $f $HOME/; ((i++));done
@@ -256,3 +268,5 @@ pie() {
         ssh ||
         arp
 }
+
+recent
