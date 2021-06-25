@@ -122,7 +122,7 @@ alias mkdir='mkdir -pv'
 alias py='bpython'
 alias yay='paru'
 alias free='free -m' 
-alias journal='journalctl --boot=-1'
+alias jj='journalctl --boot=-1 | grep'
 
 alias ttyc='tty-clock -cC 4'
 alias pipes='pipes.sh -p 5'
@@ -221,7 +221,7 @@ rpan(){
         read -p "URL: " URL
         curl $URL |
         readable  |
-        pandoc -f html -o "$FILE".pdf --pdf-engine=xelatex
+        pandoc -f html -o "$FILE".pdf
 }
 
 
