@@ -267,4 +267,9 @@ pie() {
         arp
 }
 
+eod(){ dots
+        ns
+
+}
+
 recent
