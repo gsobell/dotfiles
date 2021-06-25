@@ -268,10 +268,10 @@ pie() {
 }
 
 eod(){ 
-        dots &&
+        dots &
         ns
         echo "Goodnight"
-        shutdown +5
+        shutdown
 }
 
 recent
