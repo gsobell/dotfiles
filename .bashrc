@@ -227,7 +227,7 @@ rpan(){
 
 recent() {
 	find $HOME -maxdepth 1 -type l | xargs rm 2> /dev/null
-	i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf $f $HOME/; ((i++));done
+	i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf "$f" $HOME/; ((i++));done
 
 }
 
