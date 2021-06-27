@@ -268,7 +268,7 @@ pie() {
 }
 
 eod(){ 
-        dots &
+        dots
         ns 
         echo "Shutdown now? (Y/n)"
         read  SLEEPDEPRIVEDDECISION
