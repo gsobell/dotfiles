@@ -270,7 +270,7 @@ pie() {
 eod(){ 
         dots
         ns 
-        echo -e "S\e[0;31mhutdown now? \e[0m (Y/n)"
+        echo -e "\e[0;31mShutdown now? \e[0m (Y/n)"
         read  SLEEPDEPRIVEDDECISION
         case $SLEEPDEPRIVEDDECISION in
         ""|"y")
