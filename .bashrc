@@ -268,7 +268,6 @@ pie() {
 }
 
 eod(){ 
-        echo "Goodnight" &
         dots &
         ns &&
         echo "Shutdown now? (Y/n)"
@@ -276,7 +275,7 @@ eod(){
         case $SLEEPDEPRIVEDDECISION in
         ""|"y")
                shutdown now ;;
-        "n")            ;;
+        "n")   echo "Go to sleep"        ;;
 
         esac
 }
