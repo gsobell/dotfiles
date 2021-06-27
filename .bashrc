@@ -268,10 +268,17 @@ pie() {
 }
 
 eod(){ 
+        echo "Goodnight" &
         dots &
-        ns
-        echo "Goodnight"
-        shutdown
+        ns &&
+        echo "Shutdown now? (Y/n)"
+        read  SLEEPDEPRIVEDDECISION
+        case $SLEEPDEPRIVEDDECISION in
+        ""|"y")
+               shutdown now ;;
+        "n")            ;;
+
+        esac
 }
 
 recent
