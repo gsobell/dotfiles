@@ -261,10 +261,9 @@ dots() {
 }
 
 pie() {
-        ssh gabriel@192.168.68.121 ||
-        ping pie0.local -c1 | head -1 | grep -Eo '[0-9.]{4,}' |
-        ssh ||
-        arp
+        IP=$(ping pie0.local -c1 | head -1 | grep -Eo '[0-9.]{4,}')
+        echo -e "IP of remote host is \e[0;31m$IP \e[0m" 
+        ssh $IP
 }
 
 eod(){ 
