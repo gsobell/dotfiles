@@ -219,9 +219,9 @@ rpan(){
         echo "Utility for converting online news articles to PDF"
         read -p "Filename: " FILE
         read -p "URL: " URL
-        curl $URL |
-        readable  |
-        pandoc -f html -o "$FILE".pdf
+        curl $URL       |
+        readable --base |
+        pandoc -f html -o ~/To\ Read/"$FILE".pdf --pdf-engine=xelatex
 }
 
 
