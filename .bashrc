@@ -267,11 +267,11 @@ pie() {
 }
 
 eod(){ 
-        dots
+        dots &&
         ns 
+        (sleep 10s & exit) &&
         echo -e "\e[0;31mShutdown now? \e[0m (Y/n)"
         read  SLEEPDEPRIVEDDECISION
-        timeout 5s eod
         case $SLEEPDEPRIVEDDECISION in
         ""|"y")
                shutdown now ;;
