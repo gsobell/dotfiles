@@ -271,6 +271,7 @@ eod(){
         ns 
         echo -e "\e[0;31mShutdown now? \e[0m (Y/n)"
         read  SLEEPDEPRIVEDDECISION
+        timeout 10s
         case $SLEEPDEPRIVEDDECISION in
         ""|"y")
                shutdown now ;;
