@@ -120,6 +120,7 @@ alias r="ranger"
 alias sr='sudo ranger'
 alias sranger='sudo ranger'
 alias mkdir='mkdir -pv'
+alias rrm='rm -Riv'
 alias py='bpython'
 alias yay='paru'
 alias free='free -m' 
