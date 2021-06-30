@@ -143,7 +143,7 @@ alias n='playerctl next'
 alias :q='exit'
 alias :q!='shutdown now'
 alias :l='clear'
-alias ZZ='i3exit suspend'
+alias ZZ='i3exit suspend && exit'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # alias tetris='mpv --no-video https://www.youtube.com/watch?v=9Fv5cuYZFC0 & disown && tint'
@@ -271,12 +271,12 @@ pie() {
 eod(){ 
         dots &&
         ns 
-        echo -e "\e[0;31mShutdown now? \e[0m (Y/n)"
+        echo -e "\e[0;31mShutdown now? \e[0m (y/N)"
         read  SLEEPDEPRIVEDDECISION
         case $SLEEPDEPRIVEDDECISION in
-        ""|"y")
+        "y")
                shutdown now ;;
-        "n")   echo "Go to sleep"        ;;
+        ""|"n")   echo "Go to sleep"        ;;
 
         esac
 }
