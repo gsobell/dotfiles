@@ -273,7 +273,7 @@ eod(){
         ns -quiet
         echo "Did you remember to:"
         while true; do
-        sed -n '/EOD/,/\ /p' to.do.md | sed '1d'
+        sed -n '/EOD/,/\ /p' to.do.md
         echo -e "\e[0;31mShutdown now? (y) \e[0m edit to.do (v) or exit?"
         read  SLEEPDEPRIVEDDECISION
         case $SLEEPDEPRIVEDDECISION in
