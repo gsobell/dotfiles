@@ -271,6 +271,7 @@ pie() {
 eod(){ 
         dots &
         ns
+        echo ""
         echo "Did you remember to:"
         while true; do
         sed -n '/EOD/,/^$/p' ~/to.do.md | sed '1d'
