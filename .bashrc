@@ -272,7 +272,7 @@ eod(){
         dots 
         ns
         echo ""
-        echo "\e[0;32mDid you remember to:\e[0m"
+        echo -e "\e[0;32mDid you remember to:\e[0m"
         while true; do
         sed -n '/EOD/,/^$/p' ~/to.do.md | sed '1d'
         echo -e "\e[0;31m(S)hutdown now\e[0;34m (E)dit To Do \e[0;32m(N)ow exit \e[0m"
