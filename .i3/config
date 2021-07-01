@@ -323,6 +323,7 @@ bindsym $mod+Shift+r restart
 
 # Lock screen
 bindsym Mod4+L exec --no-startup-id blurlock
+bindsym Mod4+Shift+L exec i3exit suspend
 exec --no-startup-id xautolock -time 10 -locker blurlock
 # Use light-locker to enable PAM fingerprint unlocking, via light-dm
 #bindsym $mod+9 exec --no-startup-id light-locker-command -l
