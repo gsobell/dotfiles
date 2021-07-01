@@ -273,13 +273,13 @@ eod(){
         ns 
         echo "Did you remember to:"
         while true; do
-        sed -n '/EOD/,/^$/p' to.do.md | sed '1d'
+        sed -n '/EOD/,/^$/p' to.d.md | sed '1d'
         echo -e "\e[0;31m(S)hutdown now\e[0;34m (E)dit To Do \e[0;32m(N)ow exit \e[0m"
         read  SLEEPDEPRIVEDDECISION
         case $SLEEPDEPRIVEDDECISION in
         "s"|"S") echo "shutdown now" ;;
         ""|"n"|"N") echo "Goodnight"; break ;;
-        "v"|"e") vim ~/to.do.m || vim ~/Notes/to.do.md ;;
+        "v"|"e") vim ~/to.do.md;;
         esac
         done
 }
