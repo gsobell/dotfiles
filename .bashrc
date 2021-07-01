@@ -269,7 +269,7 @@ pie() {
 }
 
 eod(){ 
-        dots &
+        dots 
         ns
         echo ""
         echo "Did you remember to:"
