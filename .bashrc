@@ -275,12 +275,14 @@ eod(){
         sed -n '/EOD/,/\ /p' to.do.md | sed '1d'
         echo -e "\e[0;31mShutdown now? \e[0m (y/N)"
         read  SLEEPDEPRIVEDDECISION
+        while true; do
         case $SLEEPDEPRIVEDDECISION in
         "y")
                shutdown now ;;
-        ""|"n")   echo "Go to sleep"        ;;
-        "v"|"e") vim ~/to.do.md
+        ""|"n")   echo "Go to sleep";;
+        "v"|"e") vim ~/to.do.md ;;
         esac
+        done
 }
 
 recent
