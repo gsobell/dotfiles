@@ -272,10 +272,10 @@ eod(){
         dots &&
         ns
         echo "Did you remember to:"
+        while true; do
         sed -n '/EOD/,/\ /p' to.do.md | sed '1d'
         echo -e "\e[0;31mShutdown now? \e[0m (y/N)"
         read  SLEEPDEPRIVEDDECISION
-        while true; do
         case $SLEEPDEPRIVEDDECISION in
         "y")
                shutdown now ;;
