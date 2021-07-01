@@ -279,7 +279,7 @@ eod(){
         "y")
                shutdown now ;;
         ""|"n")   echo "Go to sleep"        ;;
-
+        "v"|"e") vim ~/to.do.md
         esac
 }
 
