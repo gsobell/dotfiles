@@ -280,7 +280,7 @@ eod(){
         case $SLEEPDEPRIVEDDECISION in
         "s"|"S") echo "shutdown now" ;;
         ""|"n"|"N") echo "Goodnight"; break ;;
-        "v"|"e") vim ~/to.do.md; ns;;
+        "v"|"e") vim ~/to.do.md ;;
         esac
         done
 }
