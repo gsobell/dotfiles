@@ -105,6 +105,7 @@ alias gitrc='vim ~/.gitconfig'
 alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.newsboat/urls ~/.newsboat/config'
 alias ala='vim ~/.config/alacritty.yml'
+alias td='vim ~/to.do.md'
 
 alias i='i3-swallow'
 alias diff='colordiff'
@@ -115,7 +116,6 @@ alias cp='cp -i'
 alias yy='xclip'
 alias pp='xclip -o'
 alias v='vim'
-alias td='vim ~/to.do.md'
 alias r="ranger"
 alias sr='sudo ranger'
 alias sranger='sudo ranger'
@@ -124,6 +124,7 @@ alias rrm='rm -Riv'
 alias py='bpython'
 alias yay='paru'
 alias free='free -m' 
+
 alias j='journalctl'
 alias jg='journalctl --boot=-1 | grep'
 alias jf='journalctl -f'
@@ -149,8 +150,6 @@ alias :q!='shutdown now'
 alias :l='clear'
 alias ZZ='i3exit suspend && exit'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
-# alias tetris='mpv --no-video https://www.youtube.com/watch?v=9Fv5cuYZFC0 & disown && tint'
 
 xhost +local:root > /dev/null 2>&1
 
@@ -198,7 +197,6 @@ command_not_found_handle() {
     else echo "Command not found"
     fi
 }
-
 
 #Prints a list of installed packages
 
