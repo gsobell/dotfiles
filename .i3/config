@@ -110,6 +110,7 @@ assign     [title="neomutt"]   $ws4
 # for_window [title="mocp"] move container to workspace $ws3
 
 # Autostart applications
+exec --no-startup-id urxvtd -q
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id xbindkeys
