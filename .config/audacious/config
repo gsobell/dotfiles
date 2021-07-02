@@ -1,0 +1,7 @@
+
+[alsa]
+mixer-element=Master
+
+[qtui]
+player_height=743
+player_width=1366
