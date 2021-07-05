@@ -141,6 +141,7 @@ alias heb='trans :he'
 alias tetris='tint'
 alias please='sudo'
 alias doas='sudo'
+alias usb='cd /run/media/$USER'
 
 alias p='playerctl play-pause'
 alias b='playerctl previous'

@@ -18,4 +18,5 @@
   <property name="misc-file-size-binary" type="bool" value="false"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-change-window-icon" type="bool" value="true"/>
+  <property name="misc-middle-click-in-tab" type="bool" value="true"/>
 </channel>

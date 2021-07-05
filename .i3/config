@@ -18,8 +18,9 @@ set $terminal urxvt
 font pango: Noto Mono 12
 
 # Start a terminal
-bindsym mod4+Return exec alacritty
-bindsym mod1+Return exec urxvt
+bindsym Mod4+Return exec alacritty
+bindsym Mod1+Return exec urxvt
+bindsym Mod1+backslash exec thunar
 
 # Kill focused window
 bindsym $mod+q kill
@@ -41,8 +42,6 @@ bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 exec  --no-startup-id volumeicon
 #exec  --no-startup-id pulseaudio
 #exec  --no-startup-id pa-applet
-bindsym $mod+Shift+m exec pavucontrol
-bindsym $mod+Shift+a exec $terminal -e 'alsamixer'
 
 bindcode 164 	  exec    mocp --toggle-pause
 
@@ -71,20 +70,22 @@ bindsym XF86AudioNext exec pactl set-source-mute 1 toggle
 #=================================================================================================#
 
 # bindings I use
-bindsym Mod1+Shift+b exec --no-startup-id 'blueman-manager'
+bindsym Mod1+Shift+m exec pavucontrol
+bindsym Mod1+Shift+a exec $terminal -e 'alsamixer'
 bindsym Mod4+r       exec $terminal -e 'ranger'
 bindsym Mod4+g       exec $terminal -e 'neomutt'
 bindsym Mod4+m       exec $terminal -e 'mocp'
 bindsym Mod4+n       exec $terminal -e 'newsboat'
 bindsym Mod4+v       exec $terminal -e 'vim -c startinsert'
+bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+t       exec 'thunar'
 bindsym Mod4+k       exec 'sabaki'
-bindsym Mod1+z       exec 'zathura'
 bindsym Mod4+p       exec 'cool-retro-term'
-bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+f       exec 'firefox'
 bindsym Mod4+s       exec 'signal-desktop'
 bindsym Mod4+q       exec 'qutebrowser'
+bindsym Mod1+z       exec 'zathura'
+bindsym Mod1+Shift+b exec 'blueman-manager'
 bindsym XF86Display  exec 'arandr'
 
 # screen grab
@@ -110,24 +111,23 @@ assign     [title="neomutt"]   $ws4
 # for_window [title="mocp"] move container to workspace $ws3
 
 # Autostart applications
-exec --no-startup-id urxvtd -q
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec        --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec        --no-startup-id urxvtd -q
+exec        --no-startup-id thunar --daemon
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id xbindkeys
 exec_always --no-startup-id libinput-gestures-setup start
-exec --no-startup-id nitrogen --restore; sleep 1; picom -b
-exec --no-startup-id thunar --daemon
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id nm-applet
-exec --no-startup-id blueman-applet
-exec --no-startup-id kdeconnect-indicator
-exec --no-startup-id clipit
-exec --no-startup-id urxvtd -q 
-exec --no-startup-id unclutter -grab --timeout 10
-exec --no-startup-id mpris-proxy
+exec        --no-startup-id nitrogen --restore; sleep 1; picom -b
+exec        --no-startup-id xfce4-power-manager
+exec        --no-startup-id nm-applet
+exec        --no-startup-id blueman-applet
+exec        --no-startup-id kdeconnect-indicator
+exec        --no-startup-id clipit
+exec        --no-startup-id urxvtd -q 
+exec        --no-startup-id unclutter -grab --timeout 10
+exec        --no-startup-id mpris-proxy
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-#exec --no-startup-id redshift-gtk
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
@@ -229,25 +229,23 @@ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 # navigate workspaces next/previous, and toggle back/forth
 workspace_auto_back_and_forth yes
 bindsym $mod+Tab        workspace next
-bindsym $mod+Shift+Tab  prev
-bindsym $mod+Ctrl+Right workspace next
-bindsym $mod+Ctrl+Left  workspace prev
+bindsym $mod+Shift+Tab  workplace prev
 #bindsym $mod+Tab        workspace back_and_forth
 #bindsym $mod+Shift+Tab  move container to workspace back_and_forth; workspace back_and_forth
 
-# split orientation
-bindsym $mod+b split h;exec notify-send 'Tile horizontally'
-bindsym $mod+v split v;exec notify-send 'Tile vertically'
-bindsym $mod+Shift+q split toggle
+# Layout rendered mostly obsolete by autotiling
+#bindsym $mod+b split h;exec notify-send 'Tile horizontally'
+#bindsym $mod+v split v;exec notify-send 'Tile vertically'
+#bindsym $mod+Shift+q split toggle
+
+# Change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
 
 # toggle fullscreen
 bindsym $mod+f fullscreen toggle
 popup_during_fullscreen smart
-
-# change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
 
 # toggle sticky
 bindsym $mod+Shift+s sticky toggle
@@ -274,14 +272,14 @@ bindsym Mod4+h mode "move" focus floating
 mode "move" {
     bindsym $mod+Tab focus right
 
-    bindsym Left  move left
-    bindsym Down  move down
-    bindsym Up    move up
+    bindsym Left  move  left
+    bindsym Down  move  down
+    bindsym Up    move    up
     bindsym Right move right
 
-    bindsym h     move left
-    bindsym j     move down
-    bindsym k     move up
+    bindsym h     move  left
+    bindsym j     move  down
+    bindsym k     move    up
     bindsym l     move right
 
     # back to normal: Enter or Escape
@@ -289,6 +287,11 @@ mode "move" {
     bindsym Escape mode "default"
 }
 
+# Resize outside of modal
+bindsym mod1+Next        resize shrink width  5 px or 5 ppt
+bindsym mod1+Prior       resize grow   width  5 px or 5 ppt
+bindsym mod1+Shift+Next  resize shrink height 5 px or 5 ppt
+bindsym mod1+Shift+Prior resize grow   height 5 px or 5 ppt
 
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
@@ -298,16 +301,16 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink height 5 px or 5 ppt
-        bindsym semicolon resize grow width 5 px or 5 ppt
+        bindsym h resize  shrink width  5 px or 5 ppt
+        bindsym j resize  grow   height 5 px or 5 ppt
+        bindsym k resize  shrink height 5 px or 5 ppt
+        bindsym l resize  grow   width  5 px or 5 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left  resize shrink width  10 px or 10 ppt
+        bindsym Down  resize grow   height 10 px or 10 ppt
+        bindsym Up    resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow   width  10 px or 10 ppt
 
         # exit resize mode: Enter or Escape
         bindsym Escape mode "default"
@@ -323,7 +326,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # Lock screen
-bindsym Mod4+L exec --no-startup-id blurlock
+bindsym Mod4+L       exec --no-startup-id blurlock
 bindsym Mod4+Shift+L exec i3exit suspend
 exec --no-startup-id xautolock -time 10 -locker blurlock
 # Use light-locker to enable PAM fingerprint unlocking, via light-dm
@@ -345,7 +348,7 @@ bar {
 
 	bindsym button4 nop
 	bindsym button5 nop
-#   font xft:URWGothic-Book 11
+#       font xft:URWGothic-Book 11
 	strip_workspace_numbers yes
 
     colors {
@@ -439,6 +442,10 @@ gaps outer -2
 # Smart gaps and borders
 smart_gaps	on
 smart_borders	on
+
+# Toggle inner gaps
+bindsym mod4+0     gaps inner all set 0
+bindsym mod4+9     gaps inner all set 14
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
