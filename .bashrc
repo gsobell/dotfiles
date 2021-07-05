@@ -202,8 +202,10 @@ command_not_found_handle() {
 #Prints a list of installed packages
 
 packlist() {
-	pacman -Qet -q > ~/.packlist/"Packages-$(date +%F).txt"
-	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"Packages-$(date +%F).txt"
+	pacman -Qet -q > ~/.packlist/"$HOSTNAME-$(date +%F)"
+        /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"$HOSTNAME-$(date +%F)"
+	pacman -Qet -q > ~/.packlist/"$HOSTNAME"
+	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"$HOSTNAME"
 }
 
 present() {
