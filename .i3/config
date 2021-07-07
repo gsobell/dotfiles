@@ -80,13 +80,15 @@ bindsym Mod4+v       exec $terminal -e 'vim -c startinsert'
 bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+t       exec 'thunar'
 bindsym Mod4+k       exec 'sabaki'
-bindsym Mod4+p       exec 'cool-retro-term'
 bindsym Mod4+f       exec 'firefox'
 bindsym Mod4+s       exec 'signal-desktop'
 bindsym Mod4+q       exec 'qutebrowser'
 bindsym Mod1+z       exec 'zathura'
 bindsym Mod1+Shift+b exec 'blueman-manager'
 bindsym XF86Display  exec 'arandr'
+
+#Anti-Pocket
+bindsym Mod4+p       exec "xclip -o >> ~/To\ Read/saved_urls ; notify-send 'Link Saved'"
 
 # screen grab
 bindsym Print                      exec --no-startup-id i3-scrot -dc
