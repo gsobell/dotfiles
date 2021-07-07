@@ -18,8 +18,9 @@ set $terminal urxvt
 font pango: Noto Mono 12
 
 # Start a terminal
-bindsym Mod4+Return exec alacritty
-bindsym Mod1+Return exec urxvt
+bindsym Mod4+Return    exec alacritty
+bindsym Mod1+Return    exec urxvt
+bindsym Mod4+backslash exec thunar 
 bindsym Mod1+backslash exec thunar
 
 # Kill focused window
@@ -89,6 +90,7 @@ bindsym XF86Display  exec 'arandr'
 
 #Anti-Pocket
 bindsym Mod4+p       exec "xclip -o >> ~/To\ Read/saved_urls ; notify-send 'Link Saved'"
+bindsym Mod4+Shift+p exec 'readable --low-confidence force --base  > ~/To\ Read/"$(curl $url | readable --low-confidence force --properties title)"'
 
 # screen grab
 bindsym Print                      exec --no-startup-id i3-scrot -dc
