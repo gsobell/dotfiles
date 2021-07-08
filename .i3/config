@@ -62,7 +62,7 @@ bindsym Mod4+Shift+c exec mocp --next
 #bindsym XF86AudioPrev exec playerctl previous
 
 # Microphone mute toggle
-bindsym XF86AudioNext exec pactl set-source-mute 1 toggle 
+bindsym XF86AudioNext exec --no-startup-id pactl set-source-mute 1 toggle 
 
 # End of sound section.
 

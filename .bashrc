@@ -228,7 +228,7 @@ rpan(){
         read -p "Filename: " FILE
         read -p "URL: " URL
         curl $URL       |
-        readable --base |
+        readable --low-confidence force --base |
         pandoc -f html -o ~/To\ Read/"$FILE".pdf --pdf-engine=xelatex
 }
 
