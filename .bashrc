@@ -258,7 +258,6 @@ ns() {
 	cd -
 }
 
-
 dots() {
         /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME pull
         /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
