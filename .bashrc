@@ -260,7 +260,8 @@ ns() {
 
 
 dots() {
-	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
+        /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME fetch
+        /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
 	if [[ -n "$1" ]]
 	then /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$1"
 	else /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$HOSTNAME $(date +%X)"
