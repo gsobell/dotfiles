@@ -26,9 +26,9 @@ set undodir=~/.vim/undodir
 set undofile
 set wildmenu
 set wildmode=list:longest,full
-set backup
-set backupdir=~/.vim/backup
-set directory=~/.vim/tmp
+"set backup
+"set backupdir=~/.vim/backup
+"set directory=~/.vim/tmp
 source $VIMRUNTIME/vimrc_example.vim
 inoremap { {}<ESC>ha
 inoremap ( ()<ESC>ha
