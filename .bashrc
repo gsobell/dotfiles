@@ -248,7 +248,8 @@ nn() {
 }
 
 ns() {
-	cd $HOME/Notes
+        cd $HOME/Notes
+	git pull
 	git add -A
 	if [[ -n "$1" ]]
 	then git commit -S -m "$1"
