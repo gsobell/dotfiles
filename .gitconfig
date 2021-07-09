@@ -1,6 +1,5 @@
 [credential "https://github.com"]
 	helper = 
-	helper = !/usr/bin/gh auth git-credential
 	gsobell = gsobell
 [user]
 	email = gsobell@users.noreply.github.com
@@ -12,6 +11,6 @@
 	a=add -A
 	c='commit -S -m'
 [commit]
-	gpgSign = true
+#	gpgSign = true
 [credential]
 	helper = cache
