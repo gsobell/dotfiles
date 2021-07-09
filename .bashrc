@@ -106,7 +106,7 @@ alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.newsboat/urls ~/.newsboat/config'
 alias ala='vim ~/.config/alacritty.yml'
 alias td='vim ~/to.do.md'
-
+alias ssh='TERM=xterm ssh -X'
 alias i='i3-swallow'
 alias diff='colordiff'
 alias df='df -h'
@@ -153,7 +153,7 @@ alias ZZ='i3exit suspend && exit'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 xhost +local:root > /dev/null 2>&1
-export TERM=xterm
+# export TERM=xterm # see ssh alias
 
 complete -cf sudo
 shopt -s checkwinsize
