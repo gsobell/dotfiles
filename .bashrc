@@ -151,6 +151,7 @@ alias :q!='shutdown now'
 alias :l='clear'
 alias ZZ='i3exit suspend && exit'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias ohsht='git reset --keep HEAD@{1}' #undo a git pull
 
 xhost +local:root > /dev/null 2>&1
 # export TERM=xterm # see ssh alias
