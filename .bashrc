@@ -100,12 +100,12 @@ alias swayrc='vim ~/.config/sway/config'
 alias bashrc='vim ~/.bashrc'
 alias X='vim ~/.Xresources'
 alias xx='xrdb ~/.Xresources'
-alias vimrc='vim ~/.vimrc'
+alias vimrc='vim ~/.vim/vimrc'
 alias gitrc='vim ~/.gitconfig'
 alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.newsboat/urls ~/.newsboat/config'
 alias ala='vim ~/.config/alacritty.yml'
-alias td='vim ~/to.do.md'
+alias td='vim ~/Notes/to.do.md'
 alias ssh='TERM=xterm ssh -X'
 alias i='i3-swallow'
 alias diff='colordiff'
@@ -294,6 +294,27 @@ eod(){
         done
 }
 
-recent
+# XDG Environmental Variables and Related Necessitated aliases
+# and https://wiki.archlinux.org/index.php/XDG_Base_Directory_support
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+#if [ ! -w ${XDG_RUNTIME_DIR:="/run/user/$UID"} ]; then
+#    echo "\$XDG_RUNTIME_DIR ($XDG_RUNTIME_DIR) not writable. Unsetting." >&2
+#    unset XDG_RUNTIME_DIR
+#else
+#    export XDG_RUNTIME_DIR
+#fi
 
 
+export CARGO_HOME="$XDG_DATA_HOME"/cargo # Rust package manager .cargo
+
+alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
+
+
+export HISTFILE="$XDG_DATA_HOME"/bash/history
+
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+export WGETRC="$XDG_CONFIG_HOME/wgetrc"

@@ -4,10 +4,13 @@
 #
 # Executed by startx (run your window manager from here)
 
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
+
+#USERXSESSION="$XDG_CACHE_HOME/X11/xsession"
+#USERXSESSIONRC="$XDG_CACHE_HOME/X11/xsessionrc"
+#ALTUSERXSESSION="$XDG_CACHE_HOME/X11/Xsession"
+ERRFILE="/home/gabriel/.cache/X11/xsession-errors"
 
 #setxkbmap -layout us,il -option grp:shifts_toggle
 #setxkbmap -layout us,il -option 'grp:shifts_toggle'
@@ -25,14 +28,9 @@ if [ -f $sysmodmap ]; then
     xmodmap $sysmodmap
 fi
 
-if [ -f "$userresources" ]; then
-    xrdb -merge "$userresources"
-fi
+xrdb -merge /home/gabriel/.config/X11/Xresources 
 
-if [ -f "$usermodmap" ]; then
-    xmodmap "$usermodmap"
-fi
-
+xrdb -merge /home/gabriel/.config/X11/Xmodmap
 
 # start some nice programs
 
@@ -73,5 +71,7 @@ exec $(get_session "$1")
 unclutter -grab &
 
 xbindkeys &
+
+export RXVT_SOCKET="$XDG_RUNTIME_DIR"/urxvtd 
 
 export WINIT_X11_SCALE_FACTOR=1
