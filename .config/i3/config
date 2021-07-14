@@ -43,16 +43,19 @@ exec  --no-startup-id volumeicon
 #exec  --no-startup-id pulseaudio
 #exec  --no-startup-id pa-applet
 
-bindcode 164 	  exec    mocp --toggle-pause
+bindcode 164 	  exec   '$mocp --toggle-pause'
 
 # First choice for media keys, F9, F10 and F11, are outside of X11 mapping (keycodes 452,453,454)
 bindsym Mod4+z  exec --no-startup-id playerctl play-pause
 bindsym Mod4+x  exec --no-startup-id playerctl previous
 bindsym Mod4+c  exec --no-startup-id playerctl next
 
-bindsym Mod4+Shift+z exec mocp --toggle-pause
-bindsym Mod4+Shift+x exec mocp --previous
-bindsym Mod4+Shift+c exec mocp --next
+set $mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
+
+
+bindsym Mod4+Shift+z exec '$mocp --toggle-pause'
+bindsym Mod4+Shift+x exec '$mocp --previous'
+bindsym Mod4+Shift+c exec '$mocp --next'
 
 # Standard media key setup, for aux keyboard
 #bindsym XF86AudioPlay exec playerctl play-pause
@@ -118,7 +121,7 @@ exec        --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-ag
 exec        --no-startup-id urxvtd -q
 exec        --no-startup-id thunar --daemon
 exec_always --no-startup-id autotiling
-exec_always --no-startup-id xbindkeys
+exec_always --no-startup-id xbindkeys -f $HOME/.config/xbindkeys/config
 exec_always --no-startup-id libinput-gestures-setup start
 exec        --no-startup-id nitrogen --restore; sleep 1; picom -b
 exec        --no-startup-id xfce4-power-manager
