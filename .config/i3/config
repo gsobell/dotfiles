@@ -5,7 +5,7 @@
 #|_|____/   \___\___/|_| |_|_| |_|\__, | (v4)
 #                                 |___/ 
 #
-# Please see https://wiki.archlinux.irg/index.php/i3 for a complete reference!
+# Please see https://wiki.archlinux.org/index.php/i3 for a complete reference!
 #
 
 # Set mod key and default terminal
@@ -13,13 +13,12 @@ set $mod      Mod1
 set $terminal urxvt
 
 # Font for window titles. Define i3bar font{} below.
-# font xft:URWGothic-Book 11#
 # font pango: Fira Sans 14
 font pango: Noto Mono 12
 
 # Start a terminal
-bindsym Mod4+Return    exec alacritty
 bindsym Mod1+Return    exec urxvt
+bindsym Mod4+Return    exec alacritty
 bindsym Mod4+backslash exec thunar 
 bindsym Mod1+backslash exec thunar
 
@@ -102,7 +101,7 @@ bindsym $mod+t                 exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t            exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym $mod+Ctrl+x  --release exec --no-startup-id xkill
-bindsym Mod4+Shift+r exec 'pkill -USR1 redshift'
+#bindsym Mod4+Shift+r exec 'pkill -USR1 redshift'
 
 #=================================================================================================#
 #===================================APPLICATION SPECIFIC SETTINGS=================================#
@@ -127,7 +126,6 @@ exec        --no-startup-id nm-applet
 exec        --no-startup-id blueman-applet
 exec        --no-startup-id kdeconnect-indicator
 exec        --no-startup-id clipit
-exec        --no-startup-id urxvtd -q 
 exec        --no-startup-id unclutter -grab --timeout 10
 exec        --no-startup-id mpris-proxy
 exec_always --no-startup-id ff-theme-util

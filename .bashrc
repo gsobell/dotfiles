@@ -95,8 +95,8 @@ fi
 
 unset use_color safe_term match_lhs sh
 
-alias i3='vim ~/.i3/config'
-alias i3status='vim ~/.config/i3status/config'
+alias i3='vim ~/.config/i3/config'
+alias swayrc='vim ~/.config/sway/config'
 alias bashrc='vim ~/.bashrc'
 alias X='vim ~/.Xresources'
 alias xx='xrdb ~/.Xresources'
