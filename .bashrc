@@ -302,14 +302,10 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-#if [ ! -w ${XDG_RUNTIME_DIR:="/run/user/$UID"} ]; then
-#    echo "\$XDG_RUNTIME_DIR ($XDG_RUNTIME_DIR) not writable. Unsetting." >&2
-#    unset XDG_RUNTIME_DIR
-#else
-#    export XDG_RUNTIME_DIR
-#fi
-
 export CARGO_HOME="$XDG_DATA_HOME"/cargo # Rust package manager .cargo
-alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
 export HISTFILE="$XDG_DATA_HOME"/bash/history
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
+export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
+export RXVT_SOCKET="$XDG_RUNTIME_DIR"/urxvtd
+eval $(dircolors "$XDG_CONFIG_HOME"/dir_colors)
+alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
