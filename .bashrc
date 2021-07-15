@@ -95,29 +95,27 @@ fi
 
 unset use_color safe_term match_lhs sh
 
-alias i3='vim ~/.config/i3/config'
 alias swayrc='vim ~/.config/sway/config'
 alias bashrc='vim ~/.bashrc'
-alias X='vim ~/.Xresources'
-alias xx='xrdb ~/.Xresources'
 alias vimrc='vim ~/.vim/vimrc'
-alias gitrc='vim ~/.gitconfig'
+alias gitrc='vim ~/.config/git/config'
 alias muttrc='vim ~/.config/mutt/muttrc'
-alias newsrc='vim -p ~/.newsboat/urls ~/.newsboat/config'
-alias dmenurc='vim /usr/bin/dmenu_recency'
+alias newsrc='vim -p ~/.config/newsboat/urls ~/.config/newsboat/config'
+alias dmenurc='vim ~/.config/dmenu-recent/config'
+alias i3='vim ~/.config/i3/config'
 alias ala='vim ~/.config/alacritty.yml'
 alias td='vim ~/Notes/to.do.md'
+
+
 alias ssh='TERM=xterm ssh -X'
-alias i='i3-swallow'
 alias diff='colordiff'
 alias df='df -h'
 alias ll='ls -la' 
 alias lsa='ls -a'
 alias cp='cp -i'
-alias yy='xclip'
-alias pp='xclip -o'
 alias v='vim'
 alias r="ranger"
+alias i='i3-swallow'
 alias sr='sudo ranger'
 alias sranger='sudo ranger'
 alias mkdir='mkdir -pv'
@@ -132,30 +130,38 @@ alias jf='journalctl -f'
 alias je='journalctl -b --priority=3'
 alias jb='journalctl -b'
 
-alias ttyc='tty-clock -cC 4'
-alias pipes='pipes.sh -p 5'
 alias neo='neofetch'
 alias mutt='neomutt'
 alias news='newsboat'
 alias ww='curl wttr.in'
 alias heb='trans :he'
+alias ttyc='tty-clock -cC 4'
+alias pipes='pipes.sh -p 5'
 alias tetris='tint'
 alias please='sudo'
-alias doas='sudo'
-alias usb='cd /run/media/$USER'
 
 alias p='playerctl play-pause'
 alias b='playerctl previous'
 alias n='playerctl next'
+
 alias :q='exit'
 alias :q!='shutdown now'
 alias :l='clear'
 alias ZZ='i3exit suspend && exit'
+alias usb='/run/media/$USER/*'
+alias uusb='umount /run/media/$USER/* && notify-send "Volume Unmounted"'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ohsht='git reset --keep HEAD@{1}' #undo a git pull
 
+# As follows are the X11 specific aliases
+
+alias xx='xrdb ~/.config/X11/Xresources'
+alias X='vim ~/.config/X11/Xresources'
+
+alias yy='xclip'    # see wl-clipboard 
+alias pp='xclip -o'
+
 xhost +local:root > /dev/null 2>&1
-# export TERM=xterm # see ssh alias
 
 complete -cf sudo
 shopt -s checkwinsize
@@ -302,6 +308,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
+export GTK2_RC_FILES="$HOME/.config/gtkrc-2.0/config"
 export CARGO_HOME="$XDG_DATA_HOME"/cargo # Rust package manager .cargo
 export HISTFILE="$XDG_DATA_HOME"/bash/history
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"

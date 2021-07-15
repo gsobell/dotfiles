@@ -50,6 +50,12 @@ endfunction
 
 set showmatch
 
+autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
+autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
+autocmd FileType markdown :call <SID>math()
+autocmd FileType markdown set norelativenumber number
+autocmd FileType markdown inoremap $ $$<ESC>ha
+
 set directory=$XDG_CACHE_HOME/vim,~/,/tmp
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
