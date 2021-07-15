@@ -104,6 +104,7 @@ alias vimrc='vim ~/.vim/vimrc'
 alias gitrc='vim ~/.gitconfig'
 alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.newsboat/urls ~/.newsboat/config'
+alias dmenurc='vim /usr/bin/dmenu_recency'
 alias ala='vim ~/.config/alacritty.yml'
 alias td='vim ~/Notes/to.do.md'
 alias ssh='TERM=xterm ssh -X'
@@ -262,7 +263,7 @@ ns() {
 
 dots() {
 
-        /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME pull &&
+#       /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME pull &&
         /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
 	if [[ -n "$1" ]]
 	then /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$1"
