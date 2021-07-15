@@ -4,6 +4,8 @@
 #
 # Executed by startx (run your window manager from here)
 
+userresources=$HOME/.config/X11/Xresources
+usermodmap=$HOME/.config/X11/Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
@@ -28,9 +30,14 @@ if [ -f $sysmodmap ]; then
     xmodmap $sysmodmap
 fi
 
-xrdb -merge /home/gabriel/.config/X11/Xresources 
+if [ -f "$userresources" ]; then
+    xrdb -merge "$userresources"
+fi
 
-xrdb -merge /home/gabriel/.config/X11/Xmodmap
+if [ -f "$usermodmap" ]; then
+    xmodmap "$usermodmap"
+fi
+
 
 # start some nice programs
 
