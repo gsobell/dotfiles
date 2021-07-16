@@ -163,7 +163,7 @@ alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
 alias uusb='umount /run/media/$USER/* && notify-send "All Unmounted"'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ohsht='git reset --keep HEAD@{1}' #undo a git pull
-alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
+#alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
 
 # As follows are the X11 specific aliases
 
