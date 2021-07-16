@@ -11,6 +11,18 @@
 
 #set -o vi
 
+# The sh .profile is softlinked to here.
+# XDG Environmental Variables and Related Necessitated aliases
+# and https://wiki.archlinux.org/index.php/XDG_Base_Directory_support
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+export ERRFILE="$HOME/.cache/X11/xsession-errors"
+export HISTFILE="$XDG_DATA_HOME"/bash/history
+
+
 colors() {
 	local fgc bgc vals seq0
 
@@ -41,7 +53,7 @@ colors() {
 
 # Change the window title of X terminals
 case ${TERM} in
-	xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|interix|konsole*)
+	xterm*|rxvt*|sakura|alacritty|konsole*)
 		PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
 		;;
 	screen*)
@@ -56,7 +68,7 @@ use_color=true
 # globbing instead of external grep binary.
 safe_term=${TERM//[^[:alnum:]]/?}   # sanitize TERM
 match_lhs=""
-[[ -f ~/.dir_colors   ]] && match_lhs="${match_lhs}$(<~/.dir_colors)"
+[[ -f ~/.config/dir_colors   ]] && match_lhs="${match_lhs}$(<~/.config/dir_colors)"
 [[ -f /etc/DIR_COLORS ]] && match_lhs="${match_lhs}$(</etc/DIR_COLORS)"
 [[ -z ${match_lhs}    ]] \
 	&& type -P dircolors >/dev/null \
@@ -66,8 +78,8 @@ match_lhs=""
 if ${use_color} ; then
 	# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
 	if type -P dircolors >/dev/null ; then
-		if [[ -f ~/.dir_colors ]] ; then
-			eval $(dircolors -b ~/.dir_colors)
+		if [[ -f ~/.config/dir_colors ]] ; then
+			eval $(dircolors -b ~/.config/dir_colors)
 		elif [[ -f /etc/DIR_COLORS ]] ; then
 			eval $(dircolors -b /etc/DIR_COLORS)
 		fi
@@ -105,7 +117,6 @@ alias dmenurc='vim ~/.config/dmenu-recent/config'
 alias i3='vim ~/.config/i3/config'
 alias ala='vim ~/.config/alacritty.yml'
 alias td='vim ~/Notes/to.do.md'
-
 
 alias ssh='TERM=xterm ssh -X'
 alias diff='colordiff'
@@ -152,6 +163,7 @@ alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
 alias uusb='umount /run/media/$USER/* && notify-send "All Unmounted"'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ohsht='git reset --keep HEAD@{1}' #undo a git pull
+alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
 
 # As follows are the X11 specific aliases
 
@@ -168,13 +180,7 @@ shopt -s checkwinsize
 shopt -s expand_aliases
 shopt -s autocd
 shopt -s cdspell
-# export QT_SELECT=4
-
-# Enable history appending instead of overwriting.  #139609
 shopt -s histappend
-
-# # ex - archive extractor
-# # usage: ex <file>
 
 ex () {
   if [ -f $1 ] ; then
@@ -196,8 +202,6 @@ ex () {
     echo "'$1' is not a valid file"
   fi
 }
-
-#Automagically opens markdown files in vim
 
 command_not_found_handle() {
       if [[ $1 =~ .*.md  ]]; then vim "$1"
