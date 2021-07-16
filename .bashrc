@@ -216,9 +216,9 @@ command_not_found_handle() {
 
 packlist() {
 	pacman -Qet -q > ~/.config/packlist/"$HOSTNAME-$(date +%F)"
-        /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"$HOSTNAME-$(date +%F)"
+        /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.config/packlist/"$HOSTNAME-$(date +%F)"
 	pacman -Qet -q > ~/.config/packlist/"$HOSTNAME"
-	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"$HOSTNAME"
+	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.config/packlist/"$HOSTNAME"
 }
 
 present() {
