@@ -52,7 +52,7 @@ use_color=true
 
 # dircolors --print-database uses its own built-in database
 # instead of using /etc/DIR_COLORS.  Try to use the external file
-# first to take advantage of user additions.  Use internal bash
+# first to take advantage of user additions. Use internal bash
 # globbing instead of external grep binary.
 safe_term=${TERM//[^[:alnum:]]/?}   # sanitize TERM
 match_lhs=""
@@ -148,8 +148,8 @@ alias :q='exit'
 alias :q!='shutdown now'
 alias :l='clear'
 alias ZZ='i3exit suspend && exit'
-alias usb='/run/media/$USER/*'
-alias uusb='umount /run/media/$USER/* && notify-send "Volume Unmounted"'
+alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
+alias uusb='umount /run/media/$USER/* && notify-send "All Unmounted"'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ohsht='git reset --keep HEAD@{1}' #undo a git pull
 
@@ -211,9 +211,9 @@ command_not_found_handle() {
 #Prints a list of installed packages
 
 packlist() {
-	pacman -Qet -q > ~/.packlist/"$HOSTNAME-$(date +%F)"
+	pacman -Qet -q > ~/.config/packlist/"$HOSTNAME-$(date +%F)"
         /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"$HOSTNAME-$(date +%F)"
-	pacman -Qet -q > ~/.packlist/"$HOSTNAME"
+	pacman -Qet -q > ~/.config/packlist/"$HOSTNAME"
 	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.packlist/"$HOSTNAME"
 }
 
@@ -301,18 +301,4 @@ eod(){
         done
 }
 
-# XDG Environmental Variables and Related Necessitated aliases
-# and https://wiki.archlinux.org/index.php/XDG_Base_Directory_support
-
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CACHE_HOME="$HOME/.cache"
-
-export GTK2_RC_FILES="$HOME/.config/gtkrc-2.0/config"
-export CARGO_HOME="$XDG_DATA_HOME"/cargo # Rust package manager .cargo
-export HISTFILE="$XDG_DATA_HOME"/bash/history
-export WGETRC="$XDG_CONFIG_HOME/wgetrc"
-export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
-export RXVT_SOCKET="$XDG_RUNTIME_DIR"/urxvtd
-eval $(dircolors "$XDG_CONFIG_HOME"/dir_colors)
-alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
+# EOL

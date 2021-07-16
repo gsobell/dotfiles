@@ -12,11 +12,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 #USERXSESSION="$XDG_CACHE_HOME/X11/xsession"
 #USERXSESSIONRC="$XDG_CACHE_HOME/X11/xsessionrc"
 #ALTUSERXSESSION="$XDG_CACHE_HOME/X11/Xsession"
-ERRFILE="/home/gabriel/.cache/X11/xsession-errors"
-
-#setxkbmap -layout us,il -option grp:shifts_toggle
-#setxkbmap -layout us,il -option 'grp:shifts_toggle'
-
+#ERRFILE="/home/gabriel/.cache/X11/xsession-errors"
 
 DEFAULT_SESSION='i3 --shmlog-size 0'
 
@@ -78,7 +74,5 @@ exec $(get_session "$1")
 unclutter -grab &
 
 xbindkeys &
-
-export RXVT_SOCKET="$XDG_RUNTIME_DIR"/urxvtd 
 
 export WINIT_X11_SCALE_FACTOR=1
