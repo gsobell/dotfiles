@@ -1,5 +1,6 @@
 f.dpi:       96
-Xft.antialias: true
+Xft.antialias: 0
+#chaged antialias from true to fix w3m images
 Xft.hinting:   true
 Xft.rgba:      rgb
 Xft.autohint:  false

@@ -46,7 +46,7 @@ highlight article ":.*\\(embedded flash\\)$" magenta default
 
 browser w3m
 macro , open-in-browser
-macro p set browser "readable %u | w3m -T text/html" ; open-in-browser ; set browser "w3m"
+macro p set browser "readable --low-confidence force %u | w3m -T text/html" ; open-in-browser ; set browser "w3m"
 macro u set browser "readable %u -p text-content > article.tmp; clear; speedread article.tmp" ; open-in-browser ; set browser "w3m"
 macro y set browser "readable %u > .article.tmp; clear; firefox .article.tmp" ; open-in-browser ; set browser "w3m"
 macro i set browser "viewnior" ; open-in-browser ; set browser "w3m"
