@@ -19,9 +19,19 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
+export EDITOR='vim'
+export TERMINAL=/usr/bin/urxvt
+export READER=/usr/bin/zathura
+export BROWSER=/usr/bin/firefox
+export TRUEBROWSER=/usr/bin/firefox
+export COLORTERM="truecolor"
+export PAGER="less"
+export GIT_PAGER='colordiff'
+
 export ERRFILE="$HOME/.cache/X11/xsession-errors"
 export HISTFILE="$XDG_DATA_HOME"/bash/history
-
+export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 colors() {
 	local fgc bgc vals seq0

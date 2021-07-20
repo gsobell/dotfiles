@@ -23,7 +23,6 @@ export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 eval $(dircolors "$XDG_CONFIG_HOME"/dir_colors)
 
-#alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
 #export GTK2_RC_FILES="$HOME/.config/gtkrc-2.0/config"
 
 # Pretty colors, now for less
@@ -35,6 +34,7 @@ export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
-export LESSHISTFILE=-
+export LESSHISTFILE="-"
 
-rm .xsession-errors
+[ -f ~/.xsession-errors ] && rm ~/.xsession-errors
+
