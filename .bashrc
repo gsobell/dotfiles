@@ -268,7 +268,6 @@ nn() {
 
 ns() {
         cd $HOME/Notes
-	git pull
 	git add -A
 	if [[ -n "$1" ]]
 	then git commit -S -m "$1"
@@ -297,8 +296,8 @@ pie() {
         ssh $IP
 }
 
-usb(){
-        sync /run/media/$USER/*  && 
+uusb(){
+        sync  /run/media/$USER/* 
         mount /run/media/$USER/* &&
         notify-send "All Unmounted"
 }
