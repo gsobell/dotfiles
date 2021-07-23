@@ -321,5 +321,6 @@ eod(){
         done
 }
 
+[ -f ~/.xsession-errors ] && rm ~/.xsession-errors
 
 # EOF
