@@ -127,6 +127,7 @@ alias dmenurc='vim ~/.config/dmenu-recent/config'
 alias i3='vim ~/.config/i3/config'
 alias ala='vim ~/.config/alacritty.yml'
 alias td='vim ~/Notes/to.do.md'
+alias cr='cd Repos; ls'
 
 alias ssh='TERM=xterm ssh -X'
 alias diff='colordiff'
