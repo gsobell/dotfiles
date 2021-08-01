@@ -143,7 +143,6 @@ alias sranger='sudo ranger'
 alias mkdir='mkdir -pv'
 alias rrm='rm -Riv'
 alias py='bpython'
-alias yay='paru'
 alias free='free -m' 
 
 alias j='journalctl'
@@ -234,6 +233,8 @@ present() {
 
 }
 
+alias yay='paru'
+
 rdng() {
 	readable $1 | w3m -T text/html
 	#readable $1 | lynx -stdin
@@ -303,7 +304,7 @@ uusb(){
         notify-send "All Unmounted"
 }
 
-alias='/run/media/$USER/* || /run/media/$USER ; ls'
+alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
 
 eod(){  
         dots 
