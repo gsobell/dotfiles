@@ -299,7 +299,7 @@ pie() {
 
 uusb(){
         sync  /run/media/$USER/* 
-        umount /run/media/$USER/* &&
+        mount /run/media/$USER/* &&
         notify-send "All Unmounted"
 }
 
