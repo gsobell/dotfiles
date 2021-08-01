@@ -27,7 +27,7 @@ bindsym $mod+q kill
 
 # Defaults to start various launchers
 bindsym Mod1+d exec --no-startup-id dmenu_recency
-bindsym Mod4+d exec --no-startup-id dmenu_recency
+bindsym Mod4+d exec --no-startup-id rofi -show run -font "DejaVu Sans Mono 10"
 bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 
 #=================================================================================================#
