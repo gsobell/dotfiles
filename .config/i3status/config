@@ -70,6 +70,7 @@ battery all {
         status_full = "Charged"
         low_threshold = 15
         threshold_type = time
+        path = /sys/class/power_supply/cw2015-battery/uevent # PinebookPro
 }
 
 memory {
