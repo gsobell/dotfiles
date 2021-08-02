@@ -233,7 +233,6 @@ present() {
 
 }
 
-alias yay='paru'
 
 rdng() {
 	readable $1 | w3m -T text/html
