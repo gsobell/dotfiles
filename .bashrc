@@ -220,6 +220,12 @@ command_not_found_handle() {
     fi
 }
 
+yay(){ if [[ $HOSTNAME=~thinkpad ]]; then paru $1
+        else yay $1        
+fi
+}
+
+
 #Prints a list of installed packages
 
 packlist() {
