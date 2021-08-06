@@ -159,6 +159,7 @@ alias heb='trans :he'
 alias ttyc='tty-clock -cC 4'
 alias pipes='pipes.sh -p 5'
 alias tetris='tint'
+alias dango='sh ~/Documents/Repos/dango/dango.sh'
 alias please='sudo'
 
 alias p='playerctl play-pause'
