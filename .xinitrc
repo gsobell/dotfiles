@@ -76,3 +76,4 @@ unclutter -grab &
 xbindkeys &
 
 export WINIT_X11_SCALE_FACTOR=1
+xset r rate 660 25

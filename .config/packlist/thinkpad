@@ -65,6 +65,7 @@ grub
 gtksourceview-pkgbuild
 gtop
 gufw
+gxkb
 hostapd
 htop
 hunspell-he
@@ -176,12 +177,12 @@ qt5ct
 qtpass
 quadrapassel
 qutebrowser
+qvkbd
 radeontop
 readability-cli
 redshift
 rpi-imager
 sakura
-sbxkb
 sc
 sc-im-git
 screen
@@ -245,5 +246,6 @@ xorg-xhost
 xorg-xinit
 xorg-xkill
 xsensors
+xxkb
 youtubedl-gui
 zensu

@@ -77,11 +77,11 @@ bindsym Mod4+n       exec $terminal -e 'newsboat'
 bindsym Mod4+v       exec $terminal -e 'vim -c startinsert'
 bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+t       exec 'thunar'
-bindsym Mod4+k       exec 'sabaki'
 bindsym Mod4+f       exec 'firefox'
 bindsym Mod4+s       exec 'signal-desktop'
 bindsym Mod4+q       exec 'qutebrowser'
 bindsym Mod1+z       exec 'zathura'
+bindsym Mod4+Shift+k exec 'sabaki'
 bindsym Mod1+Shift+b exec 'blueman-manager'
 bindsym XF86Display  exec 'arandr'
 
@@ -151,12 +151,12 @@ for_window [class="qt5ct"]                floating enable sticky enable border n
 for_window [class="Qtconfig-qt4"]         floating enable sticky enable border normal
 
 
-# set il keyboard, swap caps lock and escape
-#exec "setxkbmap -layout us,il"
-#exec_always "setxkbmap -layout us,il -option 'grp:alt_shift_toggle'"
-exec_always --no-startup-id setxkbmap -layout us,il -option grp:shifts_toggle
+# set us,il keyboard, swap caps lock and escape
+exec --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle
 exec_always --no-startup-id xmodmap -e "clear lock"
 exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+bindsym mod1+k exec --no-startup-id qvkbd # on-screen keyboard
+exec --no-startup-id gxkb                 # language indicator 
 
 # switch to workspace with urgent window automatically
 # for_window     [urgent=latest] focus
