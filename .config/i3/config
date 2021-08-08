@@ -36,7 +36,7 @@ bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 
 # Every time you touch the following five lines, you break something. Leave it alone!!
 
-exec  --no-startup-id volumeicon
+exec_always  --no-startup-id volumeicon
 #exec  --no-startup-id pulseaudio
 #exec  --no-startup-id pa-applet
 
