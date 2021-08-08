@@ -36,9 +36,9 @@ bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 
 # Every time you touch the following five lines, you break something. Leave it alone!!
 
-exec_always  --no-startup-id volumeicon
-#exec  --no-startup-id pulseaudio
-#exec  --no-startup-id pa-applet
+exec          --no-startup-id volumeicon
+#exec_always  --no-startup-id pulseaudio
+#exec_always  --no-startup-id pa-applet
 
 bindcode 164 	  exec   mocp --toggle-pause
 
@@ -60,7 +60,6 @@ bindsym Mod4+Shift+c exec mocp --next
 
 # Microphone mute toggle
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle 
-
 # End of sound section.
 
 #=================================================================================================#
@@ -155,7 +154,7 @@ for_window [class="Qtconfig-qt4"]         floating enable sticky enable border n
 exec --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle
 exec_always --no-startup-id xmodmap -e "clear lock"
 exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
-bindsym mod1+k exec --no-startup-id qvkbd # on-screen keyboard
+bindsym Mod4+k exec --no-startup-id qvkbd # on-screen keyboard
 exec --no-startup-id gxkb                 # language indicator 
 
 # switch to workspace with urgent window automatically
