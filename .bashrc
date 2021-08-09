@@ -161,6 +161,7 @@ alias pipes='pipes.sh -p 5'
 alias tetris='tint'
 alias dango='sh ~/Documents/Repos/dango/dango.sh'
 alias please='sudo'
+alias pulsebrokenagain='sudo vim /etc/pulse/default.pa'
 
 alias p='playerctl play-pause'
 alias b='playerctl previous'
