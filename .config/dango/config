@@ -1,0 +1,7 @@
+ruleset=--japanese-rules
+              color=black
+              komi=6.5
+              level=10
+              size=19
+              outdir=/home/gabriel/.cache/dango/2021-08-06 12:43:12
+              theme=Color
