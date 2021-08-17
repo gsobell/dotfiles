@@ -20,7 +20,6 @@ bashtop
 bastet
 bison
 blueman
-bluez-utils
 bmenu
 bottom
 bovo
@@ -59,7 +58,6 @@ gcolor2
 geogebra
 gestures
 gitui
-glances
 gnome-boxes
 gnome-chess
 gnome-disk-utility
@@ -174,6 +172,8 @@ progress
 psensor
 putty
 python-cbeams-git
+python-docker
+python-pystache
 qgo
 qjournalctl
 qt5-styleplugins
@@ -192,6 +192,7 @@ sc-im-git
 screen
 sddm
 selectdefaultapplication-git
+siglo
 signal-desktop
 skim
 spectacle
