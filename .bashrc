@@ -146,10 +146,10 @@ alias py='bpython'
 alias free='free -m' 
 
 alias j='journalctl'
-alias jg='journalctl --boot=-1 | grep'
+alias jg='journalctl --boot=-1 | grep' #grep last boot
 alias jf='journalctl -f'
-alias je='journalctl -b --priority=3'
-alias jb='journalctl -b'
+alias je='journalctl -b --priority=3'  #errors
+alias jb='journalctl -b'               #
 
 alias neo='neofetch'
 alias mutt='neomutt'
@@ -222,9 +222,9 @@ command_not_found_handle() {
     fi
 }
 
-yay(){ if [ $HOSTNAME=~thinkpad -a -n "$1" ]; then paru "$1"
+yay(){ if [ $HOSTNAME=~thinkpad -a -n "$1" ]; then paru "$1" "$2"
      elif [[ $HOSTNAME=~thinkpad ]]; then paru
-        else yay "$1"
+        else yay "$1" "$2"
 fi
 }
 
