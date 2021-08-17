@@ -88,9 +88,9 @@ match_lhs=""
 if ${use_color} ; then
 	# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
 	if type -P dircolors >/dev/null ; then
-		if [[ -f ~/.config/dir_colors ]] ; then
+		if   [[ -f ~/.config/dir_colors ]] ; then
 			eval $(dircolors -b ~/.config/dir_colors)
-		elif [[ -f /etc/DIR_COLORS ]] ; then
+		elif [[ -f /etc/DIR_COLORS ]]      ; then
 			eval $(dircolors -b /etc/DIR_COLORS)
 		fi
 	fi
@@ -127,7 +127,7 @@ alias dmenurc='vim ~/.config/dmenu-recent/config'
 alias i3='vim ~/.config/i3/config'
 alias ala='vim ~/.config/alacritty.yml'
 alias td='vim ~/Notes/to.do.md'
-alias cr='cd Repos; ls'
+alias cr='cd ~/Documents/Repos; ls'
 
 alias ssh='TERM=xterm ssh -X'
 alias diff='colordiff'
@@ -146,10 +146,10 @@ alias py='bpython'
 alias free='free -m' 
 
 alias j='journalctl'
-alias jg='journalctl --boot=-1 | grep'
+alias jg='journalctl --boot=-1 | grep' #grep last boot
 alias jf='journalctl -f'
-alias je='journalctl -b --priority=3'
-alias jb='journalctl -b'
+alias je='journalctl -b --priority=3'  #errors
+alias jb='journalctl -b'               #
 
 alias neo='neofetch'
 alias mutt='neomutt'
@@ -159,7 +159,9 @@ alias heb='trans :he'
 alias ttyc='tty-clock -cC 4'
 alias pipes='pipes.sh -p 5'
 alias tetris='tint'
+alias dango='sh ~/Documents/Repos/dango/dango.sh'
 alias please='sudo'
+alias pulsebrokenagain='sudo vim /etc/pulse/default.pa'
 
 alias p='playerctl play-pause'
 alias b='playerctl previous'
@@ -168,6 +170,7 @@ alias n='playerctl next'
 alias :q='exit'
 alias :q!='shutdown now'
 alias :l='clear'
+alias :w='fortune'
 alias ZZ='i3exit suspend && exit'
 alias ohsht='git reset --keep HEAD@{1}' #undo a git pull
 #alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
@@ -214,9 +217,15 @@ command_not_found_handle() {
       if [[ $1 =~ .*.md  ]]; then vim "$1"
     elif [[ $1 =~ .*.csv ]]; then sc-im "$1"
     elif [[ $1 =~ .*.pdf ]]; then zathura "$1"
-    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then viewnior "$1"
+    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then feh "$1"
     else echo "Command not found"
     fi
+}
+
+yay(){ if [ $HOSTNAME=~thinkpad -a -n "$1" ]; then paru "$1" "$2"
+     elif [[ $HOSTNAME=~thinkpad ]]; then paru
+        else yay "$1" "$2"
+fi
 }
 
 #Prints a list of installed packages
@@ -229,7 +238,7 @@ packlist() {
 }
 
 present() {
-	xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -T&& echo "Present mode is:" && xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -v
+	xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -T && echo "Present mode is:" && xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -v
 
 }
 
@@ -272,7 +281,7 @@ ns() {
 	git add -A
 	if [[ -n "$1" ]]
 	then git commit -S -m "$1"
- 	else git commit -S -m  "$HOSTNAME $(date +%X)"
+ 	else git commit -S -m "$HOSTNAME $(date +%X)"
 	fi
 	git push
 	cd -
@@ -299,7 +308,7 @@ pie() {
 }
 
 uusb(){
-        sync  /run/media/$USER/* 
+        sync  /run/media/$USER/* || notify-send "No mounted device" 
         umount /run/media/$USER/* &&
         notify-send "All Unmounted"
 }
@@ -324,6 +333,5 @@ eod(){
 }
 
 [ -f ~/.xsession-errors ] && rm ~/.xsession-errors
-
 
 # EOF
