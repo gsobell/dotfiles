@@ -151,7 +151,7 @@ for_window [class="Qtconfig-qt4"]         floating enable sticky enable border n
 
 
 # set us,il keyboard, swap caps lock and escape
-exec --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle
+exec_always --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle
 exec_always --no-startup-id xmodmap -e "clear lock"
 exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 bindsym Mod4+k exec --no-startup-id qvkbd # on-screen keyboard
