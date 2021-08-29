@@ -222,11 +222,11 @@ command_not_found_handle() {
     fi
 }
 
-#yay(){ if [ $HOSTNAME=~thinkpad -a -n "$1" ]; then paru "$1" "$2"
-#     elif [[ $HOSTNAME=~thinkpad ]]; then paru
-#        else yay "$1" "$2"
-#fi
-#}
+yay(){ if [ $HOSTNAME=~thinkpad -a -n "$@" ]; then paru "$@"
+     elif [[ $HOSTNAME=~thinkpad ]]; then paru
+        else yay "$@"
+fi
+}
 
 #Prints a list of installed packages
 
