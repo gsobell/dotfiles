@@ -1,6 +1,7 @@
 
 [alsa]
 mixer-element=Master
+pcm=surround21:CARD=Generic_1,DEV=0
 
 [qtui]
 player_height=1055
