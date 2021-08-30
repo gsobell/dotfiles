@@ -162,6 +162,7 @@ alias tetris='tint'
 alias dango='sh ~/Documents/Repos/dango/dango.sh'
 alias please='sudo'
 alias pulsebrokenagain='sudo vim /etc/pulse/default.pa'
+alias yay='paru'
 
 alias p='playerctl play-pause'
 alias b='playerctl previous'
@@ -222,11 +223,6 @@ command_not_found_handle() {
     fi
 }
 
-yay(){ if [ $HOSTNAME=~thinkpad -a -n "$@" ]; then paru "$@"
-     elif [[ $HOSTNAME=~thinkpad ]]; then paru
-        else yay "$@"
-fi
-}
 
 #Prints a list of installed packages
 
