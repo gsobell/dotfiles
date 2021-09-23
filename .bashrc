@@ -142,6 +142,7 @@ alias sr='sudo ranger'
 alias sranger='sudo ranger'
 alias mkdir='mkdir -pv'
 alias rrm='rm -Riv'
+alias yrrm='yes | rm -Riv'
 alias py='bpython'
 alias free='free -m' 
 
@@ -313,7 +314,7 @@ alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
 
 eod(){  
         dots 
-        ns
+        nr
         echo ""
         echo -e "\e[0;34mDid you remember to:\e[0m"
         while true; do
