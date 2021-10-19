@@ -267,8 +267,10 @@ recent() {
 
 nn() {
 	read -p "Optional title, enter to continue: " Title;
-	select CLASS in Math Physics Hebrew;
-	do vim $HOME/Notes/$CLASS/"$CLASS-$(date +%x).md"
+	select CLASS in C1 Physics;
+     do mkdir $HOME/Notes/$CLASS/
+	touch $HOME/Notes/$CLASS/"$CLASS-$(date +%x).md"
+	vim   $HOME/Notes/$CLASS/"$CLASS-$(date +%x).md"
 	break; done;
 
 }
