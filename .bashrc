@@ -136,6 +136,7 @@ alias ll='ls -la'
 alias lsa='ls -a'
 alias cp='cp -i'
 alias v='vim'
+alias z='zathura'
 alias r="ranger"
 alias i='i3-swallow'
 alias sr='sudo ranger'
