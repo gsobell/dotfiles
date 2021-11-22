@@ -30,6 +30,13 @@ bindsym Mod1+d exec --no-startup-id dmenu_recency
 bindsym Mod4+d exec --no-startup-id rofi -show run -font "DejaVu Sans Mono 10"
 bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 
+# set us,il keyboard, swap caps lock and escape
+exec_always --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle
+exec_always --no-startup-id xmodmap -e "clear lock"
+exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+bindsym Mod4+k exec --no-startup-id qvkbd # on-screen keyboard
+exec --no-startup-id gxkb                 # language indicator 
+
 #=================================================================================================#
 #===========================================SOUND=================================================#
 #=================================================================================================#
@@ -122,10 +129,9 @@ exec        --no-startup-id nitrogen --restore; sleep 1; picom -b
 exec        --no-startup-id xfce4-power-manager
 exec        --no-startup-id nm-applet
 exec        --no-startup-id blueman-applet
-#exec        --no-startup-id cbatticon
-#exec        --no-startup-id sbxkb 
 exec        --no-startup-id kdeconnect-indicator
 exec        --no-startup-id clipit
+exec        --no-startup-id parcellite
 exec        --no-startup-id unclutter -grab --timeout 10
 exec        --no-startup-id mpris-proxy
 exec_always --no-startup-id ff-theme-util
@@ -134,13 +140,7 @@ exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
-for_window [class="Clipgrab"]             floating enable
-for_window [class="Lightdm-settings"]     floating enable
-for_window [title="Event Tester"]         floating enable
-for_window [title="Bluetooth Devices"]    floating enable
-for_window [title="Screen Layout Editor"] floating enable
-for_window [class="Xfburn"]               floating enable
-for_window [class="Pavucontrol"]          floating enable
+for_window [class="Clipgrab"]             floating enable for_window [class="Lightdm-settings"]     floating enable for_window [title="Event Tester"]         floating enable for_window [title="Bluetooth Devices"]    floating enable for_window [title="Screen Layout Editor"] floating enable for_window [class="Xfburn"]               floating enable for_window [class="Pavucontrol"]          floating enable
 for_window [title="alsamixer"]            floating enable
 for_window [title="ImageMagick*"]	  floating enable move absolute position center
 for_window [title="Picture-in-Picture"]	  floating enable sticky enable border none
@@ -150,12 +150,6 @@ for_window [class="qt5ct"]                floating enable sticky enable border n
 for_window [class="Qtconfig-qt4"]         floating enable sticky enable border normal
 
 
-# set us,il keyboard, swap caps lock and escape
-exec_always --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle
-exec_always --no-startup-id xmodmap -e "clear lock"
-exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
-bindsym Mod4+k exec --no-startup-id qvkbd # on-screen keyboard
-exec --no-startup-id gxkb                 # language indicator 
 
 # switch to workspace with urgent window automatically
 # for_window     [urgent=latest] focus
