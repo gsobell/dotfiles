@@ -4,5 +4,5 @@ mixer-element=Master
 pcm=surround21:CARD=Generic_1,DEV=0
 
 [qtui]
-player_height=1055
-player_width=1920
+player_height=528
+player_width=960
