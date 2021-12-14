@@ -26,7 +26,6 @@ gitui
 glances
 gnome-disk-utility
 gnome-logs
-gparted
 gufw
 gxkb
 hexchat
@@ -44,7 +43,6 @@ lightdm-gtk-greeter-settings
 lxappearance
 man-db
 man-pages
-manjaro-arm-i3-settings
 manjaro-arm-wallpapers
 manjaro-hotfixes
 manjaro-release
@@ -52,7 +50,6 @@ manjaro-system
 marker
 matcha-gtk-theme
 moc
-mousepad
 nano
 ncdu
 neofetch
@@ -105,13 +102,13 @@ viewnior
 vlc
 volumeicon
 wqy-microhei
-xarchiver
 xautolock
 xbindkeys
 xcursor-maia
 xf86-input-synaptics
 xfce4-power-manager
 xorg-server
+xorg-xhost
 xorg-xinit
 xorg-xinput
 xorg-xkill
