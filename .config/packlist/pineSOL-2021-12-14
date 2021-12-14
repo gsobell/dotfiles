@@ -41,7 +41,6 @@ lightdm-gtk-greeter-settings
 lxappearance
 man-db
 man-pages
-manjaro-arm-i3-settings
 manjaro-hotfixes
 manjaro-release
 manjaro-system
@@ -74,6 +73,7 @@ progress
 psensor
 putty
 pyenv
+qgo
 qt5-styleplugins
 qt5ct
 qutebrowser
