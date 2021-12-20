@@ -315,6 +315,10 @@ uusb(){
 
 alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
 
+rmgen(){
+        vim -c 'startinsert' README.md #generated read me in WD
+}
+
 eod(){  
         dots 
         nr
