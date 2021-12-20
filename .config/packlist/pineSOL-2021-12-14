@@ -3,17 +3,14 @@ acpi
 alacritty
 alsa-firmware
 ap6256-firmware
-arandr
 asciiquarium
 autotiling
 base
 blueman
-bpython
 cbatticon
 cbonsai
 colordiff
 cowsay
-culmus
 curseofwar
 dfc
 dhcpcd
@@ -24,12 +21,10 @@ firefox
 firefox-ublock-origin
 fortune-mod
 gcolor2
-gestures
 gitui
 glances
 gnome-disk-utility
 gnome-logs
-gtop
 gufw
 gxkb
 htop
@@ -40,6 +35,7 @@ kigo
 kmplot
 kvantum-qt5
 libgpod
+libinput-gestures
 light
 lightdm-gtk-greeter-settings
 lxappearance
@@ -70,7 +66,6 @@ paru
 pavucontrol
 pinebook-pro-keyboard-updater
 pinebookpro-post-install
-pipes.sh
 plymouth-theme-manjaro
 polkit-gnome
 powertop
@@ -84,14 +79,12 @@ qt5ct
 qutebrowser
 qvkbd
 ranger
-readability-cli
 rofi
 rsync
 sc
 sc-im
 screenfetch
 siglo
-speedread-git
 speedtest-cli
 syslog-ng
 taarich
@@ -103,8 +96,6 @@ ttf-inconsolata
 ttf-indic-otf
 uboot-pinebookpro
 unclutter
-urxvt-clipboard
-urxvt-resize-font-git
 vertex-maia-themes
 vibrancy-icons-teal
 viewnior
@@ -123,6 +114,5 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 yay
-youtube-dl
 ytop
 zswap-arm
