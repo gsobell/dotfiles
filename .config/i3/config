@@ -140,8 +140,10 @@ exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
-for_window [class="Clipgrab"]             floating enable for_window [class="Lightdm-settings"]     floating enable for_window [title="Event Tester"]         floating enable for_window [title="Bluetooth Devices"]    floating enable for_window [title="Screen Layout Editor"] floating enable for_window [class="Xfburn"]               floating enable for_window [class="Pavucontrol"]          floating enable
+for_window [class="Clipgrab"]             floating enable for_window [class="Lightdm-settings"]     floating enable for_window [title="Event Tester"]         floating enable for_window [title="Bluetooth Devices"]    floating enable for_window [title="Screen Layout Editor"] floating enable for_window [class="Xfburn"]               floating enable 
+for_window [class="Pavucontrol"]          floating enable
 for_window [title="alsamixer"]            floating enable
+for_window [class="Pavucontrol"]          floating enable
 for_window [title="pavucontrol"]          floating enable
 for_window [title="ImageMagick*"]	  floating enable move absolute position center
 for_window [title="Picture-in-Picture"]	  floating enable sticky enable border none
