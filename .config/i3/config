@@ -122,6 +122,7 @@ assign     [title="neomutt"]   $ws4
 exec        --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec        --no-startup-id urxvtd -q
 exec        --no-startup-id thunar --daemon
+# exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id xbindkeys -f $HOME/.config/xbindkeys/config
 exec_always --no-startup-id libinput-gestures-setup start
