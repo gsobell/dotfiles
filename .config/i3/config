@@ -333,7 +333,6 @@ exec --no-startup-id xautolock -time 10 -locker blurlock
 # Use light-locker to enable PAM fingerprint unlocking, via light-dm
 #bindsym $mod+9 exec --no-startup-id light-locker-command -l
 
-
 # Hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
@@ -342,6 +341,7 @@ bar {
 	i3bar_command i3bar
 	status_command i3status
 	position top
+      # status_command i3blocks
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
@@ -365,6 +365,7 @@ bar {
         urgent_workspace   #AB4642 #AB4642 #EEE8D5
     }
 }
+
 
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"
