@@ -1,3 +1,12 @@
+# _ _____ _     _            _        
+#(_)___ /| |__ | | ___   ___| | _____ 
+#| | |_ \| '_ \| |/ _ \ / __| |/ / __|
+#| |___) | |_) | | (_) | (__|   <\__ \
+#|_|____/|_.__/|_|\___/ \___|_|\_\___/
+#
+SCRIPT_DIR="~/.config/i3blocks/"
+
+
 [click]
 full_text=Click me!
 command=echo "Got clicked with button $button"
@@ -15,7 +24,21 @@ command=hostname -i | awk '{ print "IP:" $1 }'
 interval=once
 color=#91E78B
 
-# Update time every 5 seconds
+[moc]
+command=~/.config/i3blocks/moc.sh
+label= 
+color=#91E78B
+interval=5
+separator_block_width=30
+
+[memory]
+command=~/.config/i3blocks/memory.sh
+label=
+interval=30
+
+# Update time every 10 seconds
 [time]
-command=date +%T
+label=
+# command=date +%d/%m\ %H:%M
+command=~/.config/i3blocks/time.sh
 interval=5
