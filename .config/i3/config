@@ -116,6 +116,7 @@ bindsym $mod+Ctrl+x  --release exec --no-startup-id xkill
 # Open applications in specific workspaces
 assign     [class="firefox"]   $ws2
 assign     [class="Audacious"] $ws3
+assign     [title="Signal"] $ws3
 assign     [title="neomutt"]   $ws4
 # for_window [title="mocp"] move container to workspace $ws3
 
