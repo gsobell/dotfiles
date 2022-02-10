@@ -117,7 +117,6 @@ fi
 
 unset use_color safe_term match_lhs sh
 
-alias swayrc='vim ~/.config/sway/config'
 alias bashrc='vim ~/.bashrc'
 alias vimrc='vim ~/.vim/vimrc'
 alias gitrc='vim ~/.config/git/config'
@@ -129,13 +128,13 @@ alias i3b='vim ~/.config/i3blocks/config'
 alias ala='vim ~/.config/alacritty.yml'
 alias td='vim ~/Notes/to.do.md'
 alias cr='cd ~/Documents/Repos; ls'
-alias fms='cd ~/Documents/Repos/five\ minute\ scripts; ls'
-alias ssh='TERM=xterm ssh -X'
+alias fms='cd ~/Documents/Repos/five-minute-scripts; ls'
 alias diff='colordiff'
 alias df='df -h'
 alias ll='ls -la' 
 alias lsa='ls -a'
 alias cp='cp -i'
+alias nn='cd ~/Notes'
 alias v='vim'
 alias z='zathura'
 alias r="ranger"
@@ -176,10 +175,8 @@ alias :q!='shutdown now'
 alias :l='clear'
 alias :w='fortune'
 alias ZZ='i3exit suspend && exit'
-alias ohsht='git reset --keep HEAD@{1}' #undo a git pull
-#alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
 
-# As follows are the X11 specific aliases
+# The following are the X11 specific aliases
 
 alias xx='xrdb ~/.config/X11/Xresources'
 alias X='vim ~/.config/X11/Xresources'
@@ -210,7 +207,7 @@ ex () {
       *.zip)       unzip $1     ;;
       *.Z)         uncompress $1;;
       *.7z)        7z x $1      ;;
-      *)           echo "'$1' cannot be extracted via ex()" ;;
+      *)           echo "'$1' casnot be extracted via ex()" ;;
     esac
   else
     echo "'$1' is not a valid file"
@@ -241,12 +238,6 @@ present() {
 
 }
 
-
-rdng() {
-	readable $1 | w3m -T text/html
-	#readable $1 | lynx -stdin
-}
-
 pan() {
        pandoc -r markdown -w pdf -o $1.pdf $1.md	
 }
@@ -260,19 +251,18 @@ rpan(){
         pandoc -f html -o ~/To\ Read/"$FILE".pdf --pdf-engine=xelatex
 }
 
-
 recent() {
 	find $HOME -maxdepth 1 -type l | xargs rm 2> /dev/null
 	i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf "$f" $HOME/; ((i++));done
-
 }
 
-nn() {
-	read -p "Optional title, enter to continue: " Title;
-	select CLASS in C1 Physics;
-     do mkdir $HOME/Notes/$CLASS/
-	touch $HOME/Notes/$CLASS/"$CLASS-$(date +%x).md"
-	vim   $HOME/Notes/$CLASS/"$CLASS-$(date +%x).md"
+nm() {
+        set $(cd ~/Notes ; ls -d */ );
+        select subject in ${@%/};
+        do 
+	read -p "Note title: " Title;
+        echo "# ${!1%/} \n $(date +%x)" ^> ~/Notes/$subject/${subject}.md
+        vim ~/Notes/$subject/${subject}.md
 	break; done;
 
 }
@@ -318,6 +308,12 @@ alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
 
 rmgen(){
         vim -c 'startinsert' README.md #generated read me in WD
+}
+
+
+sshcs(){
+        read -p "Which host would you like to connect to?" host
+        ssh -l gsobell -J gsobell@bava.cs.huji.ac.il $host
 }
 
 eod(){  
