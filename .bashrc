@@ -256,7 +256,7 @@ recent() {
 	i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf "$f" $HOME/; ((i++));done
 }
 
-nm() {
+nw() {
         set $(cd ~/Notes ; ls -d */ );
         select subject in ${@%/};
         do 
