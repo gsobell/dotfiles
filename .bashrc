@@ -268,8 +268,7 @@ nw() {
 }
 
 ns() {
-        cd $HOME/Notes
-	git add -A
+        cd $HOME/Notes; git add -A
 	if [[ -n "$1" ]]
 	then git commit -S -m "$1"
  	else git commit -S -m "$HOSTNAME $(date +%X)"
@@ -278,6 +277,9 @@ ns() {
 	cd -
 }
 
+np() {
+        git -C ~/Notes pull
+}
 
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
@@ -290,12 +292,6 @@ dots() {
 	else /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$HOSTNAME $(date +%X)"
 	fi
 	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push 
-}
-
-pie() {
-        IP=$(ping pie0.local -c1 | head -1 | grep -Eo '[0-9.]{4,}')
-        echo -e "IP of remote host is \e[0;31m$IP \e[0m" 
-        ssh $IP
 }
 
 uusb(){
