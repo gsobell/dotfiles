@@ -310,11 +310,12 @@ rmgen(){
         vim -c 'startinsert' README.md #generated read me in WD
 }
 
+tda(){ read -p "Add item... " ITEM
+        echo "- $ITEM" >> ~/Notes/to.do.md 
 
-huji(){
-        read -p "Which host would you like to connect to? " host
-        ssh -l gsobell -J gsobell@bava.cs.huji.ac.il -Y $host
 }
+
+
 
 eod(){  
         dots 
