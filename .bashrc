@@ -311,9 +311,9 @@ rmgen(){
 }
 
 
-sshcs(){
-        read -p "Which host would you like to connect to?" host
-        ssh -l gsobell -J gsobell@bava.cs.huji.ac.il $host
+huji(){
+        read -p "Which host would you like to connect to? " host
+        ssh -l gsobell -J gsobell@bava.cs.huji.ac.il -Y $host
 }
 
 eod(){  
