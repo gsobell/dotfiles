@@ -306,9 +306,12 @@ rmgen(){
         vim -c 'startinsert' README.md #generated read me in WD
 }
 
-tda(){ read -p "Add item... " ITEM
-        echo "- $ITEM" >> ~/Notes/to.do.md 
-
+tda(){
+        if [[ -n "$1" ]]
+                then echo "- $@" >> ~/Notes/to.do.md
+                else read -p "Add item... " ITEM
+                echo "- $ITEM" >> ~/Notes/to.do.md 
+        fi
 }
 
 
