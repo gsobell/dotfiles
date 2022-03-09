@@ -260,9 +260,9 @@ nw() {
         set $(cd ~/Notes ; ls -d */ );
         select subject in ${@%/};
         do 
-	read -p "Note title: " Title;
-        echo "# ${!1%/} \n $(date +%x)" ^> ~/Notes/$subject/${subject}.md
-        vim ~/Notes/$subject/${subject}.md
+	read -p "Note title: " title;
+        echo "# $title $subject $(date +%d-%m-%C)" > ~/Notes/$subject/$(date +%d-%m-%C).md
+        vim ~/Notes/$subject/$(date +%d-%m-%C).md  
 	break; done;
 
 }
@@ -279,6 +279,10 @@ ns() {
 
 np() {
         git -C ~/Notes pull
+}
+
+
+nt() { urxvt 
 }
 
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
