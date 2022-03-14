@@ -88,7 +88,7 @@ bindsym Mod4+f       exec 'firefox'
 bindsym Mod4+s       exec 'signal-desktop'
 bindsym Mod4+q       exec 'qutebrowser'
 bindsym Mod1+z       exec 'zathura'
-bindsym Mod4+Shift+k exec 'sabaki'
+bindsym Mod4+Shift+k exec 'kate'
 bindsym Mod1+Shift+b exec 'blueman-manager'
 bindsym XF86Display  exec 'arandr'
 

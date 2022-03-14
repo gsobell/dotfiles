@@ -148,22 +148,22 @@ alias py='bpython'
 alias free='free -m' 
 
 alias j='journalctl'
-alias jg='journalctl --boot=-1 | grep' #grep last boot
-alias jf='journalctl -f'
-alias je='journalctl -b --priority=3'  #errors
-alias jb='journalctl -b'               #
+alias jg='journalctl -g --boot=-1'    #grep last boot
+alias jf='journalctl -f'              #follow journal
+alias je='journalctl -b --priority=3' #errors
+alias jb='journalctl -b'              #current boot
 
 alias neo='neofetch'
 alias mutt='neomutt'
 alias news='newsboat'
 alias ww='curl wttr.in'
+alias wiki="wikicurses"
 alias heb='trans :he'
 alias ttyc='tty-clock -cC 4'
 alias pipes='pipes.sh -p 5'
 alias tetris='tint'
 alias dango='sh ~/Documents/Repos/dango/dango.sh'
 alias please='sudo'
-alias pulsebrokenagain='sudo vim /etc/pulse/default.pa'
 alias yay='paru'
 
 alias p='playerctl play-pause'

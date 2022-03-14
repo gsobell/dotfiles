@@ -1,3 +1,27 @@
+[file:///home/gabriel/.local/share/kate/stash/Ex1/Document 0]
+Bookmarks=
+Checksum=988549093822b22029d239dad4dcb85f485c9d35
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,14,11,48,30.278
+URL=file:///home/gabriel/.local/share/kate/stash/Ex1/Document 0
+
+[file:///home/gabriel/.local/share/kate/stash/Ex1/Document 2]
+Bookmarks=
+Checksum=385af3edc2cf0c60d7d110a3dff1d7f0b82e3ec6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2022,3,14,11,48,30.278
+URL=file:///home/gabriel/.local/share/kate/stash/Ex1/Document 2
+
 [file:///home/gabriel/Documents/Repos/dango/dialog/dango.sh]
 Bookmarks=
 Checksum=6d88ac5be2fb1a83ec18d9d33e34599ab14966d6
@@ -10,16 +34,28 @@ Mode Set By User=false
 Time=2022,3,14,11,7,40.607
 URL=file:///home/gabriel/Documents/Repos/dango/dialog/dango.sh
 
-[file:///home/gabriel/Notes/Intro/Ex1/math_print.py]
+[file:///home/gabriel/Notes/Intro/Ex1/hello_turtle.py]
 Bookmarks=
-Checksum=1d7b9e96c54a9c6f800bf0310a48ef3499ba732a
+Checksum=988549093822b22029d239dad4dcb85f485c9d35
 Encoding=UTF-8
 Highlighting=Python
 Highlighting Set By User=false
 Indentation Mode=python
 Mode=Python
 Mode Set By User=false
-Time=2022,3,14,10,51,52.935
+Time=2022,3,14,12,45,38.106
+URL=file:///home/gabriel/Notes/Intro/Ex1/hello_turtle.py
+
+[file:///home/gabriel/Notes/Intro/Ex1/math_print.py]
+Bookmarks=
+Checksum=1e10100bf2f08bdc791cda43fd917bd121aff73c
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,14,12,45,38.106
 URL=file:///home/gabriel/Notes/Intro/Ex1/math_print.py
 
 [file:///home/gabriel/Notes/Intro/Jupyter Notebooks/Lecture 1/CS1920-types-expressions-print--1.1.ipynb]
@@ -45,6 +81,30 @@ Mode=Normal
 Mode Set By User=false
 Time=2022,3,13,15,24,19.192
 URL=file:///home/gabriel/Notes/Intro/Jupyter Notebooks/Lecture 1/CS1920-variables-functions-1.2.ipynb
+
+[file:///home/gabriel/Notes/Intro/math_print.py]
+Bookmarks=
+Checksum=ea85e1bf3aa64dd0009d442196f2de8c72562e3d
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,14,12,13,54.429
+URL=file:///home/gabriel/Notes/Intro/math_print.py
+
+[file:///home/gabriel/test.py]
+Bookmarks=
+Checksum=e435e31b2e666a61f2a78df705c1e3ace32167b7
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=true
+Time=2022,3,14,11,44,17.772
+URL=file:///home/gabriel/test.py
 
 [file:///tmp/mozilla_gabriel0/CS1920-types-expressions-print--1.1.ipynb]
 Checksum=068d84e9d689fdb01e462598835c2214c416b707
