@@ -139,7 +139,7 @@ SetEditor=false
 
 [MainWindow]
 eDP-1 Height 1920x1080=1051
-eDP-1 Width 1920x1080=960
+eDP-1 Width 1920x1080=1920
 
 [Shortcuts]
 kate_mdi_toolview_kate_plugin_katesearch=none
