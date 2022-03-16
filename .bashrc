@@ -217,8 +217,8 @@ ex () {
 command_not_found_handle() {
       if [[ $1 =~ .*.md  ]]; then vim "$1"
     elif [[ $1 =~ .*.csv ]]; then sc-im "$1"
-    elif [[ $1 =~ .*.pdf ]]; then zathura "$1"
-    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then feh "$1"
+    elif [[ $1 =~ .*.pdf ]]; then zathura "$1" &
+    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then feh "$1" &
     else echo "Command not found"
     fi
 }

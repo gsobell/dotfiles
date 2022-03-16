@@ -82,6 +82,78 @@ Mode Set By User=false
 Time=2022,3,13,15,24,19.192
 URL=file:///home/gabriel/Notes/Intro/Jupyter Notebooks/Lecture 1/CS1920-variables-functions-1.2.ipynb
 
+[file:///home/gabriel/Notes/Intro/ex2/calculate_mathematical_expression.py]
+Bookmarks=
+Checksum=ec7b4f38de21d450f3a1f2dd3358880ccc87ed90
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,45,23.543
+URL=file:///home/gabriel/Notes/Intro/ex2/calculate_mathematical_expression.py
+
+[file:///home/gabriel/Notes/Intro/ex2/equation_quadratic.py]
+Bookmarks=
+Checksum=20074260cf7119ab6bbe39be17a5c4f0833f9d8a
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,45,23.543
+URL=file:///home/gabriel/Notes/Intro/ex2/equation_quadratic.py
+
+[file:///home/gabriel/Notes/Intro/ex2/ex2.pdf]
+Bookmarks=
+Checksum=97b3f6bae77912e241cf3cfb82b349034600d291
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2022,3,16,9,18,7.286
+URL=file:///home/gabriel/Notes/Intro/ex2/ex2.pdf
+
+[file:///home/gabriel/Notes/Intro/ex2/largest_and_smallest.py]
+Bookmarks=
+Checksum=ca5a6031f1cc7de726773307cf4a71e04e9e947f
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,45,23.543
+URL=file:///home/gabriel/Notes/Intro/ex2/largest_and_smallest.py
+
+[file:///home/gabriel/Notes/Intro/ex2/shapes.py]
+Bookmarks=
+Checksum=ec396cccaa61813748ab567093314c1352fb5e33
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,45,23.543
+URL=file:///home/gabriel/Notes/Intro/ex2/shapes.py
+
+[file:///home/gabriel/Notes/Intro/ex2/temperature.py]
+Bookmarks=
+Checksum=25ecbf84f3b619e9f5a6909c5ce719ea45307d4e
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,45,23.543
+URL=file:///home/gabriel/Notes/Intro/ex2/temperature.py
+
 [file:///home/gabriel/Notes/Intro/math_print.py]
 Bookmarks=
 Checksum=ea85e1bf3aa64dd0009d442196f2de8c72562e3d
@@ -94,6 +166,78 @@ Mode Set By User=false
 Time=2022,3,14,12,13,54.429
 URL=file:///home/gabriel/Notes/Intro/math_print.py
 
+[file:///home/gabriel/Notes/intro/ex2/calculate_mathematical_expression.py]
+Bookmarks=
+Checksum=ba76ae8c29e0b15f650c89cc9b105a98ab9e52de
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,16,34.648
+URL=file:///home/gabriel/Notes/intro/ex2/calculate_mathematical_expression.py
+
+[file:///home/gabriel/Notes/intro/ex2/equation_quadratic.py]
+Bookmarks=
+Checksum=20074260cf7119ab6bbe39be17a5c4f0833f9d8a
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,16,34.648
+URL=file:///home/gabriel/Notes/intro/ex2/equation_quadratic.py
+
+[file:///home/gabriel/Notes/intro/ex2/largest_and_smallest.py]
+Bookmarks=
+Checksum=ca5a6031f1cc7de726773307cf4a71e04e9e947f
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,16,34.648
+URL=file:///home/gabriel/Notes/intro/ex2/largest_and_smallest.py
+
+[file:///home/gabriel/Notes/intro/ex2/math_print.py]
+Bookmarks=
+Checksum=5e6e97d27f40e747e0d11e5e5597130a1cd4ff3a
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,8,18,3.686
+URL=file:///home/gabriel/Notes/intro/ex2/math_print.py
+
+[file:///home/gabriel/Notes/intro/ex2/shapes.py]
+Bookmarks=
+Checksum=ec396cccaa61813748ab567093314c1352fb5e33
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,16,34.648
+URL=file:///home/gabriel/Notes/intro/ex2/shapes.py
+
+[file:///home/gabriel/Notes/intro/ex2/temperature.py]
+Bookmarks=
+Checksum=25ecbf84f3b619e9f5a6909c5ce719ea45307d4e
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,16,9,16,34.648
+URL=file:///home/gabriel/Notes/intro/ex2/temperature.py
+
 [file:///home/gabriel/test.py]
 Bookmarks=
 Checksum=e435e31b2e666a61f2a78df705c1e3ace32167b7
@@ -105,6 +249,10 @@ Mode=Python
 Mode Set By User=true
 Time=2022,3,14,11,44,17.772
 URL=file:///home/gabriel/test.py
+
+[file:///tmp/POvKSM.diff]
+Checksum=1d9786685be75dc6834a38c1b0dc71147e52961e
+Time=2022,3,16,9,16,21.216
 
 [file:///tmp/mozilla_gabriel0/CS1920-types-expressions-print--1.1.ipynb]
 Checksum=068d84e9d689fdb01e462598835c2214c416b707
