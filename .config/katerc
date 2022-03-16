@@ -47,7 +47,7 @@ End of Line=0
 Indent On Backspace=true
 Indent On Tab=true
 Indent On Text Paste=false
-Indentation Mode=normal
+Indentation Mode=python
 Indentation Width=4
 Keep Extra Spaces=false
 Line Length Limit=10000
@@ -145,7 +145,7 @@ eDP Width 1920x1080=960
 eDP XPosition 1920x1080=967
 eDP YPosition 1920x1080=41
 eDP-1 Height 1920x1080=1051
-eDP-1 Width 1920x1080=1920
+eDP-1 Width 1920x1080=960
 
 [Shortcuts]
 kate_mdi_toolview_kate_plugin_katesearch=none
@@ -199,5 +199,5 @@ gitStatusNumStat=true
 gitStatusSingleClick=1
 index=true
 indexDirectory=
-multiProjectCompletion=false
+multiProjectCompletion=true
 multiProjectGoto=false
