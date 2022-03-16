@@ -315,6 +315,11 @@ tda(){
                 then echo "- $@" >> ~/Notes/to.do.md
                 else read -p "Add item... " ITEM
                 echo "- $ITEM" >> ~/Notes/to.do.md 
+                while ! [ -z "$ITEM" ]
+                do
+                read -p "Add another item... " ITEM
+                echo "- $ITEM" >> ~/Notes/to.do.md 
+                done
         fi
 }
 
