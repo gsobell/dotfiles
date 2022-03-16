@@ -156,6 +156,7 @@ alias jb='journalctl -b'              #current boot
 alias neo='neofetch'
 alias mutt='neomutt'
 alias news='newsboat'
+alias intro='cd ~/Notes/Intro'
 alias ww='curl wttr.in'
 alias wiki="wikicurses"
 alias heb='trans :he'

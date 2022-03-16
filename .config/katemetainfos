@@ -34,28 +34,40 @@ Mode Set By User=false
 Time=2022,3,14,11,7,40.607
 URL=file:///home/gabriel/Documents/Repos/dango/dialog/dango.sh
 
-[file:///home/gabriel/Notes/Intro/Ex1/hello_turtle.py]
+[file:///home/gabriel/Notes/Intro/Ex1/additional_file.py]
 Bookmarks=
-Checksum=988549093822b22029d239dad4dcb85f485c9d35
+Checksum=4825158024d85c841605176303e74054ebfe7f2f
 Encoding=UTF-8
 Highlighting=Python
 Highlighting Set By User=false
 Indentation Mode=python
 Mode=Python
 Mode Set By User=false
-Time=2022,3,14,19,48,53.297
+Time=2022,3,15,8,43,37.313
+URL=file:///home/gabriel/Notes/Intro/Ex1/additional_file.py
+
+[file:///home/gabriel/Notes/Intro/Ex1/hello_turtle.py]
+Bookmarks=
+Checksum=f82c88543487921f90fcc3905c8ee1472cee05b5
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2022,3,15,8,43,35.136
 URL=file:///home/gabriel/Notes/Intro/Ex1/hello_turtle.py
 
 [file:///home/gabriel/Notes/Intro/Ex1/math_print.py]
 Bookmarks=
-Checksum=1e10100bf2f08bdc791cda43fd917bd121aff73c
+Checksum=4caddd1e92729c1d99be9a85a7c9ad32cde5a47c
 Encoding=UTF-8
 Highlighting=Python
 Highlighting Set By User=false
 Indentation Mode=python
 Mode=Python
 Mode Set By User=false
-Time=2022,3,14,19,48,53.297
+Time=2022,3,15,8,43,33.089
 URL=file:///home/gabriel/Notes/Intro/Ex1/math_print.py
 
 [file:///home/gabriel/Notes/Intro/Jupyter Notebooks/Lecture 1/CS1920-types-expressions-print--1.1.ipynb]
