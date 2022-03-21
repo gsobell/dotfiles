@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 
-time=$(date +%H:%M)
+time=$(date +%d\/%m\ %H:%M)
 
 
 # Shows the date and seconds

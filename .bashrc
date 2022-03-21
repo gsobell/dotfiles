@@ -139,6 +139,8 @@ alias v='vim'
 alias z='zathura'
 alias r="ranger"
 alias i='i3-swallow'
+alias p='python'
+alias n='cd ~/Notes'
 alias sr='sudo ranger'
 alias sranger='sudo ranger'
 alias mkdir='mkdir -pv'
@@ -167,9 +169,9 @@ alias dango='sh ~/Documents/Repos/dango/dango.sh'
 alias please='sudo'
 alias yay='paru'
 
-alias p='playerctl play-pause'
-alias b='playerctl previous'
-alias n='playerctl next'
+#alias p='playerctl play-pause'
+#alias b='playerctl previous'
+#alias n='playerctl next'
 
 alias :q='exit'
 alias :q!='shutdown now'
@@ -315,11 +317,10 @@ tda(){
         if [[ -n "$1" ]]
                 then echo "- $@" >> ~/Notes/to.do.md
                 else read -p "Add item... " ITEM
-                echo "- $ITEM" >> ~/Notes/to.do.md 
                 while ! [ -z "$ITEM" ]
                 do
-                read -p "Add another item... " ITEM
                 echo "- $ITEM" >> ~/Notes/to.do.md 
+                read -p "Add another item... " ITEM
                 done
         fi
 }

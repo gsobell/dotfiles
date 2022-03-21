@@ -7,12 +7,13 @@ PreviewAfterColor=true
 DefaultProfile=My Profile.profile
 
 [General]
-Close After Last=true
+Close After Last=false
 Config Revision=10
 Days Meta Infos=30
 Expand Tabs=true
-Last Session=Ex1
+Last Session=shellcheck
 Modified Notification=false
+Quickopen List Mode=true
 Recent File List Entry Count=10
 Restore Window Configuration=true
 Save Meta Infos=true
@@ -141,7 +142,7 @@ SetEditor=false
 State=AAAA/wAAAAD9AAAAAAAAA60AAAO1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP Height 1920x1080=1051
-eDP Width 1920x1080=960
+eDP Width 1920x1080=1920
 eDP XPosition 1920x1080=967
 eDP YPosition 1920x1080=41
 eDP-1 Height 1920x1080=1051
