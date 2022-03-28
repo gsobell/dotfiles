@@ -44,9 +44,7 @@ exec --no-startup-id gxkb                 # language indicator
 
 # Every time you touch the following five lines, you break something. Leave it alone!!
 
-exec          --no-startup-id volumeicon
-#exec_always  --no-startup-id pulseaudio
-#exec_always  --no-startup-id pa-applet
+exec_always          --no-startup-id volumeicon
 
 bindcode 164 	  exec   mocp --toggle-pause
 
