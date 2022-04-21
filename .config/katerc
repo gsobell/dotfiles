@@ -142,7 +142,7 @@ SetEditor=false
 [MainWindow]
 State=AAAA/wAAAAD9AAAAAAAAA60AAAO1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-eDP Height 1920x1080=1051
+eDP Height 1920x1080=525
 eDP Width 1920x1080=960
 eDP XPosition 1920x1080=967
 eDP YPosition 1920x1080=41
@@ -185,7 +185,7 @@ SymbolDetails=false
 SymbolExpand=true
 SymbolSort=false
 SymbolTree=true
-TypeFormatting=false
+TypeFormatting=true
 
 [project]
 autorepository=git

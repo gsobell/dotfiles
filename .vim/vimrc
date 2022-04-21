@@ -33,6 +33,9 @@ source $VIMRUNTIME/vimrc_example.vim
 "inoremap \" \""<ESC>ha
 "inoremap { {}<ESC>ha
 
+:nmap <c-s> :w<CR>
+:imap <c-s> <Esc>:w<CR>a
+
 inoremap ] ]<ESC>ha
 inoremap ) )<ESC>ha
 autocmd BufEnter *.md setlocal spell
