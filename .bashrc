@@ -148,6 +148,7 @@ alias rrm='rm -Riv'
 alias yrrm='yes | rm -Riv'
 alias py='bpython'
 alias free='free -m' 
+alias backlight='xset dpms force off'
 
 alias j='journalctl'
 alias jg='journalctl -g --boot=-1'    #grep last boot
