@@ -57,7 +57,7 @@ XTerm*selectToClipboard: true
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
 
-URxvt.font:			  xft:DejaVu Sans Mono:size=13:antialias=true,xft:FiraMono-Regular:size=14,xft:Cousine:size=12,xft:TerminusTTFNerdFontMono
+URxvt.font:			  xft:DejaVu Sans Mono:size=13:antialias=true,xft:FiraMono-Regular:size=14,xft:Cousine:size=12,xft:TerminusTTFNerdFontMono,xft:TerminessTTFNerdFontMono
 !URxvt.font:			  9x15,xft:TerminessTTFNerdFontMono
 !URxvt.font:			  xft:IBM Plex Mono:size=12:antialias=true
 !URxvt.font:			  xft:Hack:size=12:antialias=true
