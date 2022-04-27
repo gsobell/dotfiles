@@ -10,6 +10,7 @@ autopep8
 autotiling
 base
 blueman
+bottom
 bpython
 cbatticon
 cbonsai
@@ -24,6 +25,7 @@ dfc
 dialog
 doge
 epdfview
+fd
 figlet
 firefox
 firefox-ublock-origin
@@ -42,6 +44,7 @@ gxkb
 helvum
 hexchat
 htop
+hyperfine
 i3blocks
 inxi
 kalgebra
@@ -109,14 +112,15 @@ sc
 sc-im
 screenfetch
 siglo
+skim
 spectacle
 speedread-git
 speedtest-cli
 syslog-ng
 taarich
+tealdeer
 testdisk
 tint-git
-tldr
 translate-shell
 ttf-inconsolata
 ttf-indic-otf

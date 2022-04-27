@@ -271,6 +271,12 @@ nw() {
 
 }
 
+wpc(){
+        sudo
+        cp $1 /usr/share/backgrounds/"$1"
+        lightdm-gtk-greeter-settings 
+}
+
 ns() {
         cd $HOME/Notes; git add -A
 	if [[ -n "$1" ]]
