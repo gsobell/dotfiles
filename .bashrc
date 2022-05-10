@@ -136,7 +136,6 @@ alias lsa='ls -a'
 alias cp='cp -i'
 alias nn='cd ~/Notes'
 alias v='vim'
-alias z='zathura'
 alias r="ranger"
 alias i='i3-swallow'
 alias p='python'
@@ -309,6 +308,13 @@ uusb(){
 }
 
 alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
+
+
+
+z(){
+        zathura $1 &
+}
+
 
 rmgen(){
         vim -c 'startinsert' README.md #generated read me in WD

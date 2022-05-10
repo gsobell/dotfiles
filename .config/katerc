@@ -142,15 +142,22 @@ SetEditor=false
 [MainWindow]
 State=AAAA/wAAAAD9AAAAAAAAA60AAAO1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-eDP Height 1920x1080=525
-eDP Width 1920x1080=960
+eDP Height 1920x1080=1051
+eDP Width 1920x1080=1920
 eDP XPosition 1920x1080=967
 eDP YPosition 1920x1080=41
 eDP-1 Height 1920x1080=1051
 eDP-1 Width 1920x1080=1920
 
 [Shortcuts]
-kate_mdi_toolview_kateprojectmulti=none
+kate_mdi_toolview_kate_plugin_katesearch=none
+kate_mdi_toolview_kate_private_plugin_katefileselectorplugin=none
+kate_mdi_toolview_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_toolview_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_toolview_kateproject=none
+kate_mdi_toolview_kateprojectgit=none
+kate_mdi_toolview_kateprojectinfo=none
+kate_mdi_toolview_output=none
 
 [UiSettings]
 ColorScheme=KvAdaptaDark
