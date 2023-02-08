@@ -1,0 +1,9 @@
+[Core General]
+ChooseGenerators=true
+ObeyDRM=false
+
+[General]
+ShowOSD=false
+
+[PageView]
+ShowSourceLocationsGraphically=true

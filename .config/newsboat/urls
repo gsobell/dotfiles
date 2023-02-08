@@ -1,0 +1,31 @@
+#  _ __   _____      _____ _ __ ___ 
+# | '_ \ / _ \ \ /\ / / __| '__/ __|
+# | | | |  __/\ V  V /\__ \ | | (__ 
+# |_| |_|\___| \_/\_/ |___/_|  \___|
+#                                  
+# order is 1:1 to what is shown in newsboat
+http://www.newyorker.com/online/blogs/frontal-cortex/rss.xml
+http://atlasobscura.com/rss.xml science
+
+http://feeds.feedburner.com/AeonMagazineEssays
+http://nautil.us/rss/all
+
+http://bleistift.memm.de/?feed=rss2
+https://liliputing.com/feed
+https://spreadprivacy.com/rss/
+https://www.tomshardware.com/feeds/all
+https://pine64.org/feed
+https://lukesmith.xyz/rss.xml
+
+https://www.comicsrss.com/rss/foxtrot.rss
+https://www.comicsrss.com/rss/foxtrotclassics.rss
+https://www.comicsrss.com/rss/pearlsbeforeswine.rss
+https://www.comicsrss.com/rss/calvinandhobbes.rss
+https://xkcd.com/rss.xml "~xkcd"
+https://www.comicsrss.com/rss/dinosaur-comics.rss
+
+https://muqata.blogspot.com/feeds/posts/default?alt=rss
+http://www.israelnationalnews.com/Rss.aspx?act=.1
+
+https://www.reddit.com/r/corgi/new/.rss "~Corgis" reddit
+http://www.yutorah.org/rss/recentShiurim.cfm?organizationID=301&teacherID=82112&numberOfRssResults=90 "~Daf Yomi"
