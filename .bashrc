@@ -293,10 +293,12 @@ np() {
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 dots() {
-
 #       /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME pull &&
         /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
-	if [[ -n "$1" ]]
+	if [[ -z "$1" ]]
+        then read -p "Commit message: " MESSAGE 
+        fi
+	if [[ -z "$MESSAGE" ]]
 	then /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$1"
 	else /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$HOSTNAME $(date +%X)"
 	fi
