@@ -120,6 +120,7 @@ unset use_color safe_term match_lhs sh
 alias bashrc='vim ~/.bashrc'
 alias vimrc='vim ~/.vim/vimrc'
 alias gitrc='vim ~/.config/git/config'
+alias dunstrc='vim ~/.config/dunst/dunstrc'
 alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.config/newsboat/urls ~/.config/newsboat/config'
 alias dmenurc='vim ~/.config/dmenu-recent/config'

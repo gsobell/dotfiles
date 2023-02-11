@@ -6,8 +6,9 @@
 
 # Export Default MIME Programs
 
-export EDITOR='vim'
-export TERMINAL=/usr/bin/urxvt
+export VISUAL='vim'
+export EDITOR="$VISUAL"
+export TERMINAL=/usr/bin/alacritty
 export READER=/usr/bin/zathura
 export BROWSER=/usr/bin/firefox
 export TRUEBROWSER=/usr/bin/firefox

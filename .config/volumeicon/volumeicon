@@ -8,7 +8,7 @@ notification_type=1
 
 [StatusIcon]
 stepsize=5
-onclick=urxvt -e 'alsamixer'
+onclick=alacritty -e 'alsamixer'
 theme=Default
 use_panel_specific_icons=true
 lmb_slider=true

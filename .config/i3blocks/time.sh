@@ -10,7 +10,7 @@ if [[ "${BLOCK_BUTTON}" -eq 1 ]];then
 
 # Show yearly calendar
 elif [[ "${BLOCK_BUTTON}" -eq 2 ]];then 
-       urxvt -e sh -c "cal -y & read"
+       alacritty -e sh -c "cal -y & read"
 
 # Show hebrew date
 elif [[ "${BLOCK_BUTTON}" -eq 3 ]];then
