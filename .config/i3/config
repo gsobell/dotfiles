@@ -120,7 +120,7 @@ assign     [title="neomutt"]   $ws4
 
 # Autostart applications
 exec        --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec_always --no-startup-id volumeicon 
+exec        --no-startup-id volumeicon 
 exec        --no-startup-id thunar --daemon
 exec_always --no-startup-id autotiling
 exec        --no-startup-id redshift-gtk
@@ -131,8 +131,7 @@ exec        --no-startup-id xfce4-power-manager
 exec        --no-startup-id nm-applet
 exec        --no-startup-id blueman-applet
 exec        --no-startup-id kdeconnect-indicator
-# exec        --no-startup-id clipit
-exec        --no-startup-id xfce4-clipman
+exec        --no-startup-id parcellite
 exec        --no-startup-id blueman-applet
 exec        --no-startup-id parcellite
 exec        --no-startup-id unclutter -grab --timeout 10

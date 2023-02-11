@@ -145,7 +145,7 @@
     startup_notification = false
 
     #Rounded edges
-    corner_radius = 5
+    corner_radius = 10
 
     # dmenu path.
     dmenu = /usr/bin/dmenu -p dunst:
@@ -221,6 +221,8 @@
 # to "".
 # NOTE: It might be helpful to run dunst -print in a terminal in order
 # to find fitting options for rules.
-
-
+#
+# [volumeicon]
+#         appname = volumeicon
+#         timeout = 0
 # vim: ft=cfg
