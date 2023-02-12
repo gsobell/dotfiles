@@ -65,7 +65,9 @@ bindsym Mod4+Shift+c exec mocp --next
 #bindsym XF86AudioPrev exec playerctl previous
 
 # Microphone mute toggle
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle 
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/audio-input-microphone-muted.svg  "Muted" && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/mic-ready.svg  "Unmuted" 
+#Fix this later
+
 # End of sound section.
 
 #=================================================================================================#

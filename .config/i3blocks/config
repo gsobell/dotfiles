@@ -1,5 +1,5 @@
-# _ _____ _     _            _        
-#(_)___ /| |__ | | ___   ___| | _____ 
+# _ _____ _     _            _
+#(_)___ /| |__ | | ___   ___| | _____
 #| | |_ \| '_ \| |/ _ \ / __| |/ / __|
 #| |___) | |_) | | (_) | (__|   <\__ \
 #|_|____/|_.__/|_|\___/ \___|_|\_\___/
@@ -33,8 +33,8 @@ color=#b48ead
 [battery]
 command=~/.config/i3blocks/battery.sh
 interval=30
-#LABEL=BAT 
-#LABEL=⚡ 
+#LABEL=BAT
+#LABEL=⚡
 #BAT_NUMBER=0
 color=#81a1c1
 
@@ -51,9 +51,3 @@ label=
 command=~/.config/i3blocks/time.sh
 interval=2
 color=#81a1c1
-
-#[calendar]
-#command=date '+%Y-%m-%d'; [[ -z "${BLOCK_BUTTON}" ]] || exec alacritty -e sh -c "cal -y & read"
-#label= 
-#interval=1
-

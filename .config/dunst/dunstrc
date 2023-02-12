@@ -226,16 +226,31 @@
         icon = audio-volume-high
         new_icon = /usr/share/icons/Papirus/16x16/panel/audio-volume-high.svg
         format = "%n"
+
 [volumeicon2]
         icon = audio-volume-medium
         new_icon = /usr/share/icons/Papirus/16x16/panel/audio-volume-medium.svg
         format = "%n"
+
 [volumeicon3]
         icon = audio-volume-low
         new_icon = /usr/share/icons/Papirus/16x16/panel/audio-volume-low.svg
         format = "%n"
+
 [volumeicon4]
         icon = audio-volume-muted
         new_icon = /usr/share/icons/Papirus/16x16/panel/audio-volume-muted.svg
         format = "%n"
 
+[power-manager]
+        appname = xfce4-power-manager
+        new_icon = /usr/share/icons/Papirus-Dark/symbolic/status/display-brightness-symbolic.svg
+        format = "%n"
+
+[networkmanager1]
+         icon = nm-signal-100
+         new_icon = /usr/share/icons/Papirus-Dark/symbolic/status/network-wireless-signal-excellent-symbolic.svg
+
+[networkmanager2]
+         icon = nm-no-connection
+         new_icon = /usr/share/icons/Papirus-Dark/symbolic/status/network-wireless-disconnected-symbolic.svg

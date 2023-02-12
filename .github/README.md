@@ -5,6 +5,8 @@
 - [i3blocks](https://github.com/vivien/i3blocks)
 - [autotiling](https://github.com/nwg-piotr/autotiling)
 - [blurlock](https://github.com/karulont/i3lock-blur)
+- [dunst](https://github.com/dunst-project/dunst)
+- [dmenu](https://git.suckless.org/dmenu/log.html)
 - [pipewire](https://gitlab.freedesktop.org/pipewire/pipewire/)
 
 ## some of my favorite things:
