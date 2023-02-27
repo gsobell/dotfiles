@@ -212,10 +212,10 @@ sortRole=0
 viewShade=193,207,208
 
 [lspclient]
-AllowedServerCommandLines=/usr/bin/bash-language-server start
+AllowedServerCommandLines=/usr/bin/pylsp --check-parent-process
 AutoHover=true
 AutoImport=true
-BlockedServerCommandLines=/usr/bin/pylsp --check-parent-process
+BlockedServerCommandLines=/usr/bin/bash-language-server start
 CompletionDocumentation=true
 CompletionParens=true
 Diagnostics=true

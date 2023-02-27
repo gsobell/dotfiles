@@ -17,6 +17,7 @@
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
 export EDITOR='vim'
@@ -160,6 +161,7 @@ alias mutt='neomutt'
 alias news='newsboat'
 alias www='curl wttr.in/Jerusalem'
 alias ww='curl v2.wttr.in/Jerusalem'
+alias rainy=' mpv https://rainyday.radio.mynoise.net/'
 alias wiki="wikicurses"
 alias heb='trans :he'
 alias ttyc='tty-clock -cC 4'
