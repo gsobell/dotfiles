@@ -169,8 +169,6 @@ alias heb='trans :he'
 alias ttyc='tty-clock -cC 4'
 alias pipes='pipes.sh -p 5'
 alias tetris='tint'
-alias dango='python ~/Documents/Repos/dango/dango.py'
-alias goma='python ~/Documents/Repos/goma/goma.py'
 alias please='sudo'
 alias yay='paru'
 

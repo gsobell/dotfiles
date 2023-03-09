@@ -147,6 +147,9 @@
     #Rounded edges
     corner_radius = 10
 
+    #Progress bar rounded edges
+    progress_bar_corner_radius = 3
+
     # dmenu path.
     dmenu = /usr/bin/dmenu -p dunst:
 
