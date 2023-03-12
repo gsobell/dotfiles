@@ -1,0 +1,9 @@
+set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set selection-clipboard clipboard
+set highlight-color \#88c0d0 
+set guioptions none
+set recolor-keephue true
+set highlight-active-color \#b48ead
+set recolor
