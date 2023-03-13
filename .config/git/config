@@ -1,0 +1,25 @@
+#        _ _            
+#   __ _(_) |_ _ __ ___ 
+#  / _` | | __| '__/ __|
+# | (_| | | |_| | | (__ 
+#  \__, |_|\__|_|  \___|
+#  |___/                
+#
+[credential "https://github.com"]
+	helper = store 
+	gsobell = gsobell
+[user]
+	email = gsobell@users.noreply.github.com
+	name = gabriel
+	signingkey = F8747D2397CCEB1A1ED97830D105175AF941506F
+[alias]
+        au=add -u
+        aa=add -A
+	commit='commit -S'
+	submit = push origin master:master master:submit
+[commit]
+	gpgSign = true
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
