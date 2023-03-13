@@ -255,5 +255,9 @@
          new_icon = /usr/share/icons/Papirus-Dark/symbolic/status/network-wireless-signal-excellent-symbolic.svg
 
 [networkmanager2]
+         icon = nm-signal-75
+         new_icon = /usr/share/icons/Papirus-Dark/symbolic/status/network-wireless-signal-excellent-symbolic.svg
+
+[networkmanager3]
          icon = nm-no-connection
          new_icon = /usr/share/icons/Papirus-Dark/symbolic/status/network-wireless-disconnected-symbolic.svg
