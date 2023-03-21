@@ -33,6 +33,7 @@ Modified Notification=false
 Mouse back button action=0
 Mouse forward button action=0
 Output History Limit=100
+Quickopen Filter Mode=0
 Quickopen List Mode=true
 Recent File List Entry Count=10
 Restore Window Configuration=true
@@ -184,14 +185,17 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAAAAA60AAAO1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+eDP=eDP
 eDP Height 1920x1080=479
 eDP Height 1920x1080 eDP=1080
 eDP Width 1920x1080=941
 eDP Width 1920x1080 eDP=1920
 eDP XPosition 1920x1080=967
+eDP XPosition 1920x1080 eDP=0
 eDP YPosition 1920x1080=41
+eDP YPosition 1920x1080 eDP=29
 eDP-1 Height 1920x1080=1027
 eDP-1 Height 1920x1080 eDP-1=1027
 eDP-1 Width 1920x1080=941
@@ -218,10 +222,10 @@ sortRole=0
 viewShade=193,207,208
 
 [lspclient]
-AllowedServerCommandLines=/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/pylsp --check-parent-process
+AllowedServerCommandLines=/usr/bin/bash-language-server start,/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/pylsp --check-parent-process
 AutoHover=true
 AutoImport=true
-BlockedServerCommandLines=/usr/bin/bash-language-server start
+BlockedServerCommandLines=
 CompletionDocumentation=true
 CompletionParens=true
 Diagnostics=true

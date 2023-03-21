@@ -1,8 +1,19 @@
 [CMakeBuildDirChooser]
 LastExtraArguments=set_property(TARGET tgt PROPERTY C_STANDARD 99)
 
+[CMakeBuilder]
+generator=1
+
+[Clazy]
+docsPath=file:///usr/share/man/man1/
+executablePath=file:///usr/bin/clazy
+
 [CodeGeneration]
-LastSelectedLicense=0
+LastSelectedLicense=5
+LowerCaseFilenames=true
+
+[Compilers]
+number=0
 
 [DownloadDialog Settings]
 eDP Height 1920x1080 eDP=438
@@ -172,7 +183,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KatePart Settings]
-documents=/home/gabriel/Notes/Intro/ex1/math_print.py,/home/gabriel/Documents/Repos/goma/board.py,/home/gabriel/C/test.c,/home/gabriel/Notes/C/test.c,/home/gabriel/ex0-gsobell/hello_world.c,/home/gabriel/CLionProjects/kdev/main.c,/home/gabriel/CLionProjects/untitled/fix.c,/home/gabriel/Notes/C/ex0-gsobell/hello_world.c,/home/gabriel/projects/exo012/main.c,/home/gabriel/C/helloworld/main.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language/main.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/Chapter 1/1.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/Chapter 1/2.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/chapter-1-introduction/1.hello.c,/home/gabriel/Notes/C/sandbox/ta1.c
+documents=/home/gabriel/ex0-gsobell/hello_world.c,/home/gabriel/CLionProjects/kdev/main.c,/home/gabriel/CLionProjects/untitled/fix.c,/home/gabriel/Notes/C/ex0-gsobell/hello_world.c,/home/gabriel/projects/exo012/main.c,/home/gabriel/C/helloworld/main.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language/main.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/Chapter 1/1.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/Chapter 1/2.c,/home/gabriel/Documents/Repos/The-C-Programming-Language/chapter-1-introduction/1.hello.c,/home/gabriel/Notes/C/ex1/find.cmake,/home/gabriel/Notes/C/ex1/main.c,/home/gabriel/Notes/C/sandbox/ta1.c,/home/gabriel/Notes/C/Lab 1/lab1-3.c,/home/gabriel/Notes/C/Lab 1/lab1-1.c,/home/gabriel/Notes/C/Lab 1/CMakeLists.txt,/home/gabriel/Notes/C/Lab 2/lab2-1.c,/home/gabriel/Notes/C/Lab 2/lab2-2.c,/home/gabriel/Notes/C/Lab 2/CMakeLists.txt
 
 [KatePart Settings][/home/gabriel/C/helloworld/main.c]
 Bookmarks=
@@ -183,16 +194,6 @@ Indentation Mode=cstyle
 Mode=C
 Mode Set By User=false
 URL=file:///home/gabriel/C/helloworld/main.c
-
-[KatePart Settings][/home/gabriel/C/test.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/C/test.c
 
 [KatePart Settings][/home/gabriel/CLionProjects/kdev/main.c]
 Bookmarks=
@@ -254,15 +255,65 @@ Mode=C
 Mode Set By User=false
 URL=file:///home/gabriel/Documents/Repos/The-C-Programming-Language/chapter-1-introduction/1.hello.c
 
-[KatePart Settings][/home/gabriel/Documents/Repos/goma/board.py]
+[KatePart Settings][/home/gabriel/Notes/C/Lab 1/CMakeLists.txt]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=Python
+Highlighting=CMake
 Highlighting Set By User=false
-Indentation Mode=python
-Mode=Python
+Indentation Mode=normal
+Mode=CMake
 Mode Set By User=false
-URL=file:///home/gabriel/Documents/Repos/goma/board.py
+URL=file:///home/gabriel/Notes/C/Lab 1/CMakeLists.txt
+
+[KatePart Settings][/home/gabriel/Notes/C/Lab 1/lab1-1.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/Lab 1/lab1-1.c
+
+[KatePart Settings][/home/gabriel/Notes/C/Lab 1/lab1-3.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/Lab 1/lab1-3.c
+
+[KatePart Settings][/home/gabriel/Notes/C/Lab 2/CMakeLists.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=CMake
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=CMake
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/Lab 2/CMakeLists.txt
+
+[KatePart Settings][/home/gabriel/Notes/C/Lab 2/lab2-1.c]
+Bookmarks=8
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/Lab 2/lab2-1.c
+
+[KatePart Settings][/home/gabriel/Notes/C/Lab 2/lab2-2.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/Lab 2/lab2-2.c
 
 [KatePart Settings][/home/gabriel/Notes/C/ex0-gsobell/hello_world.c]
 Bookmarks=
@@ -274,6 +325,26 @@ Mode=C
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/ex0-gsobell/hello_world.c
 
+[KatePart Settings][/home/gabriel/Notes/C/ex1/find.cmake]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=CMake
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=CMake
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex1/find.cmake
+
+[KatePart Settings][/home/gabriel/Notes/C/ex1/main.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex1/main.c
+
 [KatePart Settings][/home/gabriel/Notes/C/sandbox/ta1.c]
 Bookmarks=
 Encoding=UTF-8
@@ -283,26 +354,6 @@ Indentation Mode=cstyle
 Mode=C
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/sandbox/ta1.c
-
-[KatePart Settings][/home/gabriel/Notes/C/test.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/test.c
-
-[KatePart Settings][/home/gabriel/Notes/Intro/ex1/math_print.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Python
-Highlighting Set By User=false
-Indentation Mode=python
-Mode=Python
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/Intro/ex1/math_print.py
 
 [KatePart Settings][/home/gabriel/ex0-gsobell/hello_world.c]
 Bookmarks=
@@ -328,20 +379,20 @@ URL=file:///home/gabriel/projects/exo012/main.c
 globalColorSource=FromTheme
 
 [Main Window]
-Desktop 1920 1080=0,29,1920,1051
+Desktop 1920 1080=967,41,941,1027
 
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADkPwCAAAABfsAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUAAAAATgAAA6gAAAFYAP////sAAAAYAEMAbABhAHMAcwBlAHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAmAD////7AAAAHgBTAGMAcgBhAHQAYwBoAHAAYQBkAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////+wAAACAARgBpAGwAZQAgAFMAeQBzAHQAZQBtAF8AYwBvAGQAZQAAAABOAAADqAAAAF4A////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOQAAAAeAD///8AAAADAAAHQAAAAOz8AQAAAAT7AAAAIgBDAG8AZABlACAAQgByAG8AdwBzAGUAcgBfAGMAbwBkAGUAAAAAIAAAB0AAAAB4AP////sAAAAUAEIAdQBpAGwAZABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAoAFYAZQByAHMAaQBvAG4AIABDAG8AbgB0AHIAbwBsAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAABoAVABlAHIAbQBpAG4AYQBsAF8AYwBvAGQAZQEAAAAgAAAHQAAAAKMA////AAAHQAAAArgAAAAEAAAABAAAAAEAAAAC/AAAAAQAAAAAAAAAAQAAAB4ATABlAGYAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIABSAGkAZwBoAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAABAAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAgAHEAdQBpAGMAawBPAHAAZQBuAFQAbwBvAGwAQgBhAHIBAAAEgv////8AAAAAAAAAAAAAACwASwBEAGUAdgBDAG8AZABlAGIAcgBvAHcAcwBlAHIAVABvAG8AbABCAGEAcgEAAAVm/////wAAAAAAAAAAAAAAGABkAGUAYgB1AGcAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAAiAEIAbwB0AHQAbwBtACAAQgB1AHQAdABvAG4AIABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAAAAAAAAAPsAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAAAAAAAA+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAAAAAADAAADbQAAAOz8AQAAAAX7AAAAKABWAGUAcgBzAGkAbwBuACAAQwBvAG4AdAByAG8AbABfAGMAbwBkAGUBAAAAIAAAA20AAAAAAAAAAPsAAAAKAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAAAAANxAAADkAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAADc/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAAcD/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAQAAAwr/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1920x1080=1051
-eDP Height 1920x1080 eDP=1051
+eDP Height 1920x1080 eDP=1027
 eDP Width 1920x1080=960
-eDP Width 1920x1080 eDP=1920
+eDP Width 1920x1080 eDP=941
 eDP XPosition 1920x1080=0
-eDP XPosition 1920x1080 eDP=0
+eDP XPosition 1920x1080 eDP=967
 eDP YPosition 1920x1080=29
-eDP YPosition 1920x1080 eDP=29
+eDP YPosition 1920x1080 eDP=41
 eDP-1=eDP-1
 eDP-1 Height 1920x1080 eDP-1=1051
 eDP-1 Width 1920x1080 eDP-1=1920
@@ -351,27 +402,40 @@ eDP-1 YPosition 1920x1080 eDP-1=29
 [MainWindow_code]
 (1) Tool Views Order=org.kdevelop.ClassBrowserView,org.kdevelop.DocumentsView,org.kdevelop.ProjectsView,org.kdevelop.ScratchpadView,org.kdevelop.FileManagerView
 (2) Tool Views Order=org.kdevelop.ExternalScriptView
-(8) Tool Views Order=org.kdevelop.ContextBrowser,org.kdevelop.ProblemReporterView,org.kdevelop.KonsoleView
-State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADkPwCAAAABfsAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUAAAAATgAAA6gAAAFYAP////sAAAAYAEMAbABhAHMAcwBlAHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAmAD////7AAAAHgBTAGMAcgBhAHQAYwBoAHAAYQBkAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////+wAAACAARgBpAGwAZQAgAFMAeQBzAHQAZQBtAF8AYwBvAGQAZQAAAABOAAADqAAAAF4A////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOQAAAAeAD///8AAAADAAAHQAAAAOz8AQAAAAT7AAAAIgBDAG8AZABlACAAQgByAG8AdwBzAGUAcgBfAGMAbwBkAGUAAAAAIAAAB0AAAAB4AP////sAAAAUAEIAdQBpAGwAZABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAoAFYAZQByAHMAaQBvAG4AIABDAG8AbgB0AHIAbwBsAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAABoAVABlAHIAbQBpAG4AYQBsAF8AYwBvAGQAZQEAAAAgAAAHQAAAAKMA////AAAHQAAAArgAAAAEAAAABAAAAAEAAAAC/AAAAAQAAAAAAAAAAQAAAB4ATABlAGYAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIABSAGkAZwBoAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAABAAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAgAHEAdQBpAGMAawBPAHAAZQBuAFQAbwBvAGwAQgBhAHIBAAAEgv////8AAAAAAAAAAAAAACwASwBEAGUAdgBDAG8AZABlAGIAcgBvAHcAcwBlAHIAVABvAG8AbABCAGEAcgEAAAVm/////wAAAAAAAAAAAAAAGABkAGUAYgB1AGcAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAAiAEIAbwB0AHQAbwBtACAAQgB1AHQAdABvAG4AIABCAGEAcgEAAAAA/////wAAAAAAAAAA
+(8) Tool Views Order=org.kdevelop.ContextBrowser,org.kdevelop.ProblemReporterView,org.kdevelop.KonsoleView,org.kdevelop.OutputView.0,org.kdevelop.debugger.LldbConsole
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAABeAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAJgA////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAeAD////7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAABWAD///8AAAADAAADbQAAAOz8AQAAAAX7AAAAKABWAGUAcgBzAGkAbwBuACAAQwBvAG4AdAByAG8AbABfAGMAbwBkAGUBAAAAIAAAA20AAAAAAAAAAPsAAAAKAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAACAAAAdAAAAAeAD////7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAANtAAAAowD////7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAeAD///8AAANtAAADkAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAF//////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAAmP/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 debugToolBarVisibility=false
 eDP=eDP
 eDP Height 1920x1080=1051
-eDP Height 1920x1080 eDP=1051
+eDP Height 1920x1080 eDP=1027
 eDP Width 1920x1080=960
-eDP Width 1920x1080 eDP=1920
+eDP Width 1920x1080 eDP=941
 eDP XPosition 1920x1080=0
-eDP XPosition 1920x1080 eDP=0
+eDP XPosition 1920x1080 eDP=967
 eDP YPosition 1920x1080=29
-eDP YPosition 1920x1080 eDP=29
+eDP YPosition 1920x1080 eDP=41
 eDP-1=eDP-1
 eDP-1 Height 1920x1080 eDP-1=1051
 eDP-1 Width 1920x1080 eDP-1=1920
 eDP-1 XPosition 1920x1080 eDP-1=0
 eDP-1 YPosition 1920x1080 eDP-1=29
 
+[MainWindow_debug]
+(1) Tool Views Order=org.kdevelop.FileManagerView,org.kdevelop.debugger.VariablesView
+(2) Tool Views Order=
+(8) Tool Views Order=org.kdevelop.KonsoleView,org.kdevelop.OutputView.0,org.kdevelop.debugger.LldbConsole,org.kdevelop.debugger.StackView,org.kdevelop.debugger.BreakpointsView
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAAAAAAAAAPsAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAAAAAAAA+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAAAAAADAAADbQAAAOz8AQAAAAX7AAAAKABWAGUAcgBzAGkAbwBuACAAQwBvAG4AdAByAG8AbABfAGMAbwBkAGUBAAAAIAAAA20AAAAAAAAAAPsAAAAKAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAAAAANxAAADkAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAADc/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAAcD/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAQAAAwr/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+debugToolBarVisibility=true
+eDP=eDP
+eDP Height 1920x1080 eDP=1027
+eDP Width 1920x1080 eDP=941
+eDP XPosition 1920x1080 eDP=967
+eDP YPosition 1920x1080 eDP=41
+
 [Open File]
-Last Open File Directory=file:///
+Last Open File Directory=file:///home/gabriel/Notes/C/Lab 2/
 
 [Providers]
 LastProviderIndex=2
@@ -381,45 +445,51 @@ SelectedItems=Classes,Files,Functions,Documentation,Actions
 SelectedScopes=Currently Open,Project,Includes
 
 [Recent Files]
-File1[$e]=$HOME/Notes/C/ex0-gsobell/hello_world.c
-File10[$e]=$HOME/Notes/C/sandbox/ta1.c
-File2[$e]=$HOME/projects/exo012/main.c
-File3[$e]=$HOME/C/helloworld/main.c
-File4[$e]=$HOME/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language/main.c
-File5[$e]=$HOME/Documents/Repos/The-C-Programming-Language/Chapter 1/1.c
-File6[$e]=$HOME/Documents/Repos/The-C-Programming-Language/Chapter 1/2.c
-File7[$e]=$HOME/Documents/Repos/The-C-Programming-Language/chapter-1-introduction/1.hello.c
-File8[$e]=$HOME/Notes/C/sandbox/ta1.py
-Name1[$e]=hello_world.c
-Name10[$e]=ta1.c
+File1[$e]=$HOME/Notes/C/sandbox/ta1.py
+File10[$e]=$HOME/Notes/C/Lab 2/lab2-2.c
+File2[$e]=$HOME/Notes/C/ex1/main.c
+File3[$e]=$HOME/Notes/C/ex1/find.cmake
+File4[$e]=$HOME/Notes/C/sandbox/ta1.c
+File5[$e]=$HOME/Notes/C/Lab 1/CMakeLists.txt
+File6[$e]=$HOME/Notes/C/Lab 1/lab1-1.c
+File7[$e]=$HOME/Notes/C/Lab 1/lab1-3.c
+File8[$e]=$HOME/Notes/C/Lab 2/CMakeLists.txt
+File9[$e]=$HOME/Notes/C/Lab 2/lab2-1.c
+Name1[$e]=ta1.py
+Name10[$e]=lab2-2.c
 Name2[$e]=main.c
-Name3[$e]=main.c
-Name4[$e]=main.c
-Name5[$e]=1.c
-Name6[$e]=2.c
-Name7[$e]=1.hello.c
-Name8[$e]=ta1.py
+Name3[$e]=find.cmake
+Name4[$e]=ta1.c
+Name5[$e]=CMakeLists.txt
+Name6[$e]=lab1-1.c
+Name7[$e]=lab1-3.c
+Name8[$e]=CMakeLists.txt
+Name9[$e]=lab2-1.c
 
 [RecentProjects]
-File1[$e]=$HOME/Notes/Intro/ex1/ex1.kdev4
-File2[$e]=$HOME/Documents/Repos/goma/goma.kdev4
-File3[$e]=$HOME/ex0-gsobell/ex0-gsobell.kdev4
-File4[$e]=$HOME/CLionProjects/kdev/kdev.kdev4
-File5[$e]=$HOME/CLionProjects/untitled/untitled.kdev4
-File6[$e]=$HOME/projects/exo012/exo012.kdev4
-File7[$e]=$HOME/C/helloworld/helloworld.kdev4
-File8[$e]=$HOME/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language.kdev4
-Name1[$e]=ex1.kdev4
-Name2[$e]=goma.kdev4
-Name3[$e]=ex0-gsobell.kdev4
-Name4[$e]=kdev.kdev4
-Name5[$e]=untitled.kdev4
-Name6[$e]=exo012.kdev4
-Name7[$e]=helloworld.kdev4
-Name8[$e]=The-C-Programming-Language.kdev4
+File1[$e]=$HOME/Documents/Repos/goma/goma.kdev4
+File10[$e]=$HOME/Notes/C/Lab 2/Lab 2.kdev4
+File2[$e]=$HOME/ex0-gsobell/ex0-gsobell.kdev4
+File3[$e]=$HOME/CLionProjects/kdev/kdev.kdev4
+File4[$e]=$HOME/CLionProjects/untitled/untitled.kdev4
+File5[$e]=$HOME/projects/exo012/exo012.kdev4
+File6[$e]=$HOME/C/helloworld/helloworld.kdev4
+File7[$e]=$HOME/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language.kdev4
+File8[$e]=$HOME/Notes/C/ex1/ex1.kdev4
+File9[$e]=$HOME/Notes/C/Lab 1/Lab 1.kdev4
+Name1[$e]=goma.kdev4
+Name10[$e]=Lab 2.kdev4
+Name2[$e]=ex0-gsobell.kdev4
+Name3[$e]=kdev.kdev4
+Name4[$e]=untitled.kdev4
+Name5[$e]=exo012.kdev4
+Name6[$e]=helloworld.kdev4
+Name7[$e]=The-C-Programming-Language.kdev4
+Name8[$e]=ex1.kdev4
+Name9[$e]=Lab 1.kdev4
 
 [Sessions]
-Active Session ID={f164d021-5cff-47d4-b4b9-765d14d91544}
+Active Session ID={93cf0bf7-8197-45df-9298-57dc2eba6d4b}
 
 [UiSettings]
 CloseButtonsOnTabs=0
@@ -427,26 +497,27 @@ ColorScheme=KvAdaptaDark
 ShowTextEditorStatusBar=false
 
 [UiSettings/Docks/ToolbarEnabled]
-Build_code=true
+Build_code=false
 Code Browser_code=true
 File System_code=true
 Projects_code=true
 Scratchpad_code=true
 Version Control_code=true
+_code=true
 
 [User Interface]
 Main Windows Count=1
 
 [User Interface][Main Window 0][Area code]
-desired views=org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.ScratchpadView:1,org.kdevelop.SnippetView:2
+desired views=kate_plugin_katectagsplugin:8,org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.3:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.ScratchpadView:1,org.kdevelop.SnippetView:2,org.kdevelop.debugger.LldbConsole:8
 id=code
-view on bottom=org.kdevelop.KonsoleView
+view on bottom=
 view on left=
 view on right=
 view on top=
 
 [User Interface][Main Window 0][Area debug]
-desired views=org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.ConsoleView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
+desired views=kate_plugin_katectagsplugin:8,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.3:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.ConsoleView:8,org.kdevelop.debugger.LldbConsole:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
 id=debug
 view on bottom=
 view on left=
@@ -454,7 +525,7 @@ view on right=
 view on top=
 
 [User Interface][Main Window 0][Area review]
-desired views=org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
+desired views=kate_plugin_katectagsplugin:8,org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.3:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1,org.kdevelop.debugger.LldbConsole:8
 id=review
 view on bottom=
 view on left=
