@@ -5,6 +5,8 @@ autocmd BufEnter *.tex colorscheme nord
 filetype on
 filetype plugin on
 
+
+
 set foldmethod=marker
 set wrap linebreak
 set mouse=a
@@ -54,6 +56,8 @@ function s:math()
 	syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
 	syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
 endfunction
+
+autocmd FileType tex :nmap <c-s> :!pdflatex % <CR>
 
 set showmatch
 

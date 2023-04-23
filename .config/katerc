@@ -185,13 +185,15 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
+1920x1080 screen: Height=1027
+1920x1080 screen: Width=941
 State=AAAA/wAAAAD9AAAAAAAAB4AAAAPrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1920x1080=479
-eDP Height 1920x1080 eDP=526
+eDP Height 1920x1080 eDP=1080
 eDP Width 1920x1080=941
-eDP Width 1920x1080 eDP=960
+eDP Width 1920x1080 eDP=1920
 eDP XPosition 1920x1080=967
 eDP XPosition 1920x1080 eDP=0
 eDP YPosition 1920x1080=41
@@ -222,7 +224,7 @@ sortRole=0
 viewShade=193,207,208
 
 [lspclient]
-AllowedServerCommandLines=/usr/bin/bash-language-server start,/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/pylsp --check-parent-process
+AllowedServerCommandLines=/usr/bin/bash-language-server start,/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/pylsp --check-parent-process,/usr/bin/texlab
 AutoHover=true
 AutoImport=true
 BlockedServerCommandLines=
