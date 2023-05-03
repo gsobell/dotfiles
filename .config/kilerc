@@ -4,7 +4,28 @@ CompleteTex=1-latex-document,1-tex,1-amsthm,1-amsmath,1-amssymb,1-amsfonts
 completeAutoAbbrev=true
 completeShowAbbrev=true
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/goma/docs/igo.sty]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux]
+Bookmarks=
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=true
+kile_livePreviewTool=LivePreview-XeLaTeX
+
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -17,7 +38,20 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex11.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-PDFLaTeX
+
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -43,32 +77,6 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Infi 1/rudin.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
 [Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex2.tex]
 Bookmarks=
 Highlighting=LaTeX
@@ -79,62 +87,10 @@ Mode Set By User=false
 bibliographyBackendAutoDetected=
 bibliographyBackendUserOverride=
 kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
+kile_livePreviewStatusUserSpecified=true
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
 [Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/NotesSetTheory22-3.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/main.tex]
-Bookmarks=53
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/preamble.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/title.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/week1.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -156,8 +112,8 @@ Mode=LaTeX
 Mode Set By User=false
 bibliographyBackendAutoDetected=
 bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
+kile_livePreviewEnabled=false
+kile_livePreviewStatusUserSpecified=true
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
 [Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/week3.tex]
@@ -173,7 +129,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/card]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/week4.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -186,7 +142,41 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/pearl.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Varied/CV/ map.pdf]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[Document-Settings,URL=file://:@/home/gabriel/Notes/cv/cv.tex]
+Bookmarks=47
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=true
+kile_livePreviewTool=LivePreview-XeLaTeX
+
+[Document-Settings,URL=file://:@/home/gabriel/output.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-PDFLaTeX
+
+[Document-Settings,URL=file://:@/home/gabriel/test.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -212,7 +202,20 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls]
+[Document-Settings,URL=file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-PDFLaTeX
+
+[Document-Settings,URL=file://:@/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -242,22 +245,22 @@ treeViewIconSize=16
 
 [Files]
 CleanUpAfterClose=true
-LastDocument[$e]=$HOME/Notes/Set Theory/Exercises/ex2.tex
+LastDocument[$e]=$HOME/Notes/cv/cv.tex
 lastDir[$e]=$HOME/
 
 [FilesOpenOnStart]
-DocsOpenOnStart0[$e]=$HOME/Notes/Set Theory/Exercises/ex2.tex
+DocsOpenOnStart0[$e]=$HOME/Notes/cv/cv.tex
 EncodingsOfDocsOpenOnStart0[$e]=UTF-8
 NoDOOS=1
 NoPOOS=0
 
 [Geometries]
-MainwindowHeight=525
-MainwindowWidth=960
+MainwindowHeight=1080
+MainwindowWidth=1920
 horizontalSplitterLeft=0
-horizontalSplitterRight=495
-verticalSplitterBottom=176
-verticalSplitterTop=246
+horizontalSplitterRight=950
+verticalSplitterBottom=32
+verticalSplitterTop=945
 
 [IncludeGraphics]
 igBoundingBox=true
@@ -269,7 +272,7 @@ imagemagick=true
 [KFileDialog Settings]
 1920x1080 screen: Height=540
 1920x1080 screen: Width=960
-Recent Files[$e]=Ex3.tex,file:$HOME/Notes/Set Theory/main.tex,file:$HOME/Notes/Set Theory/week3.tex,file:$HOME/Notes/Set Theory/week2.tex,file:$HOME/Notes/Set Theory/NotesSetTheory22-3.tex,file:$HOME/Notes/Set Theory/preamble.tex,file:$HOME/Notes/Set Theory/Exercises/ex1.tex,file:$HOME/Notes/Set Theory/title.tex,file:$HOME/Notes/Set Theory/week1.tex
+Recent Files[$e]=Ex3.tex,file:$HOME/Notes/Set Theory/week2.tex,file:$HOME/Notes/Set Theory/main.tex,file:$HOME/Notes/Set Theory/week3.tex,file:$HOME/Notes/Set Theory/NotesSetTheory22-3.tex,file:$HOME/Notes/Set Theory/preamble.tex,file:$HOME/Notes/Set Theory/Exercises/ex1.tex,file:$HOME/Notes/Set Theory/title.tex,file:$HOME/Notes/Set Theory/week1.tex
 Recent URLs[$e]=file:$HOME/,file:$HOME/Notes/,file:$HOME/Documents/Repos/goma/docs/,file:$HOME/Documents/,file:$HOME/Notes/Set Theory/,file:$HOME/Notes/Set Theory/Exercises/,file:$HOME/Notes/Infi 1/
 detailViewIconSize=16
 eDP Height 1920x1080 eDP=540
@@ -396,7 +399,7 @@ Word Completion Remove Tail=true
 1920x1080 screen: Width=960
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=29
-State=AAAA/wAAAAD9AAAAAAAAA8AAAAO4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAJR/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIBAAADSf////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAA8AAAAO4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAQAAAfz/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1920x1080 eDP=1051
@@ -429,47 +432,81 @@ height=340
 width=422
 
 [PdfWizard]
-pdfWizardLastTask=13
+pdfWizardLastTask=14
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=DejaVu Sans Mono,11,-1,5,50,0,0,0,0,0
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+Font=DejaVu Sans Mono,11,-1,5,50,0,0,0,0,0
+
+[Printing][Text]
+Legend=false
+LineNumbers=false
 
 [QuickPreview]
 convert=true
 dvipng=true
-previewTask=PDFLaTeX ---> PDF (Okular)
+envPreviewInWidget=true
+mathgroupPreviewInWidget=true
+previewTask=PDFLaTeX ---> PDF (Document Viewer)
+selPreviewInWidget=true
 
 [Recent Dirs]
 KILE_LATEX_SAVE_DIR[$e]=file:$HOME/Documents/,$HOME/Documents
 
 [Recent Files]
-File1[$e]=/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-File10[$e]=$HOME/Notes/Set Theory/Exercises/ex2.tex
-File2[$e]=$HOME/Notes/5784a/Dast/Ex6.tex
-File3[$e]=$HOME/Notes/Set Theory/week1.tex
-File4[$e]=$HOME/Notes/Set Theory/preamble.tex
-File5[$e]=$HOME/Notes/Set Theory/NotesSetTheory22-3.tex
-File6[$e]=$HOME/Notes/Set Theory/week2.tex
-File7[$e]=$HOME/Notes/Set Theory/week3.tex
-File8[$e]=$HOME/Notes/Set Theory/main.tex
-File9[$e]=/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
-Name1[$e]=inputenc.sty
-Name10[$e]=ex2.tex
-Name2[$e]=Ex6.tex
-Name3[$e]=week1.tex
-Name4[$e]=preamble.tex
-Name5[$e]=NotesSetTheory22-3.tex
-Name6[$e]=week2.tex
-Name7[$e]=week3.tex
-Name8[$e]=main.tex
-Name9[$e]=subfiles.cls
+File1[$e]=$HOME/Notes/Set Theory/main.tex
+File10[$e]=$HOME/Notes/cv/cv.tex
+File2[$e]=/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+File3[$e]=$HOME/Notes/Set Theory/Exercises/ex2.tex
+File4[$e]=$HOME/output.tex
+File5[$e]=$HOME/test.tex
+File6[$e]=$HOME/Notes/Varied/CV/ map.pdf
+File7[$e]=/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls
+File8[$e]=$HOME/Notes/Set Theory/week2.tex
+File9[$e]=$HOME/Documents/Repos/goma/docs/DOCUMENTATION.tex
+Name1[$e]=main.tex
+Name10[$e]=cv.tex
+Name2[$e]=subfiles.cls
+Name3[$e]=ex2.tex
+Name4[$e]=output.tex
+Name5[$e]=test.tex
+Name6[$e]=\smap.pdf
+Name7[$e]=moderncv.cls
+Name8[$e]=week2.tex
+Name9[$e]=DOCUMENTATION.tex
 
 [Scripting]
 ScriptNameColumnWidth=100
 
 [Session Settings]
-Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex2.tex
-Saved Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex2.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/home/gabriel/Notes/Set Theory/main.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/NotesSetTheory22-3.tex,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/usr/share/texmf-dist/tex/latex/base/inputenc.sty,file://:@/home/gabriel/Notes/Infi 1/rudin.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex,file://:@/home/gabriel/Notes/Set Theory/main.tex,file://:@/usr/share/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty,//:@,//:@,file://:@/home/gabriel/Notes/5784a/Dast/Ex11.tex,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/main.tex,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/title.tex,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/home/gabriel/Notes/Set Theory/main.tex,file://:@/home/gabriel/pearl.tex,file://:@/home/gabriel/pearl.tex,file://:@/home/gabriel/pearl.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/igo.sty,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/card,file://:@/home/gabriel/asd,file://:@/home/gabriel/sampoe,file://:@/usr/share/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty,file://:@/usr/share/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Documents=file://:@/home/gabriel/Notes/Set Theory/week4.tex
+Saved Documents=file://:@/home/gabriel/Notes/Set Theory/week4.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux,file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Notes/cv/cv.tex,//:@,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/test.tex,file://:@/home/gabriel/Notes/Varied/CV/ map.pdf,file://:@/home/gabriel/Notes/Varied/CV/ map.pdf,file://:@/home/gabriel/test.tex,file://:@/home/gabriel/test.tex,file://:@/home/gabriel/test.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/output.tex,file://:@/home/gabriel/output.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex2.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex2.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls,file://:@/home/gabriel/Notes/Set Theory/main.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/NotesSetTheory22-3.tex,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/home/gabriel/Notes/Set Theory/week1.tex,file://:@/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 
 [Show]
-BottomBarSize=132
+BottomBarIndex=-1
+BottomBarSize=534
 HideProblemBadBox=true
 HideProblemWarning=true
 ShowSplashScreen=false
@@ -584,7 +621,7 @@ type=Process
 class=Convert
 command=convert
 from=pdf
-options=+adjoin -antialias -trim -transparent white -density %res %S.pdf %S.png
+options=+adjoin -antialias -trim -density %res %S.pdf %S.png
 to=png
 type=Process
 
@@ -721,9 +758,12 @@ to=xml
 type=Process
 
 [Tool/LaTeX to Web/latex2html]
+autoRun=no
+checkForRoot=no
 class=Compile
 command=latex2html
 from=tex
+jumpToFirstError=no
 options=%source
 to=html
 type=Process
@@ -912,9 +952,12 @@ to=xdvi
 type=Process
 
 [Tool/MakeIndex/Default]
+autoRun=no
+checkForRoot=no
 class=Compile
 command=makeindex
 from=idx
+jumpToFirstError=no
 options=%S.idx
 to=idx
 type=Process
@@ -980,9 +1023,12 @@ to=pdf
 type=Process
 
 [Tool/PDFTeX/Default]
+autoRun=no
+checkForRoot=no
 class=Compile
 command=pdftex
 from=
+jumpToFirstError=no
 options=-interaction=nonstopmode %source
 to=pdf
 type=Process
@@ -1280,20 +1326,6 @@ state=Viewer
 to=pdf
 type=Process
 
-[Tool/ViewPDF/zathura]
-autoRun=
-checkForRoot=
-class=View
-close=
-command=zathura
-from=pdf
-jumpToFirstError=
-options=%target
-relDir=
-target=
-to=pdf
-type=Konsole
-
 [Tool/ViewPS/Document Viewer]
 class=View
 from=ps
@@ -1403,8 +1435,8 @@ to=xdvi
 type=Process
 
 [ToolSelectAction]
-Compile=11
-Convert=2
+Compile=14
+Convert=0
 Quick=0
 View=5
 
@@ -1415,7 +1447,7 @@ BibTeX=Default
 Biber=Default
 ConTeXt=PDF
 Convert=pdf2png
-DBLaTeX=LaTeX
+DBLaTeX=Convert to PDF
 DVItoPDF=Default
 DVItoPNG=Default
 DVItoPS=Default
@@ -1436,14 +1468,13 @@ PStoPDF=Default
 PreviewLaTeX=Default
 PreviewLuaLaTeX=Default
 PreviewPDFLaTeX=Default
-PreviewTeXPaths=/home/gabriel/Notes/Set Theory/Exercises
 PreviewXeLaTeX=Default
 QuickBuild=PDFLaTeX+ViewPDF
 TeX=Default
 ViewBib=KBibTex
 ViewDVI=Document Viewer
 ViewHTML=Konqueror
-ViewPDF=Okular
+ViewPDF=Document Viewer
 ViewPS=Document Viewer
 XeLaTeX=PDF
 
@@ -1481,7 +1512,7 @@ TeX=Compile,texcompiler
 ViewBib=View,viewbib
 ViewDVI=View,okular
 ViewHTML=View,viewhtml
-ViewPDF=View,zathura
+ViewPDF=View,okular
 ViewPS=View,okular
 XeLaTeX=Compile,latex
 
@@ -1491,21 +1522,45 @@ DefaultProjectLocation=/home/gabriel/Notes
 [VersionInfo]
 RCVersion=8
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/goma/docs/igo.sty]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux]
 CursorColumn=0
-CursorLine=174
+CursorLine=16
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"cbdf116592f2a1dbaa69f4351c85c4989afa722e","ranges":[]}
+TextFolding={"checksum":"fc773870c6d7bf3ab8cc384e4183ece765295fd3","ranges":[]}
 ViMarks=
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex11.tex]
-CursorColumn=0
-CursorLine=67
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex]
+CursorColumn=30
+CursorLine=79
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"7dab112d6f1dcb58ccd33cc666ad5f2a01492f04","ranges":[]}
-ViMarks=<,0,0,>,0,0
+TextFolding={"checksum":"ee2075bb462a28c4aa6aceca3688d80ec3b65c96","ranges":[]}
+ViMarks=.,79,30,<,79,25,>,79,33,[,94,39,],79,30,^,79,30
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"ee2075bb462a28c4aa6aceca3688d80ec3b65c96","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex]
+CursorColumn=0
+CursorLine=21
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"81dc09313c586e3dc474c122654fd2e1abe2eaa5","ranges":[]}
+ViMarks=.,4,24,<,4,7,>,4,7,[,4,11,],4,24,^,4,7
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex]
+CursorColumn=0
+CursorLine=27
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"e441701ae1abe05c79ab59d8e92e24aea847f9f7","ranges":[]}
+ViMarks=<,27,0,>,27,0
 
 [View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex]
 CursorColumn=24
@@ -1515,29 +1570,13 @@ JumpList=
 TextFolding={"checksum":"9f44f75a9f497a32bc155dbc2b3ff4867b93d974","ranges":[]}
 ViMarks=
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Infi 1/rudin.tex]
-CursorColumn=0
-CursorLine=29
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"925432ea81db7d7b951572dd2cbb6ad0bf5842de","ranges":[]}
-ViMarks=
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex]
-CursorColumn=143
-CursorLine=55
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"21c1175f8631f6b8ef3038ad3c922ce432ef7c3b","ranges":[]}
-ViMarks=.,55,131,<,55,143,>,55,143,[,55,131,],55,142,^,55,143
-
 [View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex2.tex]
-CursorColumn=37
-CursorLine=28
+CursorColumn=59
+CursorLine=61
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"41dd3573dd5583a1b5adcbad8e050ee2af5afae9","ranges":[]}
-ViMarks=.,27,57,<,24,0,>,29,0,[,28,37,],27,57,^,28,38
+TextFolding={"checksum":"40183b891515005acb0cdda61907fab8fde143e4","ranges":[]}
+ViMarks=.,54,147,<,54,160,>,54,160,[,54,147,],54,159,^,54,160,a,70,0
 
 [View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/NotesSetTheory22-3.tex]
 CursorColumn=15
@@ -1547,45 +1586,13 @@ JumpList=
 TextFolding={"checksum":"7f656123a6a953b4880ac6c4e5684b5f3d593ecf","ranges":[]}
 ViMarks=<,528,0,>,529,0
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/main.tex]
-CursorColumn=156
-CursorLine=50
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"2a06bad58173626ea764784d49603f99139a75f5","ranges":[]}
-ViMarks=.,50,154,<,46,210,>,46,210,[,50,136,],50,155,^,50,156,a,53,15
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/preamble.tex]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"cf6c8f2623b7997a84de0867a602136d253388d9","ranges":[]}
-ViMarks=.,0,0,<,0,0,>,0,0,[,0,0,],0,0,^,0,0
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/title.tex]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"79ee754ca55c67dbb3d66666d6d4ca7a61b39aba","ranges":[]}
-ViMarks=.,12,15,<,13,0,>,0,0,[,12,0,],-1,-1
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/week1.tex]
-CursorColumn=48
-CursorLine=182
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"f51d1374df5a18c5bc22eb2c97bb49ad9debe31a","ranges":[]}
-ViMarks=.,182,0,<,182,48,>,182,59,[,182,0,],182,0,^,182,48
-
 [View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/week2.tex]
-CursorColumn=0
-CursorLine=15
+CursorColumn=30
+CursorLine=36
 Dynamic Word Wrap=true
 JumpList=8,0,188,0
-TextFolding={"checksum":"ad517d041957b0029a7fb43106ca9d09dd3bc1ec","ranges":[]}
-ViMarks=.,7,0,<,15,0,>,15,0,[,12,0,],7,0,^,14,0
+TextFolding={"checksum":"7e8ed5aac5b8af0defd1805673395d70a5a2f715","ranges":[]}
+ViMarks=.,50,14,<,17,34,>,33,13,[,48,11,],50,15,^,32,0
 
 [View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/week3.tex]
 CursorColumn=0
@@ -1595,21 +1602,45 @@ JumpList=
 TextFolding={"checksum":"a62b8aff851b3ad9a61b5dc9de7c94b4c9a1ca65","ranges":[]}
 ViMarks=.,11,18,],11,19,^,11,19
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/card]
-CursorColumn=0
-CursorLine=15
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/week4.tex]
+CursorColumn=20
+CursorLine=11
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"f4b915ffaba1d5b04a769942951a04b332037d51","ranges":[]}
-ViMarks=.,8,0,[,8,0,],8,0,^,8,0
+TextFolding={"checksum":"a62b8aff851b3ad9a61b5dc9de7c94b4c9a1ca65","ranges":[]}
+ViMarks=
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/pearl.tex]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Varied/CV/ map.pdf]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
 TextFolding={"checksum":"","ranges":[]}
-ViMarks=.,-1,-1,<,-1,-1,>,-1,-1,[,-1,-1,],-1,-1,^,-1,-1
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/cv/cv.tex]
+CursorColumn=60
+CursorLine=10
+Dynamic Word Wrap=true
+JumpList=80,17
+TextFolding={"checksum":"fd36c447fd8e22b4a83a5b3c0712656ea93dfdcf","ranges":[]}
+ViMarks=.,92,52,<,47,11,>,47,11,[,92,43,],92,53,^,92,30,a,47,1
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/output.tex]
+CursorColumn=0
+CursorLine=3757
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"5aac664750374801cca3597da0abbfd427443646","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/test.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"","ranges":[]}
+ViMarks=
 
 [View-Settings,View=0,URL=file://:@/usr/share/texmf-dist/tex/latex/base/inputenc.sty]
 CursorColumn=0
@@ -1619,15 +1650,23 @@ JumpList=
 TextFolding={"checksum":"92cd58d7b11ef373579c1829e28c736403f230a0","ranges":[]}
 ViMarks=
 
-[View-Settings,View=0,URL=file://:@/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls]
+[View-Settings,View=0,URL=file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty]
 CursorColumn=0
 CursorLine=44
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"4473169d828abd0f308a72fc839eb55069134a9b","ranges":[]}
+TextFolding={"checksum":"3a2e5476cd1cfb20aea0de1663f084034a923844","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls]
+CursorColumn=0
+CursorLine=203
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"44b9e35914474ac8232e20f4e388b150673d4e99","ranges":[]}
 ViMarks=
 
 [default]
 NewFileWizardSelectedIconBibTeX=Empty File
-NewFileWizardSelectedIconLaTeX=Xelatex
+NewFileWizardSelectedIconLaTeX=Article
 NewFileWizardSelectedIconScript=Empty File
