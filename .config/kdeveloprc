@@ -1,8 +1,12 @@
-[CMakeBuildDirChooser]
-LastExtraArguments=set_property(TARGET tgt PROPERTY C_STANDARD 99)
+1920x1080 screen: Height=1051
+1920x1080 screen: Width=1920
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=29
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAAAAAAAAAPsAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAAAAAAAA+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAAAAAADAAAHRAAAAcD8AQAAAAz7AAAAKABWAGUAcgBzAGkAbwBuACAAQwBvAG4AdAByAG8AbABfAGMAbwBkAGUBAAAAIAAAA20AAAAAAAAAAPsAAAAKAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAEgBHAEQAQgBfAGQAZQBiAHUAZwAAAAAgAAAHRAAAAQYA////+wAAABgATQBlAG0AbwByAHkAXwBkAGUAYgB1AGcAAAAAIAAAB0QAAAB+AP////sAAAAiAEYAcgBhAG0AZQAgAFMAdABhAGMAawBfAGQAZQBiAHUAZwAAAAAgAAAHRAAAAHgA////+wAAADYARABpAHMAYQBzAHMAZQBtAGIAbABlAC8AUgBlAGcAaQBzAHQAZQByAHMAXwBkAGUAYgB1AGcAAAAAIAAAB0QAAAEHAP////sAAAAiAEIAcgBlAGEAawBwAG8AaQBuAHQAcwBfAGQAZQBiAHUAZwAAAAAgAAAHRAAAAWsA////+wAAABYAQgB1AGkAbABkAF8AZABlAGIAdQBnAAAAABwAAAdEAAAAeAD////7AAAAFgBEAGUAYgB1AGcAXwBkAGUAYgB1AGcBAAAAIAAAB0QAAADDAP///wAAB0QAAAHkAAAABAAAAAQAAAABAAAAAvwAAAAEAAAAAAAAAAEAAAAeAEwAZQBmAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAABAAAAAQAAACAAUgBpAGcAaAB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIABxAHUAaQBjAGsATwBwAGUAbgBUAG8AbwBsAEIAYQByAQAABDT/////AAAAAAAAAAAAAAAsAEsARABlAHYAQwBvAGQAZQBiAHIAbwB3AHMAZQByAFQAbwBvAGwAQgBhAHIBAAAFGP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIBAAAGYv////8AAAAAAAAAAAAAAAMAAAABAAAAIgBCAG8AdAB0AG8AbQAgAEIAdQB0AHQAbwBuACAAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+eDP=eDP
 
-[CMakeBuilder]
-generator=1
+[CMakeBuildDirChooser]
+LastExtraArguments=1 1 justdoit_tweets.txt 17,set_property(TARGET tgt PROPERTY C_STANDARD 99)
 
 [Clazy]
 docsPath=file:///usr/share/man/man1/
@@ -14,6 +18,9 @@ LowerCaseFilenames=true
 
 [Compilers]
 number=0
+
+[Disassemble/Registers View]
+splitterState=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00`\x00\x00\x02\x0e\x01\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [DownloadDialog Settings]
 eDP Height 1920x1080 eDP=438
@@ -183,47 +190,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KatePart Settings]
-documents=/home/gabriel/Notes/C/Lab 2/lab2-2.c,/home/gabriel/Notes/C/Lab 2/lab2-1.c,/home/gabriel/Notes/C/Lab 2/CMakeLists.txt,/home/gabriel/Notes/C/ex1-gsobell/tests.h,/home/gabriel/Notes/C/ex1-gsobell/cipher.h,/home/gabriel/Notes/C/ex1-gsobell/cipher_old.c,/home/gabriel/Notes/C/ex1-gsobell/main1.c,/home/gabriel/Notes/C/ex1-gsobell/CMakeLists.txt,/home/gabriel/Notes/C/ex1-gsobell/main.c,/home/gabriel/Notes/C/ex1-gsobell/tests.c,/home/gabriel/Notes/C/ex1-gsobell/cipher.c,/home/gabriel/Notes/C/Lab 5/5-1.c,/home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.c,/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.h,/home/gabriel/Notes/C/ex2-gsobell/main.c,/home/gabriel/Notes/C/Lab 5/5-3.c,/home/gabriel/Notes/C/ex2-gsobell/CMakeLists.txt,/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.c,/home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.h
-
-[KatePart Settings][/home/gabriel/Notes/C/Lab 2/CMakeLists.txt]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=CMake
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=CMake
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/Lab 2/CMakeLists.txt
-
-[KatePart Settings][/home/gabriel/Notes/C/Lab 2/lab2-1.c]
-Bookmarks=8
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/Lab 2/lab2-1.c
-
-[KatePart Settings][/home/gabriel/Notes/C/Lab 2/lab2-2.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/Lab 2/lab2-2.c
-
-[KatePart Settings][/home/gabriel/Notes/C/Lab 5/5-1.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/Lab 5/5-1.c
+documents=/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.h,/home/gabriel/Notes/C/ex2-gsobell/main.c,/home/gabriel/Notes/C/Lab 5/5-3.c,/home/gabriel/Notes/C/ex2-gsobell/CMakeLists.txt,/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.c,/home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.h,/home/gabriel/Notes/C/Lab 6/lab6-2.c,/home/gabriel/Notes/C/Lab 6/lab6-2-original.c,/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.c,/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.h,/home/gabriel/Notes/C/ex3b-gsobell/build/Makefile,/home/gabriel/Notes/C/ex3b-gsobell/justdoit_tweets.txt,/home/gabriel/Notes/C/ex3b-gsobell/makefile,/home/gabriel/Notes/C/ex3b-gsobell/linked_list.c,/home/gabriel/Notes/C/ex3b-gsobell/linked_list.h,/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.c,/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.h,/home/gabriel/Notes/C/ex3b-gsobell/tweets_generator.c,/home/gabriel/Notes/C/ex3b-gsobell/snakes_and_ladders.c
 
 [KatePart Settings][/home/gabriel/Notes/C/Lab 5/5-3.c]
 Bookmarks=
@@ -235,17 +202,7 @@ Mode=C
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/Lab 5/5-3.c
 
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/CMakeLists.txt]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=CMake
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=CMake
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/CMakeLists.txt
-
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/cipher.c]
+[KatePart Settings][/home/gabriel/Notes/C/Lab 6/lab6-2-original.c]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=C
@@ -253,19 +210,9 @@ Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=C
 Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/cipher.c
+URL=file:///home/gabriel/Notes/C/Lab 6/lab6-2-original.c
 
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/cipher.h]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C++
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C++
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/cipher.h
-
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/cipher_old.c]
+[KatePart Settings][/home/gabriel/Notes/C/Lab 6/lab6-2.c]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=C
@@ -273,47 +220,7 @@ Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=C
 Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/cipher_old.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/main.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/main.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/main1.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/main1.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/tests.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/tests.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex1-gsobell/tests.h]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C++
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C++
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex1-gsobell/tests.h
+URL=file:///home/gabriel/Notes/C/Lab 6/lab6-2.c
 
 [KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/CMakeLists.txt]
 Bookmarks=
@@ -355,16 +262,6 @@ Mode=C++
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.h
 
-[KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.c
-
 [KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.h]
 Bookmarks=
 Encoding=UTF-8
@@ -374,6 +271,116 @@ Indentation Mode=cstyle
 Mode=C++
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/build/Makefile]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Makefile
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Makefile
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/build/Makefile
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/justdoit_tweets.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/justdoit_tweets.txt
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/linked_list.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/linked_list.c
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/linked_list.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/linked_list.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/makefile]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Makefile
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Makefile
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/makefile
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/markov_chain.c
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/markov_chain.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.c
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/snakes_and_ladders.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/snakes_and_ladders.c
+
+[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/tweets_generator.c]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex3b-gsobell/tweets_generator.c
 
 [Language Support]
 globalColorSource=FromTheme
@@ -386,7 +393,7 @@ Desktop 1920 1080=0,29,1920,1051
 1920x1080 screen: Width=1920
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=29
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAYAEMAbABhAHMAcwBlAHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAmAD////7AAAAHABEAG8AYwB1AG0AZQBuAHQAcwBfAGMAbwBkAGUAAAAATgAAA6gAAAB4AP////sAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUAAAAATgAAA6gAAAFYAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAIABGAGkAbABlACAAUwB5AHMAdABlAG0AXwBjAG8AZABlAAAAAE4AAAOoAAAAXgD///8AAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAIN/AEAAAAL+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAAUgB1AG4AXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAANABGAGkAbgBkAC8AUgBlAHAAbABhAGMAZQAgAGkAbgAgAEYAaQBsAGUAcwBfAGMAbwBkAGUAAAAAIAAAB0AAAAGjAP////sAAAAaAFAAcgBvAGIAbABlAG0AcwBfAGMAbwBkAGUAAAAAIAAAB0AAAACjAP////sAAAASAFQAZQBzAHQAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAD7AAAAGgBWAGEAbABnAHIAaQBuAGQAXwBjAG8AZABlAAAAACAAAAdAAAAAowD////7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAeAD////7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAAAAAdAAAADqAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAASg/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAABYT/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAABeAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAJgA////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAeAD////7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAABWAD///8AAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAGE/AEAAAAO+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABIAVABlAHMAdABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAaAFYAYQBsAGcAcgBpAG4AZABfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAA0AEQAaQBzAGEAcwBzAGUAbQBiAGwAZQAvAFIAZQBnAGkAcwB0AGUAcgBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAARwBEAEIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAFgBNAGUAbQBvAHIAeQBfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAAQAFIAdQBuAF8AYwBvAGQAZQAAAAAcAAAHSAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAKMA////+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQAAAAAgAAADbQAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAD7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAAAAAdAAAADqAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAASg/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAABYT/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1920x1080=1051
@@ -406,12 +413,12 @@ eDP-1 YPosition 1920x1080 eDP-1=29
 [MainWindow_code]
 (1) Tool Views Order=org.kdevelop.ClassBrowserView,org.kdevelop.DocumentsView,org.kdevelop.ProjectsView,org.kdevelop.ScratchpadView,org.kdevelop.FileManagerView
 (2) Tool Views Order=org.kdevelop.ExternalScriptView
-(8) Tool Views Order=org.kdevelop.ContextBrowser,org.kdevelop.ProblemReporterView,org.kdevelop.KonsoleView,org.kdevelop.GrepOutputView,org.kdevelop.OutputView.0,org.kdevelop.ValgrindView
+(8) Tool Views Order=org.kdevelop.ContextBrowser,org.kdevelop.ProblemReporterView,org.kdevelop.KonsoleView,org.kdevelop.GrepOutputView
 1920x1080 screen: Height=1051
 1920x1080 screen: Width=1920
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=29
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAYAEMAbABhAHMAcwBlAHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAmAD////7AAAAHABEAG8AYwB1AG0AZQBuAHQAcwBfAGMAbwBkAGUAAAAATgAAA6gAAAB4AP////sAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUAAAAATgAAA6gAAAFYAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAIABGAGkAbABlACAAUwB5AHMAdABlAG0AXwBjAG8AZABlAAAAAE4AAAOoAAAAXgD///8AAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAIN/AEAAAAL+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAAUgB1AG4AXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAANABGAGkAbgBkAC8AUgBlAHAAbABhAGMAZQAgAGkAbgAgAEYAaQBsAGUAcwBfAGMAbwBkAGUAAAAAIAAAB0AAAAGjAP////sAAAAaAFAAcgBvAGIAbABlAG0AcwBfAGMAbwBkAGUAAAAAIAAAB0AAAACjAP////sAAAASAFQAZQBzAHQAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAD7AAAAGgBWAGEAbABnAHIAaQBuAGQAXwBjAG8AZABlAAAAACAAAAdAAAAAowD////7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAeAD////7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAAAAAdAAAADqAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAASg/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAABYT/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAABeAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAJgA////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAeAD////7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAABWAD///8AAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAGE/AEAAAAO+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABIAVABlAHMAdABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAaAFYAYQBsAGcAcgBpAG4AZABfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAA0AEQAaQBzAGEAcwBzAGUAbQBiAGwAZQAvAFIAZQBnAGkAcwB0AGUAcgBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAARwBEAEIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAFgBNAGUAbQBvAHIAeQBfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAAQAFIAdQBuAF8AYwBvAGQAZQAAAAAcAAAHSAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAKMA////+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQAAAAAgAAADbQAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAD7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAQAAACAAAAdAAAAAAAAAAAAAAAdAAAADqAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAASg/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAABYT/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 debugToolBarVisibility=false
 eDP=eDP
@@ -432,12 +439,12 @@ eDP-1 YPosition 1920x1080 eDP-1=29
 [MainWindow_debug]
 (1) Tool Views Order=org.kdevelop.FileManagerView,org.kdevelop.debugger.VariablesView
 (2) Tool Views Order=
-(8) Tool Views Order=org.kdevelop.KonsoleView,org.kdevelop.OutputView.0,org.kdevelop.debugger.LldbConsole,org.kdevelop.debugger.StackView,org.kdevelop.debugger.BreakpointsView,org.kdevelop.OutputView.2
+(8) Tool Views Order=org.kdevelop.KonsoleView,org.kdevelop.debugger.StackView,org.kdevelop.debugger.BreakpointsView,org.kdevelop.debugger.DisassemblerView,org.kdevelop.debugger.ConsoleView,org.kdevelop.debugger.MemoryView,org.kdevelop.OutputView.0,org.kdevelop.OutputView.2,org.kdevelop.OutputView.7
 1920x1080 screen: Height=1051
 1920x1080 screen: Width=1920
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=29
-State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAAAAAAAAAPsAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAAAAAAAA+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAAAAAADAAAHRAAAAOz8AQAAAAf7AAAAKABWAGUAcgBzAGkAbwBuACAAQwBvAG4AdAByAG8AbABfAGMAbwBkAGUBAAAAIAAAA20AAAAAAAAAAPsAAAAKAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAFgBCAHUAaQBsAGQAXwBkAGUAYgB1AGcAAAAAIAAAA4QAAAAAAAAAAPsAAAAWAEQAZQBiAHUAZwBfAGQAZQBiAHUAZwEAAAAgAAAHRAAAAMMA////AAAHRAAAArgAAAAEAAAABAAAAAEAAAAC/AAAAAQAAAAAAAAAAQAAAB4ATABlAGYAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIABSAGkAZwBoAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAACAAAABAAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAgAHEAdQBpAGMAawBPAHAAZQBuAFQAbwBvAGwAQgBhAHIBAAAENP////8AAAAAAAAAAAAAACwASwBEAGUAdgBDAG8AZABlAGIAcgBvAHcAcwBlAHIAVABvAG8AbABCAGEAcgEAAAUY/////wAAAAAAAAAAAAAAGABkAGUAYgB1AGcAVABvAG8AbABCAGEAcgEAAAZi/////wAAAAAAAAAAAAAAAwAAAAEAAAAiAEIAbwB0AHQAbwBtACAAQgB1AHQAdABvAG4AIABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAAAAAAAAAPsAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAAAAAAAA+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAD7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAAAAAAAAAAAADAAAHRAAAAcD8AQAAAAz7AAAAKABWAGUAcgBzAGkAbwBuACAAQwBvAG4AdAByAG8AbABfAGMAbwBkAGUBAAAAIAAAA20AAAAAAAAAAPsAAAAKAF8AYwBvAGQAZQEAAAAgAAADbQAAAAAAAAAA+wAAACIAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAAEgBHAEQAQgBfAGQAZQBiAHUAZwAAAAAgAAAHRAAAAQYA////+wAAACIARgByAGEAbQBlACAAUwB0AGEAYwBrAF8AZABlAGIAdQBnAAAAACAAAAdEAAAAeAD////7AAAAFgBCAHUAaQBsAGQAXwBkAGUAYgB1AGcAAAAAIAAAB0QAAAB4AP////sAAAAYAE0AZQBtAG8AcgB5AF8AZABlAGIAdQBnAAAAACAAAAdEAAAAfgD////7AAAANgBEAGkAcwBhAHMAcwBlAG0AYgBsAGUALwBSAGUAZwBpAHMAdABlAHIAcwBfAGQAZQBiAHUAZwAAAAAgAAAHRAAAAQcA////+wAAACIAQgByAGUAYQBrAHAAbwBpAG4AdABzAF8AZABlAGIAdQBnAAAAACAAAAdEAAABawD////7AAAAFgBEAGUAYgB1AGcAXwBkAGUAYgB1AGcAAAAAIAAAB0QAAADDAP///wAAB0QAAAOoAAAABAAAAAQAAAABAAAAAvwAAAAEAAAAAAAAAAEAAAAeAEwAZQBmAHQAIABCAHUAdAB0AG8AbgAgAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAABAAAAAQAAACAAUgBpAGcAaAB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIABxAHUAaQBjAGsATwBwAGUAbgBUAG8AbwBsAEIAYQByAQAABDT/////AAAAAAAAAAAAAAAsAEsARABlAHYAQwBvAGQAZQBiAHIAbwB3AHMAZQByAFQAbwBvAGwAQgBhAHIBAAAFGP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIBAAAGYv////8AAAAAAAAAAAAAAAMAAAABAAAAIgBCAG8AdAB0AG8AbQAgAEIAdQB0AHQAbwBuACAAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 debugToolBarVisibility=true
 eDP=eDP
@@ -447,7 +454,7 @@ eDP XPosition 1920x1080 eDP=0
 eDP YPosition 1920x1080 eDP=29
 
 [Open File]
-Last Open File Directory=file:///home/gabriel/Notes/C/Lab 5/
+Last Open File Directory=file:///home/gabriel/Notes/C/ex3b-gsobell/
 
 [Providers]
 LastProviderIndex=2
@@ -457,51 +464,71 @@ SelectedItems=Functions,Files,Classes,Documentation,Actions
 SelectedScopes=Currently Open,Project,Includes
 
 [Recent Files]
-File1[$e]=$HOME/Notes/C/ex1-gsobell/cipher.c
-File10[$e]=$HOME/Notes/C/Lab 5/5-3.c
-File2[$e]=$HOME/Notes/C/ex1-gsobell/main.c
-File3[$e]=$HOME/Notes/C/ex2-gsobell/test_bus_lines.c
-File4[$e]=$HOME/Notes/C/ex2-gsobell/CMakeLists.txt
-File5[$e]=$HOME/Notes/C/ex2-gsobell/sort_bus_lines.h
-File6[$e]=$HOME/Notes/C/ex2-gsobell/sort_bus_lines.c
-File7[$e]=$HOME/Notes/C/ex2-gsobell/test_bus_lines.h
-File8[$e]=$HOME/Notes/C/ex2-gsobell/main.c
-File9[$e]=$HOME/Notes/C/Lab 5/5-1.c
-Name1[$e]=cipher.c
-Name10[$e]=5-3.c
-Name2[$e]=main.c
-Name3[$e]=test_bus_lines.c
-Name4[$e]=CMakeLists.txt
-Name5[$e]=sort_bus_lines.h
-Name6[$e]=sort_bus_lines.c
-Name7[$e]=test_bus_lines.h
-Name8[$e]=main.c
-Name9[$e]=5-1.c
+File1[$e]=$HOME/Notes/C/ex3b-gsobell/build/Makefile
+File10[$e]=$HOME/Notes/C/ex3b-gsobell/tweets_generator.c
+File2[$e]=$HOME/Notes/C/ex3b-gsobell/tweets_generator
+File3[$e]=$HOME/Notes/C/ex3b-gsobell/justdoit_tweets.txt
+File4[$e]=$HOME/Notes/C/ex3b-gsobell/makefile
+File5[$e]=$HOME/Notes/C/ex3b-gsobell/linked_list.c
+File6[$e]=$HOME/Notes/C/ex3b-gsobell/linked_list.h
+File7[$e]=$HOME/Notes/C/ex3b-gsobell/markov_chain.c
+File8[$e]=$HOME/Notes/C/ex3b-gsobell/markov_chain.h
+File9[$e]=$HOME/Notes/C/ex3b-gsobell/snakes_and_ladders.c
+Name1[$e]=Makefile
+Name10[$e]=tweets_generator.c
+Name2[$e]=tweets_generator
+Name3[$e]=justdoit_tweets.txt
+Name4[$e]=makefile
+Name5[$e]=linked_list.c
+Name6[$e]=linked_list.h
+Name7[$e]=markov_chain.c
+Name8[$e]=markov_chain.h
+Name9[$e]=snakes_and_ladders.c
 
 [RecentProjects]
-File1[$e]=$HOME/CLionProjects/kdev/kdev.kdev4
-File10[$e]=$HOME/Notes/C/ex2-gsobell/ex2-gsobell.kdev4
-File2[$e]=$HOME/CLionProjects/untitled/untitled.kdev4
-File3[$e]=$HOME/projects/exo012/exo012.kdev4
-File4[$e]=$HOME/C/helloworld/helloworld.kdev4
-File5[$e]=$HOME/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language.kdev4
-File6[$e]=$HOME/Notes/C/ex1/ex1.kdev4
-File7[$e]=$HOME/Notes/C/Lab 1/Lab 1.kdev4
-File8[$e]=$HOME/Notes/C/Lab 2/Lab 2.kdev4
-File9[$e]=$HOME/Notes/C/ex1-gsobell/ex1-gsobell.kdev4
-Name1[$e]=kdev.kdev4
-Name10[$e]=ex2-gsobell.kdev4
-Name2[$e]=untitled.kdev4
-Name3[$e]=exo012.kdev4
-Name4[$e]=helloworld.kdev4
-Name5[$e]=The-C-Programming-Language.kdev4
-Name6[$e]=ex1.kdev4
-Name7[$e]=Lab 1.kdev4
-Name8[$e]=Lab 2.kdev4
-Name9[$e]=ex1-gsobell.kdev4
+File1[$e]=$HOME/CLionProjects/untitled/untitled.kdev4
+File10[$e]=$HOME/Notes/C/ex3b-gsobell/ex3b-gsobell.kdev4
+File2[$e]=$HOME/projects/exo012/exo012.kdev4
+File3[$e]=$HOME/C/helloworld/helloworld.kdev4
+File4[$e]=$HOME/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language.kdev4
+File5[$e]=$HOME/Notes/C/ex1/ex1.kdev4
+File6[$e]=$HOME/Notes/C/Lab 1/Lab 1.kdev4
+File7[$e]=$HOME/Notes/C/Lab 2/Lab 2.kdev4
+File8[$e]=$HOME/Notes/C/ex1-gsobell/ex1-gsobell.kdev4
+File9[$e]=$HOME/Notes/C/ex2-gsobell/ex2-gsobell.kdev4
+Name1[$e]=untitled.kdev4
+Name10[$e]=ex3b-gsobell.kdev4
+Name2[$e]=exo012.kdev4
+Name3[$e]=helloworld.kdev4
+Name4[$e]=The-C-Programming-Language.kdev4
+Name5[$e]=ex1.kdev4
+Name6[$e]=Lab 1.kdev4
+Name7[$e]=Lab 2.kdev4
+Name8[$e]=ex1-gsobell.kdev4
+Name9[$e]=ex2-gsobell.kdev4
+
+[Register models][FPU]
+format=2
+mode=0
+
+[Register models][Flags]
+format=4
+mode=0
+
+[Register models][General]
+format=4
+mode=0
+
+[Register models][Segment]
+format=4
+mode=0
+
+[Register models][XMM]
+format=0
+mode=1
 
 [Sessions]
-Active Session ID={ae8fc09e-b0f9-4007-b96d-ed154f2855cf}
+Active Session ID={42dda06b-bfe3-4604-9471-b70fcb96aba4}
 
 [UI]
 Shortcut for Terminal=Ctrl+T,
@@ -520,6 +547,8 @@ Debug_debug=true
 External Scripts_code=true
 File System_code=true
 Find/Replace in Files_code=true
+Memory_code=true
+Memory_debug=true
 Problems_code=true
 Projects_code=true
 Run_code=true
@@ -532,7 +561,7 @@ _code=true
 Main Windows Count=1
 
 [User Interface][Main Window 0][Area code]
-desired views=kate_plugin_katectagsplugin:8,org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.GrepOutputView:8,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.10:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.8:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.ScratchpadView:1,org.kdevelop.SnippetView:2,org.kdevelop.ValgrindView:8
+desired views=kate_plugin_katectagsplugin:8,org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.GrepOutputView:8,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.10:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.7:8,org.kdevelop.OutputView.8:8,org.kdevelop.ProblemReporterView:8,org.kdevelop.ProjectsView:1,org.kdevelop.ScratchpadView:1,org.kdevelop.SnippetView:2,org.kdevelop.ValgrindView:8
 id=code
 view on bottom=
 view on left=
@@ -540,15 +569,15 @@ view on right=
 view on top=
 
 [User Interface][Main Window 0][Area debug]
-desired views=kate_plugin_katectagsplugin:8,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.10:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.8:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.ConsoleView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
+desired views=kate_plugin_katectagsplugin:8,org.kdevelop.FileManagerView:1,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.10:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.7:8,org.kdevelop.OutputView.8:8,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
 id=debug
-view on bottom=org.kdevelop.OutputView.2
+view on bottom=
 view on left=
 view on right=
 view on top=
 
 [User Interface][Main Window 0][Area review]
-desired views=kate_plugin_katectagsplugin:8,org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.10:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.8:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
+desired views=kate_plugin_katectagsplugin:8,org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.10:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.3:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.OutputView.7:8,org.kdevelop.OutputView.8:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
 id=review
 view on bottom=
 view on left=
