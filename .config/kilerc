@@ -129,6 +129,19 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/unit-fractionator/DOC.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-PDFLaTeX
+
 [Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/unit-fractioner/unit-fractionator.tex]
 Bookmarks=
 Highlighting=LaTeX
@@ -254,19 +267,6 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
 [Editor Ext]
 InsertSpecialCharacters=true
 
@@ -284,11 +284,11 @@ treeViewIconSize=16
 
 [Files]
 CleanUpAfterClose=true
-LastDocument[$e]=$HOME/Notes/Set Theory/Exercises/ex6.tex
+LastDocument[$e]=$HOME/Documents/Repos/unit-fractionator/DOC.tex
 lastDir[$e]=$HOME/
 
 [FilesOpenOnStart]
-DocsOpenOnStart0[$e]=$HOME/Notes/Set Theory/Exercises/ex6.tex
+DocsOpenOnStart0[$e]=$HOME/Documents/Repos/unit-fractionator/DOC.tex
 EncodingsOfDocsOpenOnStart0[$e]=UTF-8
 NoDOOS=1
 NoPOOS=0
@@ -297,7 +297,7 @@ NoPOOS=0
 MainwindowHeight=1051
 MainwindowWidth=1920
 horizontalSplitterLeft=0
-horizontalSplitterRight=1043
+horizontalSplitterRight=1039
 verticalSplitterBottom=182
 verticalSplitterTop=772
 
@@ -434,11 +434,11 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KileMainWindow]
-1920x1080 screen: Height=1051
-1920x1080 screen: Width=1920
-1920x1080 screen: XPosition=0
-1920x1080 screen: YPosition=29
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAO+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAfz/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAA==
+1920x1080 screen: Height=1027
+1920x1080 screen: Width=941
+1920x1080 screen: XPosition=12
+1920x1080 screen: YPosition=41
+State=AAAA/wAAAAD9AAAAAAAAA60AAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAfz/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1920x1080 eDP=1051
@@ -518,33 +518,33 @@ selPreviewInWidget=true
 KILE_LATEX_SAVE_DIR[$e]=file:$HOME/Documents/Repos/rummibot/docs/,file:$HOME/Documents/,$HOME/Documents
 
 [Recent Files]
-File1[$e]=$HOME/Notes/Set Theory/Exercises/ex4.tex
-File10[$e]=$HOME/Notes/Set Theory/Exercises/ex6.tex
-File2[$e]=$HOME/Notes/Set Theory/Exercises/ex5.tex
-File3[$e]=$HOME/Documents/Repos/rummibot/docs/template.tex
-File4[$e]=$HOME/Documents/Repos/rummibot/docs/math.tex
-File5[$e]=$HOME/Documents/Repos/rummibot/docs/complexity.tex
-File6[$e]=$HOME/Documents/Repos/rummibot/docs/rules.tex
-File7[$e]=$HOME/pearl_cv.tex
-File8[$e]=$HOME/Notes/cv/cv.tex
-File9[$e]=$HOME/1.tex
-Name1[$e]=ex4.tex
-Name10[$e]=ex6.tex
-Name2[$e]=ex5.tex
-Name3[$e]=template.tex
-Name4[$e]=math.tex
-Name5[$e]=complexity.tex
-Name6[$e]=rules.tex
-Name7[$e]=pearl_cv.tex
-Name8[$e]=cv.tex
-Name9[$e]=1.tex
+File1[$e]=$HOME/Notes/Set Theory/Exercises/ex5.tex
+File10[$e]=$HOME/Documents/Repos/unit-fractionator/DOC.tex
+File2[$e]=$HOME/Documents/Repos/rummibot/docs/template.tex
+File3[$e]=$HOME/Documents/Repos/rummibot/docs/math.tex
+File4[$e]=$HOME/Documents/Repos/rummibot/docs/complexity.tex
+File5[$e]=$HOME/Documents/Repos/rummibot/docs/rules.tex
+File6[$e]=$HOME/pearl_cv.tex
+File7[$e]=$HOME/Notes/cv/cv.tex
+File8[$e]=$HOME/1.tex
+File9[$e]=$HOME/Notes/Set Theory/Exercises/ex6.tex
+Name1[$e]=ex5.tex
+Name10[$e]=DOC.tex
+Name2[$e]=template.tex
+Name3[$e]=math.tex
+Name4[$e]=complexity.tex
+Name5[$e]=rules.tex
+Name6[$e]=pearl_cv.tex
+Name7[$e]=cv.tex
+Name8[$e]=1.tex
+Name9[$e]=ex6.tex
 
 [Scripting]
 ScriptNameColumnWidth=100
 
 [Session Settings]
-Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex
-Saved Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/1.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/pearl_cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/complexity.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/math.tex,//:@,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex,//:@,file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E,file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Documents/Repos/unit-fractioner/unit-fractionator.tex,file://:@/home/gabriel/Notes/Set Theory/week4.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux,file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Notes/cv/cv.tex,//:@,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls
+Documents=file://:@/home/gabriel/Documents/Repos/unit-fractionator/DOC.tex
+Saved Documents=file://:@/home/gabriel/Documents/Repos/unit-fractionator/DOC.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/1.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/pearl_cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/complexity.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/math.tex,//:@,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex,//:@,file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E,file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Documents/Repos/unit-fractioner/unit-fractionator.tex,file://:@/home/gabriel/Notes/Set Theory/week4.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux,file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Notes/cv/cv.tex,//:@,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex
 
 [Show]
 BottomBarSize=138
@@ -1643,6 +1643,14 @@ JumpList=
 TextFolding={"checksum":"c3fefd5ee49ea0e37324a99a6a7f9866a3a4c2bf","ranges":[]}
 ViMarks=.,6,20,<,16,0,>,16,0,[,21,0,],6,21,^,0,26
 
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/unit-fractionator/DOC.tex]
+CursorColumn=151
+CursorLine=17
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"6510d8cb294cca3e826f0c7ba30023e8eb1b8de4","ranges":[]}
+ViMarks=
+
 [View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/unit-fractioner/unit-fractionator.tex]
 CursorColumn=24
 CursorLine=4
@@ -1721,14 +1729,6 @@ CursorLine=44
 Dynamic Word Wrap=true
 JumpList=
 TextFolding={"checksum":"3a2e5476cd1cfb20aea0de1663f084034a923844","ranges":[]}
-ViMarks=
-
-[View-Settings,View=0,URL=file://:@/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls]
-CursorColumn=0
-CursorLine=203
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"44b9e35914474ac8232e20f4e388b150673d4e99","ranges":[]}
 ViMarks=
 
 [default]
