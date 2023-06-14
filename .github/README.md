@@ -16,7 +16,7 @@
 - [mocp](https://github.com/jonsafari/mocp) - music on console player
 - [ranger](https://github.com/ranger/ranger) - a vim-inspired filemanager for the console
 - [bottom](https://github.com/ClementTsang/bottom) - proccess/system monitor in rust
-- [paru](https://github.com/Morganamilo/paru)
+- [paru](https://github.com/Morganamilo/paru) - feature packed AUR helper
 - [clisp](https://clisp.sourceforge.io/) -  GNU ANSI common lisp implementation
 
 ### gui
