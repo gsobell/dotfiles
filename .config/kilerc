@@ -4,7 +4,7 @@ CompleteTex=1-latex-document,1-tex,1-amsthm,1-amsmath,1-amssymb,1-amsfonts
 completeAutoAbbrev=true
 completeShowAbbrev=true
 
-[Document-Settings,URL=file://:@/home/gabriel/1.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -17,28 +17,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux]
-Bookmarks=
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=true
-kile_livePreviewTool=LivePreview-XeLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/LICENSE.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -51,7 +30,23 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/README.md]
+Bookmarks=
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -64,7 +59,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/rummibot/docs/complexity.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -77,7 +72,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/rummibot/docs/math.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -90,7 +85,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/lppl-1-3c.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -103,7 +98,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/unit-fractionator/DOC.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -116,7 +111,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/unit-fractioner/unit-fractionator.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -129,41 +124,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=true
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex]
-Bookmarks=90,52
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex5.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -176,7 +137,33 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex7.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-PDFLaTeX
+
+[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/dast.tex]
+Bookmarks=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+bibliographyBackendAutoDetected=
+bibliographyBackendUserOverride=
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-PDFLaTeX
+
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Linearit/Linear23.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -189,7 +176,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=true
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex7.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -202,20 +189,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex8.tex]
-Bookmarks=106
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/main.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -228,7 +202,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/week4.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/preamble.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -241,7 +215,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/pearl_cv.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/week1.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -252,9 +226,9 @@ bibliographyBackendAutoDetected=
 bibliographyBackendUserOverride=
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-XeLaTeX
+kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/title.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -284,22 +258,22 @@ treeViewIconSize=16
 
 [Files]
 CleanUpAfterClose=true
-LastDocument[$e]=$HOME/Notes/Set Theory/Exercises/ex8.tex
+LastDocument[$e]=$HOME/Notes/Set Theory/Exercises/ex1.tex
 lastDir[$e]=$HOME/
 
 [FilesOpenOnStart]
-DocsOpenOnStart0[$e]=$HOME/Notes/Set Theory/Exercises/ex8.tex
+DocsOpenOnStart0[$e]=$HOME/Notes/Set Theory/Exercises/ex1.tex
 EncodingsOfDocsOpenOnStart0[$e]=UTF-8
 NoDOOS=1
 NoPOOS=0
 
 [Geometries]
-MainwindowHeight=1051
-MainwindowWidth=1920
+MainwindowHeight=1027
+MainwindowWidth=941
 horizontalSplitterLeft=0
-horizontalSplitterRight=924
-verticalSplitterBottom=181
-verticalSplitterTop=773
+horizontalSplitterRight=346
+verticalSplitterBottom=216
+verticalSplitterTop=714
 
 [IncludeGraphics]
 igBoundingBox=true
@@ -311,8 +285,8 @@ imagemagick=true
 [KFileDialog Settings]
 1920x1080 screen: Height=540
 1920x1080 screen: Width=960
-Recent Files[$e]=Ex3.tex,file:$HOME/Notes/Set Theory/Exercises/template.tex,file:$HOME/Notes/cv/cv.tex,file:$HOME/Documents/Repos/rummibot/docs/rules.tex,file:$HOME/Notes/Set Theory/week3.tex,file:$HOME/Notes/Set Theory/week2.tex,file:$HOME/Notes/Set Theory/main.tex,file:$HOME/Notes/Set Theory/preamble.tex,file:$HOME/Notes/Set Theory/Exercises/ex1.tex,file:$HOME/Notes/Set Theory/title.tex,file:$HOME/Notes/Set Theory/week1.tex
-Recent URLs[$e]=file:$HOME/,file:$HOME/Notes/,file:$HOME/Documents/Repos/goma/docs/,file:$HOME/Documents/,file:$HOME/Notes/Set Theory/,file:$HOME/Notes/Set Theory/Exercises/,file:$HOME/Notes/Infi 1/,file:$HOME/Documents/Repos/rummibot/docs/,file:$HOME/Notes/cv/
+Recent Files[$e]=Ex3.tex,file:$HOME/Documents/Repos/texplates/.tex,file:$HOME/Notes/Linearit/linear10.tex,file:$HOME/Notes/Set Theory/Exercises/ex10.tex,file:$HOME/Notes/Set Theory/Exercises/template.tex,file:$HOME/Notes/cv/cv.tex,file:$HOME/Documents/Repos/rummibot/docs/rules.tex,file:$HOME/Notes/Set Theory/Exercises/ex1.tex,file:$HOME/Notes/Set Theory/title.tex
+Recent URLs[$e]=file:$HOME/,file:$HOME/Notes/,file:$HOME/Documents/Repos/goma/docs/,file:$HOME/Documents/,file:$HOME/Notes/Set Theory/,file:$HOME/Notes/Set Theory/Exercises/,file:$HOME/Notes/Infi 1/,file:$HOME/Documents/Repos/rummibot/docs/,file:$HOME/Notes/cv/,file:$HOME/Notes/Linearit/,file:$HOME/Documents/Repos/texplates/
 detailViewIconSize=16
 eDP Height 1920x1080 eDP=540
 eDP Width 1920x1080 eDP=960
@@ -342,7 +316,7 @@ Indentation Width=4
 Keep Extra Spaces=false
 Line Length Limit=10000
 Newline at End of File=true
-On-The-Fly Spellcheck=false
+On-The-Fly Spellcheck=true
 Overwrite Mode=false
 PageUp/PageDown Moves Cursor=false
 Remove Spaces=1
@@ -434,11 +408,11 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KileMainWindow]
-1920x1080 screen: Height=1051
-1920x1080 screen: Width=1920
-1920x1080 screen: XPosition=0
-1920x1080 screen: YPosition=29
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAO+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAfz/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAA==
+1920x1080 screen: Height=1027
+1920x1080 screen: Width=941
+1920x1080 screen: XPosition=967
+1920x1080 screen: YPosition=41
+State=AAAA/wAAAAD9AAAAAAAAA60AAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAfz/////AAAAAAAAAAAAAAAmAE8AawB1AGwAYQByAFYAaQBlAHcAZQByAFQAbwBvAGwAQgBhAHIAAAAB/P////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1920x1080 eDP=1051
@@ -515,39 +489,39 @@ previewTask=PDFLaTeX ---> PDF (Document Viewer)
 selPreviewInWidget=true
 
 [Recent Dirs]
-KILE_LATEX_SAVE_DIR[$e]=file:$HOME/Documents/Repos/rummibot/docs/,file:$HOME/Documents/,$HOME/Documents
+KILE_LATEX_SAVE_DIR[$e]=file:$HOME/,file:$HOME/Documents/Repos/rummibot/docs/,file:$HOME/Documents/
 
 [Recent Files]
-File1[$e]=$HOME/Documents/Repos/rummibot/docs/math.tex
-File10[$e]=$HOME/Notes/Set Theory/Exercises/ex8.tex
-File2[$e]=$HOME/Documents/Repos/rummibot/docs/complexity.tex
-File3[$e]=$HOME/Documents/Repos/rummibot/docs/rules.tex
-File4[$e]=$HOME/pearl_cv.tex
-File5[$e]=$HOME/Notes/cv/cv.tex
-File6[$e]=$HOME/1.tex
-File7[$e]=$HOME/Documents/Repos/unit-fractionator/DOC.tex
-File8[$e]=$HOME/Notes/Set Theory/Exercises/ex6.tex
-File9[$e]=$HOME/Notes/Set Theory/Exercises/ex7.tex
-Name1[$e]=math.tex
-Name10[$e]=ex8.tex
-Name2[$e]=complexity.tex
-Name3[$e]=rules.tex
-Name4[$e]=pearl_cv.tex
-Name5[$e]=cv.tex
-Name6[$e]=1.tex
-Name7[$e]=DOC.tex
-Name8[$e]=ex6.tex
-Name9[$e]=ex7.tex
+File1[$e]=$HOME/Documents/Repos/texplates/LICENSE.tex
+File10[$e]=$HOME/Notes/Set Theory/Exercises/ex1.tex
+File2[$e]=$HOME/Notes/Set Theory/Notes/preamble.tex
+File3[$e]=$HOME/Notes/Set Theory/Notes/main.tex
+File4[$e]=$HOME/Documents/Repos/texplates/bidi-article/README.md
+File5[$e]=$HOME/Documents/Repos/texplates/bidi-article/bidi-article-tex
+File6[$e]=$HOME/Documents/Repos/texplates/cover-page/title.tex
+File7[$e]=$HOME/Documents/Repos/texplates/cs-article/cs-article.tex
+File8[$e]=$HOME/Notes/Linearit/Linear23.tex
+File9[$e]=$HOME/Documents/Repos/texplates/math-article/math-article.tex
+Name1[$e]=LICENSE.tex
+Name10[$e]=ex1.tex
+Name2[$e]=preamble.tex
+Name3[$e]=main.tex
+Name4[$e]=README.md
+Name5[$e]=bidi-article-tex
+Name6[$e]=title.tex
+Name7[$e]=cs-article.tex
+Name8[$e]=Linear23.tex
+Name9[$e]=math-article.tex
 
 [Scripting]
 ScriptNameColumnWidth=100
 
 [Session Settings]
-Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex8.tex
-Saved Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex8.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex8.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex7.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex7.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Documents/Repos/unit-fractionator/DOC.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex,file://:@/home/gabriel/1.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/pearl_cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/complexity.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/math.tex,//:@,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex,//:@,file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E,file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex,file://:@/home/gabriel/Notes/Set Theory/week3.tex,file://:@/home/gabriel/Notes/Set Theory/week2.tex,file://:@/home/gabriel/Documents/Repos/unit-fractioner/unit-fractionator.tex,file://:@/home/gabriel/Notes/Set Theory/week4.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex,file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux,file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Documents/Repos/goma/docs/DOCUMENTATION.tex
+Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex
+Saved Documents=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex,file://:@/home/gabriel/Notes/Linearit/Linear23.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Linearit/Linear23.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/README.md,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/main.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/LICENSE.tex,file://:@/home/gabriel/Documents/Repos/texplates/.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex10.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex9.tex,file://:@/home/gabriel/Notes/Linearit/linear10.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex7.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex5.tex,file://:@/home/gabriel/Notes/5784a/Dast/dast.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex8.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex9.tex,file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex,file://:@/home/gabriel/Documents/Repos/texplates/.tex,file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/week1.tex,file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex,file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex,file://:@/home/gabriel/Documents/Repos/texplates/lppl-1-3c.tex,file://:@/home/gabriel/Notes/Set Theory/title.tex,file://:@/home/gabriel/Notes/Set Theory/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/title.tex,file://:@/tmp/kile-livepreview.gFTAWI/title.aux,file://:@/home/gabriel/title.tex,file://:@/home/gabriel/title.tex
 
 [Show]
-BottomBarSize=137
+BottomBarSize=172
 HideProblemBadBox=true
 HideProblemWarning=true
 ShowSplashScreen=false
@@ -1563,172 +1537,164 @@ DefaultProjectLocation=/home/gabriel/Notes
 [VersionInfo]
 RCVersion=8
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/1.tex]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/.tex]
 CursorColumn=0
-CursorLine=442
+CursorLine=10
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"ea2ccc1b0c56fb41a09bd2b13e151d420e176629","ranges":[]}
-ViMarks=.,1,0,[,1,0,],1,0,^,0,0
+TextFolding={"checksum":"414e822c54561b8ca1de7594caf953eeed5225f9","ranges":[]}
+ViMarks=.,1,0,[,1,0,],1,17,^,3,0
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.aux]
-CursorColumn=0
-CursorLine=16
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"fc773870c6d7bf3ab8cc384e4183ece765295fd3","ranges":[]}
-ViMarks=
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/cv.tex]
-CursorColumn=30
-CursorLine=79
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"ee2075bb462a28c4aa6aceca3688d80ec3b65c96","ranges":[]}
-ViMarks=.,79,30,<,79,25,>,79,33,[,94,39,],79,30,^,79,30
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/fast-cv/fast-cv.tex]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/LICENSE.tex]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"ee2075bb462a28c4aa6aceca3688d80ec3b65c96","ranges":[]}
+TextFolding={"checksum":"0f318c24fa15e58bc408df00ef6a8d81514751e4","ranges":[]}
 ViMarks=
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/five-minute-scripts/unit-fractioner/unit-fractionator.tex]
-CursorColumn=0
-CursorLine=21
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/README.md]
+CursorColumn=125
+CursorLine=1
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"81dc09313c586e3dc474c122654fd2e1abe2eaa5","ranges":[]}
-ViMarks=.,4,24,<,4,7,>,4,7,[,4,11,],4,24,^,4,7
+TextFolding={"checksum":"002085a406fcceba5e01782a2cfd1b124d10d874","ranges":[]}
+ViMarks=.,1,118,[,1,118,],1,126,^,1,126
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/rummibot/docs/complexity.tex]
-CursorColumn=18
-CursorLine=49
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex]
+CursorColumn=19
+CursorLine=15
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"d7199627fd4a3603175b774e766a86261b9ea0a5","ranges":[]}
-ViMarks=.,49,17,<,35,2,>,35,2,[,48,80,],49,18,^,35,2
+TextFolding={"checksum":"b3591a6200624a78720cb0f3e1989088b0d45c85","ranges":[]}
+ViMarks=.,13,37,<,11,24,>,11,32,[,11,0,],13,37,^,11,32
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/rummibot/docs/math.tex]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex]
+CursorColumn=13
+CursorLine=26
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"ac2e7e3560e926fa460646bb01bdd7dc105ece6c","ranges":[]}
+ViMarks=.,8,12,<,36,0,>,37,0,[,6,21,],8,13,^,21,47
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"283644c42d489bedfe39317b4130a610e9b144c6","ranges":[]}
-ViMarks=
+TextFolding={"checksum":"","ranges":[]}
+ViMarks=.,-1,-1,[,-1,-1,],-1,-1,^,-1,-1
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/rummibot/docs/rules.tex]
-CursorColumn=21
-CursorLine=6
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"c3fefd5ee49ea0e37324a99a6a7f9866a3a4c2bf","ranges":[]}
-ViMarks=.,6,20,<,16,0,>,16,0,[,21,0,],6,21,^,0,26
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/unit-fractionator/DOC.tex]
-CursorColumn=151
-CursorLine=17
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"6510d8cb294cca3e826f0c7ba30023e8eb1b8de4","ranges":[]}
-ViMarks=
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/unit-fractioner/unit-fractionator.tex]
-CursorColumn=24
-CursorLine=4
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"6510d8cb294cca3e826f0c7ba30023e8eb1b8de4","ranges":[]}
-ViMarks=.,4,12,<,4,24,>,4,24,[,19,27,],4,24,^,4,24
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/%3CCR%3E]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex]
 CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"26d422e777f6c0ae5caecd461969aa011caf5cf9","ranges":[]}
-ViMarks=
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex3.tex]
-CursorColumn=149
-CursorLine=52
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"fc2f8c7683e2e83260372bb89b1b8f9b97b3a7df","ranges":[]}
-ViMarks=.,40,65,<,52,151,>,52,149,[,40,65,],40,72,^,52,149
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex4.tex]
-CursorColumn=61
-CursorLine=145
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"f8929d622fb1148f531096eea6802de3fe5fb7fe","ranges":[]}
-ViMarks=.,143,109,<,143,119,>,143,119,[,143,109,],143,118,^,143,119,a,90,7,b,52,0
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex5.tex]
-CursorColumn=0
-CursorLine=114
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"715e66fb115a3acd341ee09b455cb7fd00413bc7","ranges":[]}
-ViMarks=.,115,0,<,114,22,>,114,67,[,117,0,],115,0,^,114,67
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex6.tex]
-CursorColumn=22
-CursorLine=34
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"9dbbca0a5531603bb1439e73c5f709f1a85021b2","ranges":[]}
-ViMarks=.,74,13,<,22,111,>,22,138,[,74,13,],74,14,^,22,138
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex7.tex]
-CursorColumn=66
-CursorLine=40
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"e0e958e2e81415816f150fde050a7ecf69715066","ranges":[]}
-ViMarks=.,40,66,<,38,36,>,38,36,[,40,66,],40,66,^,40,66
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex8.tex]
-CursorColumn=0
-CursorLine=176
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"17ef6d0ab595179a3c43bf1d013ee49ca688970f","ranges":[]}
-ViMarks=.,51,338,<,23,0,>,23,0,[,50,0,],51,339,^,51,391,a,106,368
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex]
-CursorColumn=0
-CursorLine=28
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"0da831d7f74c85284996076c9fc920baabe894c8","ranges":[]}
-ViMarks=.,27,16,[,23,0,],28,0,^,29,0
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/week4.tex]
-CursorColumn=20
 CursorLine=11
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"a62b8aff851b3ad9a61b5dc9de7c94b4c9a1ca65","ranges":[]}
+TextFolding={"checksum":"5af0d8273b0f63aca6fbddb538360c98293ef796","ranges":[]}
+ViMarks=.,12,30,<,15,0,>,15,0,[,15,25,],12,30,^,15,0
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/lppl-1-3c.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"0f318c24fa15e58bc408df00ef6a8d81514751e4","ranges":[]}
 ViMarks=
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/pearl_cv.tex]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex]
 CursorColumn=0
-CursorLine=36
+CursorLine=11
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"42dd8ee80d0fc8b2ab24d4d18b3e9c0aa4d71774","ranges":[]}
-ViMarks=.,35,68,<,84,0,>,84,0,[,78,0,],35,69,^,74,13
+TextFolding={"checksum":"8fc5848210232037ff975f9510d588eb651f767d","ranges":[]}
+ViMarks=.,10,21,<,45,0,>,45,0,[,10,21,],10,21,^,10,21
 
-[View-Settings,View=0,URL=file://:@/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty]
-CursorColumn=0
-CursorLine=44
+[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex]
+CursorColumn=29
+CursorLine=1
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"3a2e5476cd1cfb20aea0de1663f084034a923844","ranges":[]}
+TextFolding={"checksum":"c3b9ad28847ff1eef3a6d4b4f1e067ef2b47df56","ranges":[]}
+ViMarks=.,1,0,[,1,0,],1,1,^,25,0
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex5.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"543a084c4b20f434fe1775b2630a73c9f30254d4","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex7.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"07074121e657d5440049d71a729c42cc53f76146","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/dast.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"861119666e8318c3b0e38f2bf5f69509d1a96415","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Linearit/Linear23.tex]
+CursorColumn=10
+CursorLine=86
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"e4e15c56ab885b550e52456666d0b5bc0801f780","ranges":[]}
+ViMarks=.,86,10,<,88,0,>,88,0,[,86,10,],86,10,^,86,10
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"21c1175f8631f6b8ef3038ad3c922ce432ef7c3b","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/main.tex]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"2a06bad58173626ea764784d49603f99139a75f5","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/preamble.tex]
+CursorColumn=25
+CursorLine=39
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"cf6c8f2623b7997a84de0867a602136d253388d9","ranges":[]}
+ViMarks=<,31,0,>,31,0
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/week1.tex]
+CursorColumn=0
+CursorLine=1
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"f51d1374df5a18c5bc22eb2c97bb49ad9debe31a","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/title.tex]
+CursorColumn=64
+CursorLine=25
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"ad8cfda00855df842937b3b031439f808b61d38b","ranges":[]}
+ViMarks=.,25,64,<,25,64,>,25,64,[,25,0,],25,64,^,25,64
+
+[View-Settings,View=0,URL=file://:@/tmp/kile-livepreview.gFTAWI/title.aux]
+CursorColumn=0
+CursorLine=2
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"7a3fe346a97c25c377c16130b70e33fd63565892","ranges":[]}
 ViMarks=
 
 [Wizard]
@@ -1736,5 +1702,5 @@ TabularEnvironment=tabular
 
 [default]
 NewFileWizardSelectedIconBibTeX=Empty File
-NewFileWizardSelectedIconLaTeX=Article
+NewFileWizardSelectedIconLaTeX=Article with Hebrew
 NewFileWizardSelectedIconScript=Empty File

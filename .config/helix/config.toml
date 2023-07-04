@@ -1,0 +1,4 @@
+theme = "nord_dark"
+
+[editor]
+line-number = "relative"

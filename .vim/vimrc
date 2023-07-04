@@ -62,7 +62,7 @@ autocmd FileType tex :nmap <c-s> :!pdflatex % <CR>
 set showmatch
 
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
-autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
+autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
 autocmd FileType markdown :call <SID>math()
 autocmd FileType markdown set norelativenumber number
 autocmd FileType markdown inoremap $ $$<ESC>ha

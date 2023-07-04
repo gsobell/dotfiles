@@ -190,107 +190,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KatePart Settings]
-documents=/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.h,/home/gabriel/Notes/C/ex2-gsobell/main.c,/home/gabriel/Notes/C/Lab 5/5-3.c,/home/gabriel/Notes/C/ex2-gsobell/CMakeLists.txt,/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.c,/home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.h,/home/gabriel/Notes/C/Lab 6/lab6-2.c,/home/gabriel/Notes/C/Lab 6/lab6-2-original.c,/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.c,/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.h,/home/gabriel/Notes/C/ex3b-gsobell/build/Makefile,/home/gabriel/Notes/C/ex3b-gsobell/justdoit_tweets.txt,/home/gabriel/Notes/C/ex3b-gsobell/makefile,/home/gabriel/Notes/C/ex3b-gsobell/linked_list.c,/home/gabriel/Notes/C/ex3b-gsobell/linked_list.h,/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.c,/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.h,/home/gabriel/Notes/C/ex3b-gsobell/tweets_generator.c,/home/gabriel/Notes/C/ex3b-gsobell/snakes_and_ladders.c
-
-[KatePart Settings][/home/gabriel/Notes/C/Lab 5/5-3.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/Lab 5/5-3.c
-
-[KatePart Settings][/home/gabriel/Notes/C/Lab 6/lab6-2-original.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/Lab 6/lab6-2-original.c
-
-[KatePart Settings][/home/gabriel/Notes/C/Lab 6/lab6-2.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/Lab 6/lab6-2.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/CMakeLists.txt]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=CMake
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=CMake
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex2-gsobell/CMakeLists.txt
-
-[KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/main.c]
-Bookmarks=108,119
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex2-gsobell/main.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.h]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C++
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C++
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex2-gsobell/sort_bus_lines.h
-
-[KatePart Settings][/home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.h]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C++
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C++
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex2-gsobell/test_bus_lines.h
-
-[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/build/Makefile]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Makefile
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Makefile
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex3b-gsobell/build/Makefile
-
-[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/justdoit_tweets.txt]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex3b-gsobell/justdoit_tweets.txt
+documents=/home/gabriel/Notes/C/ex3b-gsobell/linked_list.c,/home/gabriel/Notes/C/ex3b-gsobell/linked_list.h,/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.c,/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.h,/home/gabriel/Notes/C/ex3b-gsobell/tweets_generator.c,/home/gabriel/Notes/C/ex3b-gsobell/snakes_and_ladders.c,/home/gabriel/projects/ex4/main.cpp,/home/gabriel/Notes/C/ex4-gsobell/matrix.ccp,/home/gabriel/Notes/C/ex4-gsobell/Matrix.ccp,/home/gabriel/Notes/C/ex4-gsobell/Dense.cpp,/home/gabriel/Notes/C/ex4-gsobell/Dense.h,/home/gabriel/Notes/C/ex4-gsobell/MlpNetwork.h,/home/gabriel/Notes/C/ex4-gsobell/Matrix.h,/home/gabriel/Notes/C/ex4-gsobell/Activation.h,/home/gabriel/Notes/C/ex4-gsobell/Matrix.cpp,/home/gabriel/Notes/C/ex4-gsobell/main.cpp,/home/gabriel/Notes/C/ex4-gsobell/Makefile,/home/gabriel/Notes/C/ex4-gsobell/Activation.cpp,/home/gabriel/Notes/C/ex4-gsobell/MlpNetwork.cpp
 
 [KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/linked_list.c]
 Bookmarks=
@@ -312,16 +212,6 @@ Mode=C++
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/ex3b-gsobell/linked_list.h
 
-[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/makefile]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Makefile
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Makefile
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex3b-gsobell/makefile
-
 [KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/markov_chain.c]
 Bookmarks=
 Encoding=UTF-8
@@ -341,26 +231,6 @@ Indentation Mode=cstyle
 Mode=C++
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/ex3b-gsobell/markov_chain.h
-
-[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.c]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.c
-
-[KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.h]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=C++
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C++
-Mode Set By User=false
-URL=file:///home/gabriel/Notes/C/ex3b-gsobell/old_markov_chain.h
 
 [KatePart Settings][/home/gabriel/Notes/C/ex3b-gsobell/snakes_and_ladders.c]
 Bookmarks=
@@ -382,18 +252,148 @@ Mode=C
 Mode Set By User=false
 URL=file:///home/gabriel/Notes/C/ex3b-gsobell/tweets_generator.c
 
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Activation.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Activation.cpp
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Activation.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Activation.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Dense.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Dense.cpp
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Dense.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Dense.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Makefile]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Makefile
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Makefile
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Makefile
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Matrix.ccp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Matrix.ccp
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Matrix.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Matrix.cpp
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/Matrix.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/Matrix.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/MlpNetwork.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/MlpNetwork.cpp
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/MlpNetwork.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/MlpNetwork.h
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/main.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/main.cpp
+
+[KatePart Settings][/home/gabriel/Notes/C/ex4-gsobell/matrix.ccp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/gabriel/Notes/C/ex4-gsobell/matrix.ccp
+
+[KatePart Settings][/home/gabriel/projects/ex4/main.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///home/gabriel/projects/ex4/main.cpp
+
 [Language Support]
 globalColorSource=FromTheme
 
 [Main Window]
-Desktop 1920 1080=967,41,941,1027
+Desktop 1920 1080=0,29,1920,1051
 
 [MainWindow]
-1920x1080 screen: Height=1027
-1920x1080 screen: Width=941
-1920x1080 screen: XPosition=967
-1920x1080 screen: YPosition=41
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAAAAAAAAAPsAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAJgA////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAeAD////7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAABWAD///8AAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAGE/AEAAAAO+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABIAVABlAHMAdABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAaAFYAYQBsAGcAcgBpAG4AZABfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAA0AEQAaQBzAGEAcwBzAGUAbQBiAGwAZQAvAFIAZQBnAGkAcwB0AGUAcgBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAARwBEAEIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAFgBNAGUAbQBvAHIAeQBfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAAQAFIAdQBuAF8AYwBvAGQAZQAAAAAcAAAHSAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAKMA////+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQAAAAAgAAADbQAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAAAAACAAAAdAAAABhwD////7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAAdAAAAAowD///8AAANtAAADkAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAF//////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAAmP/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+1920x1080 screen: Height=1051
+1920x1080 screen: Width=1920
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=29
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAABeAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAJgA////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAeAD////7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAQAAAE4AAAOoAAAAAAAAAAAAAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAGE/AEAAAAO+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABIAVABlAHMAdABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAaAFYAYQBsAGcAcgBpAG4AZABfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAA0AEQAaQBzAGEAcwBzAGUAbQBiAGwAZQAvAFIAZQBnAGkAcwB0AGUAcgBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAARwBEAEIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAFgBNAGUAbQBvAHIAeQBfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAAQAFIAdQBuAF8AYwBvAGQAZQAAAAAcAAAHSAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAKMA////+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQAAAAAgAAADbQAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAAAAACAAAAdAAAABhwD////7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAAdAAAAAowD///8AAAdAAAADqAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAASg/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAABYT/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1920x1080=1051
@@ -414,11 +414,11 @@ eDP-1 YPosition 1920x1080 eDP-1=29
 (1) Tool Views Order=org.kdevelop.ClassBrowserView,org.kdevelop.DocumentsView,org.kdevelop.ProjectsView,org.kdevelop.ScratchpadView,org.kdevelop.FileManagerView
 (2) Tool Views Order=org.kdevelop.ExternalScriptView
 (8) Tool Views Order=org.kdevelop.ContextBrowser,org.kdevelop.ProblemReporterView,org.kdevelop.KonsoleView,org.kdevelop.GrepOutputView
-1920x1080 screen: Height=1027
-1920x1080 screen: Width=941
-1920x1080 screen: XPosition=967
-1920x1080 screen: YPosition=41
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAABeAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAJgA////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAeAD////7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAABWAD///8AAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAGE/AEAAAAO+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAQAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABIAVABlAHMAdABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAaAFYAYQBsAGcAcgBpAG4AZABfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAA0AEQAaQBzAGEAcwBzAGUAbQBiAGwAZQAvAFIAZQBnAGkAcwB0AGUAcgBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAARwBEAEIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAFgBNAGUAbQBvAHIAeQBfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAAQAFIAdQBuAF8AYwBvAGQAZQAAAAAcAAAHSAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAKMA////+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQAAAAAgAAADbQAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAAAAACAAAAdAAAABhwD////7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAAdAAAAAowD///8AAANtAAADkAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAF//////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAAmP/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+1920x1080 screen: Height=1051
+1920x1080 screen: Width=1920
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=29
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEgAAADqPwCAAAABfsAAAAgAEYAaQBsAGUAIABTAHkAcwB0AGUAbQBfAGMAbwBkAGUAAAAATgAAA6gAAABeAP////sAAAAeAFMAYwByAGEAdABjAGgAcABhAGQAXwBjAG8AZABlAAAAAE4AAAOoAAAAwAD////7AAAAGABDAGwAYQBzAHMAZQBzAF8AYwBvAGQAZQAAAABOAAADqAAAAJgA////+wAAABwARABvAGMAdQBtAGUAbgB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAAAeAD////7AAAAGgBQAHIAbwBqAGUAYwB0AHMAXwBjAG8AZABlAAAAAE4AAAOoAAABWAD///8AAAABAAABAAAAA6j8AgAAAAH7AAAAKgBFAHgAdABlAHIAbgBhAGwAIABTAGMAcgBpAHAAdABzAF8AYwBvAGQAZQAAAABOAAADqAAAAMAA////AAAAAwAAB0AAAAGE/AEAAAAO+wAAACgAVgBlAHIAcwBpAG8AbgAgAEMAbwBuAHQAcgBvAGwAXwBjAG8AZABlAAAAACAAAANtAAAAAAAAAAD7AAAACgBfAGMAbwBkAGUAAAAAIAAAA20AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAAgAAAHQAAAAHgA////+wAAABIAVABlAHMAdABfAGMAbwBkAGUBAAAAIAAAB0AAAAAAAAAAAPsAAAAaAFYAYQBsAGcAcgBpAG4AZABfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAA0AEQAaQBzAGEAcwBzAGUAbQBiAGwAZQAvAFIAZQBnAGkAcwB0AGUAcgBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABAARwBEAEIAXwBjAG8AZABlAAAAACAAAAdAAAAAAAAAAAD7AAAAFgBNAGUAbQBvAHIAeQBfAGMAbwBkAGUAAAAAIAAAB0AAAAAAAAAAAPsAAAAQAFIAdQBuAF8AYwBvAGQAZQAAAAAcAAAHSAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQAAAAAgAAAHQAAAAAAAAAAA+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQAAAAAgAAAHQAAAAKMA////+wAAABQAQgB1AGkAbABkAF8AYwBvAGQAZQAAAAAgAAADbQAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAAAAACAAAAdAAAABhwD////7AAAAGgBUAGUAcgBtAGkAbgBhAGwAXwBjAG8AZABlAAAAACAAAAdAAAAAowD///8AAAdAAAADqAAAAAQAAAAEAAAAAQAAAAL8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAASg/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAABYT/////AAAAAAAAAAAAAAAYAGQAZQBiAHUAZwBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 debugToolBarVisibility=false
 eDP=eDP
@@ -454,7 +454,7 @@ eDP XPosition 1920x1080 eDP=0
 eDP YPosition 1920x1080 eDP=29
 
 [Open File]
-Last Open File Directory=file:///home/gabriel/Notes/C/ex3b-gsobell/
+Last Open File Directory=file:///home/gabriel/Notes/C/ex4-gsobell/
 
 [Providers]
 LastProviderIndex=2
@@ -464,48 +464,48 @@ SelectedItems=Functions,Files,Classes,Documentation,Actions
 SelectedScopes=Currently Open,Project,Includes
 
 [Recent Files]
-File1[$e]=$HOME/Notes/C/ex3b-gsobell/build/Makefile
-File10[$e]=$HOME/Notes/C/ex3b-gsobell/tweets_generator.c
-File2[$e]=$HOME/Notes/C/ex3b-gsobell/tweets_generator
-File3[$e]=$HOME/Notes/C/ex3b-gsobell/justdoit_tweets.txt
-File4[$e]=$HOME/Notes/C/ex3b-gsobell/makefile
-File5[$e]=$HOME/Notes/C/ex3b-gsobell/linked_list.c
-File6[$e]=$HOME/Notes/C/ex3b-gsobell/linked_list.h
-File7[$e]=$HOME/Notes/C/ex3b-gsobell/markov_chain.c
-File8[$e]=$HOME/Notes/C/ex3b-gsobell/markov_chain.h
-File9[$e]=$HOME/Notes/C/ex3b-gsobell/snakes_and_ladders.c
-Name1[$e]=Makefile
-Name10[$e]=tweets_generator.c
-Name2[$e]=tweets_generator
-Name3[$e]=justdoit_tweets.txt
-Name4[$e]=makefile
-Name5[$e]=linked_list.c
-Name6[$e]=linked_list.h
-Name7[$e]=markov_chain.c
-Name8[$e]=markov_chain.h
-Name9[$e]=snakes_and_ladders.c
+File1[$e]=$HOME/Notes/C/ex4-gsobell/Matrix.ccp
+File10[$e]=$HOME/Notes/C/ex4-gsobell/Matrix.h
+File2[$e]=$HOME/Notes/C/ex4-gsobell/Activation.cpp
+File3[$e]=$HOME/Notes/C/ex4-gsobell/Dense.h
+File4[$e]=$HOME/Notes/C/ex4-gsobell/Dense.cpp
+File5[$e]=$HOME/Notes/C/ex4-gsobell/Activation.h
+File6[$e]=$HOME/Notes/C/ex4-gsobell/Makefile
+File7[$e]=$HOME/Notes/C/ex4-gsobell/Matrix.cpp
+File8[$e]=$HOME/Notes/C/ex4-gsobell/MlpNetwork.h
+File9[$e]=$HOME/Notes/C/ex4-gsobell/MlpNetwork.cpp
+Name1[$e]=Matrix.ccp
+Name10[$e]=Matrix.h
+Name2[$e]=Activation.cpp
+Name3[$e]=Dense.h
+Name4[$e]=Dense.cpp
+Name5[$e]=Activation.h
+Name6[$e]=Makefile
+Name7[$e]=Matrix.cpp
+Name8[$e]=MlpNetwork.h
+Name9[$e]=MlpNetwork.cpp
 
 [RecentProjects]
-File1[$e]=$HOME/CLionProjects/untitled/untitled.kdev4
-File10[$e]=$HOME/Notes/C/ex3b-gsobell/ex3b-gsobell.kdev4
-File2[$e]=$HOME/projects/exo012/exo012.kdev4
-File3[$e]=$HOME/C/helloworld/helloworld.kdev4
-File4[$e]=$HOME/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language.kdev4
-File5[$e]=$HOME/Notes/C/ex1/ex1.kdev4
-File6[$e]=$HOME/Notes/C/Lab 1/Lab 1.kdev4
-File7[$e]=$HOME/Notes/C/Lab 2/Lab 2.kdev4
-File8[$e]=$HOME/Notes/C/ex1-gsobell/ex1-gsobell.kdev4
-File9[$e]=$HOME/Notes/C/ex2-gsobell/ex2-gsobell.kdev4
-Name1[$e]=untitled.kdev4
-Name10[$e]=ex3b-gsobell.kdev4
-Name2[$e]=exo012.kdev4
-Name3[$e]=helloworld.kdev4
-Name4[$e]=The-C-Programming-Language.kdev4
-Name5[$e]=ex1.kdev4
-Name6[$e]=Lab 1.kdev4
-Name7[$e]=Lab 2.kdev4
-Name8[$e]=ex1-gsobell.kdev4
-Name9[$e]=ex2-gsobell.kdev4
+File1[$e]=$HOME/C/helloworld/helloworld.kdev4
+File10[$e]=$HOME/projects/ex4/ex4.kdev4
+File2[$e]=$HOME/Documents/Repos/The-C-Programming-Language/The-C-Programming-Language.kdev4
+File3[$e]=$HOME/Notes/C/ex1/ex1.kdev4
+File4[$e]=$HOME/Notes/C/Lab 1/Lab 1.kdev4
+File5[$e]=$HOME/Notes/C/Lab 2/Lab 2.kdev4
+File6[$e]=$HOME/Notes/C/ex1-gsobell/ex1-gsobell.kdev4
+File7[$e]=$HOME/Notes/C/ex2-gsobell/ex2-gsobell.kdev4
+File8[$e]=$HOME/Notes/C/ex3b-gsobell/ex3b-gsobell.kdev4
+File9[$e]=$HOME/Notes/C/ex4-gsobell/ex4-gsobell.kdev4
+Name1[$e]=helloworld.kdev4
+Name10[$e]=ex4.kdev4
+Name2[$e]=The-C-Programming-Language.kdev4
+Name3[$e]=ex1.kdev4
+Name4[$e]=Lab 1.kdev4
+Name5[$e]=Lab 2.kdev4
+Name6[$e]=ex1-gsobell.kdev4
+Name7[$e]=ex2-gsobell.kdev4
+Name8[$e]=ex3b-gsobell.kdev4
+Name9[$e]=ex4-gsobell.kdev4
 
 [Register models][FPU]
 format=2
@@ -528,7 +528,7 @@ format=0
 mode=1
 
 [Sessions]
-Active Session ID={42dda06b-bfe3-4604-9471-b70fcb96aba4}
+Active Session ID={c959209b-876f-47a2-abec-dd48c0af72d4}
 
 [UI]
 Shortcut for Terminal=Ctrl+T,
