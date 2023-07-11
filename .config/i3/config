@@ -11,6 +11,7 @@
 # Set mod key and default terminal
 set $mod      Mod1
 set $terminal alacritty
+set $editor   helix
 
 
 # Font for window titles. Define i3bar font{} below.

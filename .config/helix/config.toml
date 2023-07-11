@@ -2,3 +2,14 @@ theme = "nord_dark"
 
 [editor]
 line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[keys.normal]
+C-s = ":w"
+esc = ["collapse_selection", "keep_primary_selection"]
+0 = "goto_line_start"
+"$" = "goto_line_end"
+G = "goto_file_end"
+# d = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection"]

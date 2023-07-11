@@ -7,15 +7,18 @@
 - [blurlock](https://github.com/karulont/i3lock-blur)
 - [dunst](https://github.com/dunst-project/dunst)
 - [dmenu](https://git.suckless.org/dmenu/log.html)
+- [redshift](https://github.com/jonls/redshift)
 - [pipewire](https://gitlab.freedesktop.org/pipewire/pipewire/)
 
 ## some of my favorite things:
 
 ### tui
 - [vim](https://github.com/vim/vim) - vi improved
+- [helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
 - [mocp](https://github.com/jonsafari/mocp) - music on console player
 - [ranger](https://github.com/ranger/ranger) - a vim-inspired filemanager for the console
 - [bottom](https://github.com/ClementTsang/bottom) - proccess/system monitor in rust
+- [newsboat](https://newsboat.org/) - An RSS/Atom feed reader for the text console
 - [paru](https://github.com/Morganamilo/paru) - feature packed AUR helper
 - [clisp](https://clisp.sourceforge.io/) -  GNU ANSI common lisp implementation
 
@@ -37,5 +40,5 @@
 
 ### fonts
 - [computer modern](https://cm-unicode.sourceforge.io/index.html) - typesetting and print
-- [dejavu sans](https://github.com/dejavu-fonts/dejavu-fonts) -  monospace
+- [dejavu sans](https://github.com/dejavu-fonts/dejavu-fonts) - monospace
 - [noto sans](https://github.com/notofonts) - system UI

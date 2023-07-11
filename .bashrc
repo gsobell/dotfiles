@@ -121,12 +121,12 @@ unset use_color safe_term match_lhs sh
 alias bashrc='vim ~/.bashrc'
 alias vimrc='vim ~/.vim/vimrc'
 alias gitrc='vim ~/.config/git/config'
-alias helixrc='vim ~/.config/helix/config.toml'
+alias helixrc='helix ~/.config/helix/config.toml'
 alias dunstrc='vim ~/.config/dunst/dunstrc'
 alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.config/newsboat/urls ~/.config/newsboat/config'
 alias dmenurc='vim ~/.config/dmenu-recent/config'
-alias i3='vim ~/.config/i3/config'
+alias i3rc='vim ~/.config/i3/config'
 alias i3b='vim ~/.config/i3blocks/config'
 alias ala='vim ~/.config/alacritty/alacritty.yml'
 
@@ -135,6 +135,7 @@ alias v='vim'
 alias p='python'
 alias r="ranger"
 alias sr='sudo ranger'
+alias hx='helix'
 
 alias td='vim ~/Notes/to.do.md'
 alias cr='cd ~/Documents/Repos; ls'
