@@ -20,6 +20,7 @@
 - [bottom](https://github.com/ClementTsang/bottom) - proccess/system monitor in rust
 - [newsboat](https://newsboat.org/) - An RSS/Atom feed reader for the text console
 - [paru](https://github.com/Morganamilo/paru) - feature packed AUR helper
+- [taskell](https://github.com/smallhadroncollider/taskell) -  Command-line Kanban board
 - [clisp](https://clisp.sourceforge.io/) -  GNU ANSI common lisp implementation
 
 ### gui

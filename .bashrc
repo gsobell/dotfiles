@@ -130,7 +130,7 @@ alias i3rc='vim ~/.config/i3/config'
 alias i3b='vim ~/.config/i3blocks/config'
 alias ala='vim ~/.config/alacritty/alacritty.yml'
 
-alias t='task'
+alias t='cd ~/Notes && taskell && cd - &> /dev/null'
 alias v='vim'
 alias p='python'
 alias r="ranger"
@@ -163,6 +163,7 @@ alias jb='journalctl -b'              #current boot
 alias neo='neofetch'
 alias mutt='neomutt'
 alias news='newsboat'
+alias rss='newsboat'
 alias www='curl wttr.in/Jerusalem'
 alias ww='curl v2.wttr.in/Jerusalem'
 alias zmanim='hebcal -tZEC Jerusalem'
@@ -268,7 +269,7 @@ recent() {
 
 nw() {
         set $(cd ~/Notes ; ls -d */ );
-        select subject in ${@%/};
+        select subject in "${@%/}";
         do 
 	read -p "Note title: " title;
         echo "# $title $subject $(date +%d-%m-%C)" > ~/Notes/$subject/$(date +%d-%m-%C).md

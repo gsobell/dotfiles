@@ -1,5 +1,5 @@
 syntax on
-autocmd BufEnter * colorscheme default
+autocmd BufEnter * colorscheme nord
 autocmd BufEnter *.md colorscheme nord
 autocmd BufEnter *.tex colorscheme nord
 filetype on

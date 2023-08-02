@@ -1,4 +1,4 @@
-" Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+"Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
 " Copyright (C) 2016-present Sven Greb <development@svengreb.de>
 
 " Project: Nord Vim

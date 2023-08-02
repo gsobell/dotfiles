@@ -66,8 +66,10 @@ bindsym Mod4+Shift+c exec mocp --next
 #bindsym XF86AudioPrev exec playerctl previous
 
 # Microphone mute toggle
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/audio-input-microphone-muted.svg  "Muted" && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/mic-ready.svg  "Unmuted" 
-#Fix this later
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/audio-input-microphone-muted.svg  "Mute Toggled" 
+# bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/audio-input-microphone-muted.svg  "Mute" && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/mic-ready.svg  "Unmuted" 
+
+# Fix this later
 
 # End of sound section.
 
@@ -123,7 +125,6 @@ assign     [title="neomutt"]   $ws4
 
 # Autostart applications
 exec        --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec        --no-startup-id volumeicon 
 exec        --no-startup-id thunar --daemon
 exec_always --no-startup-id autotiling
 exec        --no-startup-id redshift-gtk
@@ -141,6 +142,7 @@ exec        --no-startup-id mpris-proxy
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
+exec         :  & sleep 2 && volumeicon 
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
