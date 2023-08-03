@@ -21,17 +21,17 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
 export EDITOR='vim'
-export TERMINAL=/usr/bin/alacritty
-export READER=/usr/bin/zathura
-export BROWSER=/usr/bin/firefox
-export TRUEBROWSER=/usr/bin/firefox
-export COLORTERM="truecolor"
-export PAGER="less"
+export TERMINAL='alacritty'
+export READER='zathura'
+export BROWSER='firefox'
+export TRUEBROWSER='firefox'
+export COLORTERM='truecolor'
+export PAGER='less'
 export GIT_PAGER='colordiff'
 
 export ERRFILE="$HOME/.cache/X11/xsession-errors"
 export HISTFILE="$XDG_DATA_HOME"/bash/history
-export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export HISTORY_IGNORE="(ls|cd|pwd|exit|history|cd -|cd ..)"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 colors() {
@@ -90,9 +90,9 @@ if ${use_color} ; then
 	# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
 	if type -P dircolors >/dev/null ; then
 		if   [[ -f ~/.config/dir_colors ]] ; then
-			eval $(dircolors -b ~/.config/dir_colors)
+			eval "$(dircolors -b ~/.config/dir_colors)"
 		elif [[ -f /etc/DIR_COLORS ]]      ; then
-			eval $(dircolors -b /etc/DIR_COLORS)
+			eval "$(dircolors -b /etc/DIR_COLORS)"
 		fi
 	fi
 
@@ -130,17 +130,17 @@ alias i3rc='vim ~/.config/i3/config'
 alias i3b='vim ~/.config/i3blocks/config'
 alias ala='vim ~/.config/alacritty/alacritty.yml'
 
-alias t='cd ~/Notes && taskell && cd - &> /dev/null'
+# alias t='cd ~/Notes && taskell && cd - &> /dev/null'
 alias v='vim'
 alias p='python'
 alias r="ranger"
 alias sr='sudo ranger'
+alias h='helix'
 alias hx='helix'
+
 
 alias td='vim ~/Notes/to.do.md'
 alias cr='cd ~/Documents/Repos; ls'
-alias C='cd ~/Notes/C/; ls'
-alias fms='cd ~/Documents/Repos/five-minute-scripts; ls'
 alias diff='colordiff'
 alias df='df -h'
 alias ll='ls -la' 
@@ -149,8 +149,6 @@ alias cp='cp -i'
 alias nn='cd ~/Notes'
 alias n='cd ~/Notes'
 alias mkdir='mkdir -pv'
-alias rrm='rm -Riv'
-alias yrrm='yes | rm -Riv'
 alias py='bpython'
 alias backlight='xset dpms force off'
 
@@ -218,7 +216,7 @@ ex () {
       *.zip)       unzip $1     ;;
       *.Z)         uncompress $1;;
       *.7z)        7z x $1      ;;
-      *)           echo "'$1' casnot be extracted via ex()" ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
     esac
   else
     echo "'$1' is not a valid file"
@@ -228,12 +226,22 @@ ex () {
 command_not_found_handle() {
       if [[ $1 =~ .*.md  ]]; then vim "$1"
     elif [[ $1 =~ .*.csv ]]; then sc-im "$1"
-    elif [[ $1 =~ .*.pdf ]]; then zathura "$1" &
-    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then feh "$1" &
+    elif [[ $1 =~ .*.pdf ]]; then zathura "$1" & disown
+    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then exec feh "$1" & disown
     else echo "Command not found"
     fi
 }
 
+
+t (){
+if [[ -e "todo.md" ]]; then
+    taskell todo.md
+elif [[ -e "TODO.md" ]]; then
+    taskell TODO.md
+else
+    (cd ~/Notes && taskell)
+fi
+}
 
 #Prints a list of installed packages
 
@@ -268,7 +276,7 @@ recent() {
 }
 
 nw() {
-        set $(cd ~/Notes ; ls -d */ );
+        set "$(cd ~/Notes ; ls -d */ )";
         select subject in "${@%/}";
         do 
 	read -p "Note title: " title;
@@ -302,11 +310,12 @@ alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 dots() {
         /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add -u
-	if [[ -n "$1" ]]
-	then /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$1"
-	else /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$HOSTNAME $(date +%X)"
-	fi
-	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push 
+				# if [[ -n "$1" ]]
+				# then /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$1"
+				# else /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -m "$HOSTNAME $(date +%X)"
+				# fi
+				/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit
+				/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push 
 }
 
 uusb(){
@@ -318,9 +327,9 @@ uusb(){
 alias usb='/run/media/$USER/* || /run/media/$USER ; ls'
 
 
-
 z(){
         zathura $1 &
+        disown
 }
 
 
@@ -329,39 +338,6 @@ rmgen(){
         vim -c "normal gg" -c "normal i# ${folder_name}" -c "normal o" -c "startinsert" README.md
         # vim -c 'startinsert' README.md #generated read me in WD
 }
-
-tda(){
-        if [[ -n "$1" ]]
-                then echo "- $@" >> ~/Notes/to.do.md
-                else read -p "Add item... " ITEM
-                while ! [ -z "$ITEM" ]
-                do
-                echo "- $ITEM" >> ~/Notes/to.do.md 
-                read -p "Add another item... " ITEM
-                done
-        fi
-}
-
-
-
-eod(){  
-        dots 
-        nr
-        echo ""
-        echo -e "\e[0;34mDid you remember to:\e[0m"
-        while true; do
-        sed -n '/EOD/,/^$/p' ~/Notes/to.do.md | sed '1d'
-        fortune
-        echo -e "\e[0;31m(S)hutdown now\e[0;34m (E)dit To Do \e[0;32m(N)ow exit \e[0m"
-                read  SLEEPDEPRIVEDDECISION
-                case $SLEEPDEPRIVEDDECISION in
-                "s"|"S") shutdown now ;;
-                ""|"n"|"N") echo "Goodnight"; break ;;
-                "v"|"e") vim ~/Notes/to.do.md;;
-                esac
-        done
-}
-
 [ -f ~/.xsession-errors ] && rm ~/.xsession-errors
 
 # EOF
