@@ -239,7 +239,7 @@ if [[ -e "todo.md" ]]; then
 elif [[ -e "TODO.md" ]]; then
     taskell TODO.md
 else
-    (cd ~/Notes && taskell)
+     taskell ~/Notes/todo.md
 fi
 }
 
@@ -267,7 +267,7 @@ rpan(){
         read -p "URL: " URL
         curl $URL       |
         readable --low-confidence force --base |
-        pandoc -f html -o ~/To\ Read/"$FILE".pdf --pdf-engine=xelatex
+        pandoc -f html -t ~/"$FILE".pdf --pdf-engine=xelatex
 }
 
 recent() {

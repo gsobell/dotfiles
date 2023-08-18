@@ -44,6 +44,10 @@ highlight article ":.*\\(link\\)$" cyan default
 highlight article ":.*\\(image\\)$" blue default
 highlight article ":.*\\(embedded flash\\)$" magenta default
 
+
+highlight feedlist "---.*---" cyan default bold
+highlight feedlist ".*0/0.." default default invis
+
 browser w3m
 macro , open-in-browser
 macro p set browser "readable --low-confidence force %u | w3m -T text/html" ; open-in-browser ; set browser "w3m"

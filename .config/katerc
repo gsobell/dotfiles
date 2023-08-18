@@ -178,8 +178,8 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Replace History=\\\\n\\\\n,\\\\n \\\\n,
-Search History=\\\\n
+Replace History=\s= ,,\\\\n\\\\n,\\\\n \\\\n
+Search History==,\\\\n
 
 [Konsole]
 AutoSyncronize=true
@@ -190,8 +190,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=507
-1920x1080 screen: Width=941
+1920x1080 screen: Height=1051
+1920x1080 screen: Width=1920
 State=AAAA/wAAAAD9AAAAAAAAB4AAAAPrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP=eDP
@@ -229,20 +229,20 @@ sortRole=0
 viewShade=193,207,208
 
 [lspclient]
-AllowedServerCommandLines=/usr/bin/bash-language-server start,/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/pylsp --check-parent-process,/usr/bin/texlab
+AllowedServerCommandLines=/usr/bin/bash-language-server start,/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/texlab
 AutoHover=true
 AutoImport=true
-BlockedServerCommandLines=
+BlockedServerCommandLines=/usr/bin/pylsp --check-parent-process
 CompletionDocumentation=true
 CompletionParens=true
-Diagnostics=true
+Diagnostics=false
 DiagnosticsHighlight=true
 DiagnosticsHover=true
 DiagnosticsMark=true
 DiagnosticsSize=1024
-FormatOnSave=false
+FormatOnSave=true
 HighlightGoto=true
-IncrementalSync=false
+IncrementalSync=true
 InlayHints=false
 Messages=true
 ReferencesDeclaration=true
@@ -253,7 +253,7 @@ SymbolDetails=false
 SymbolExpand=true
 SymbolSort=false
 SymbolTree=true
-TypeFormatting=true
+TypeFormatting=false
 
 [project]
 autorepository=git

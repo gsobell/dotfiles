@@ -4,19 +4,6 @@ CompleteTex=1-latex-document,1-tex,1-amsthm,1-amsmath,1-amssymb,1-amsfonts
 completeAutoAbbrev=true
 completeShowAbbrev=true
 
-[Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
 [Document-Settings,URL=file://:@/home/gabriel/Documents/Repos/texplates/LICENSE.tex]
 Bookmarks=
 Highlighting=LaTeX
@@ -85,33 +72,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex5.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex7.tex]
-Bookmarks=
-Highlighting=LaTeX
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=LaTeX
-Mode Set By User=false
-bibliographyBackendAutoDetected=
-bibliographyBackendUserOverride=
-kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
-
-[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/dast.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -176,7 +137,7 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
-[Document-Settings,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/week1.tex]
+[Document-Settings,URL=file://:@/home/gabriel/Notes/cv/cv.tex]
 Bookmarks=
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -187,7 +148,7 @@ bibliographyBackendAutoDetected=
 bibliographyBackendUserOverride=
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
-kile_livePreviewTool=LivePreview-PDFLaTeX
+kile_livePreviewTool=LivePreview-XeLaTeX
 
 [Document-Settings,URL=file://:@/home/gabriel/heb.tex]
 Bookmarks=
@@ -241,6 +202,14 @@ kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
 
+[Document-Settings,URL=file://:@/usr/share/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf]
+Bookmarks=
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+
 [Editor Ext]
 InsertSpecialCharacters=true
 
@@ -258,11 +227,11 @@ treeViewIconSize=16
 
 [Files]
 CleanUpAfterClose=true
-LastDocument[$e]=$HOME/test.tex
+LastDocument[$e]=$HOME/Documents/Repos/texplates/math-article/math-article.tex
 lastDir[$e]=$HOME/
 
 [FilesOpenOnStart]
-DocsOpenOnStart0[$e]=$HOME/test.tex
+DocsOpenOnStart0[$e]=$HOME/Documents/Repos/texplates/math-article/math-article.tex
 EncodingsOfDocsOpenOnStart0[$e]=UTF-8
 NoDOOS=1
 NoPOOS=0
@@ -271,9 +240,9 @@ NoPOOS=0
 MainwindowHeight=1027
 MainwindowWidth=941
 horizontalSplitterLeft=0
-horizontalSplitterRight=390
-verticalSplitterBottom=216
-verticalSplitterTop=714
+horizontalSplitterRight=363
+verticalSplitterBottom=176
+verticalSplitterTop=754
 
 [IncludeGraphics]
 igBoundingBox=true
@@ -492,36 +461,36 @@ selPreviewInWidget=true
 KILE_LATEX_SAVE_DIR[$e]=file:$HOME/,file:$HOME/Documents/Repos/rummibot/docs/,file:$HOME/Documents/
 
 [Recent Files]
-File1[$e]=$HOME/Documents/Repos/texplates/cover-page/title.tex
-File10[$e]=$HOME/test.tex
-File2[$e]=$HOME/Documents/Repos/texplates/cs-article/cs-article.tex
-File3[$e]=$HOME/Notes/Linearit/Linear23.tex
-File4[$e]=$HOME/Documents/Repos/texplates/math-article/math-article.tex
-File5[$e]=$HOME/Notes/Set Theory/Exercises/ex1.tex
-File6[$e]=$HOME/Documents/Repos/texplates/bidi-article/bidi-article-tex
-File7[$e]=$HOME/ral.tex
-File8[$e]=$HOME/heb.tex
-File9[$e]=$HOME/pearl_cv.tex
-Name1[$e]=title.tex
-Name10[$e]=test.tex
-Name2[$e]=cs-article.tex
-Name3[$e]=Linear23.tex
-Name4[$e]=math-article.tex
-Name5[$e]=ex1.tex
-Name6[$e]=bidi-article-tex
-Name7[$e]=ral.tex
-Name8[$e]=heb.tex
-Name9[$e]=pearl_cv.tex
+File1[$e]=$HOME/Documents/Repos/texplates/bidi-article/bidi-article-tex
+File10[$e]=$HOME/Documents/Repos/texplates/math-article/math-article.tex
+File2[$e]=$HOME/ral.tex
+File3[$e]=$HOME/heb.tex
+File4[$e]=$HOME/pearl_cv.tex
+File5[$e]=$HOME/test.tex
+File6[$e]=/usr/share/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf
+File7[$e]=$HOME/Notes/cv/cv.tex
+File8[$e]=$HOME/Notes/5784a/Dast/Ex5.tex
+File9[$e]=$HOME/Notes/5784a/Dast/Ex6.tex
+Name1[$e]=bidi-article-tex
+Name10[$e]=math-article.tex
+Name2[$e]=ral.tex
+Name3[$e]=heb.tex
+Name4[$e]=pearl_cv.tex
+Name5[$e]=test.tex
+Name6[$e]=gloss-hebrew.ldf
+Name7[$e]=cv.tex
+Name8[$e]=Ex5.tex
+Name9[$e]=Ex6.tex
 
 [Scripting]
 ScriptNameColumnWidth=100
 
 [Session Settings]
-Documents=file://:@/home/gabriel/test.tex
-Saved Documents=file://:@/home/gabriel/test.tex,file://:@/home/gabriel/pearl_cv.tex,file://:@/home/gabriel/heb.tex,file://:@/home/gabriel/heb.tex,file://:@/home/gabriel/heb.tex,file://:@/home/gabriel/ral.tex,file://:@/home/gabriel/ral.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex,file://:@/home/gabriel/Notes/Linearit/Linear23.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Linearit/Linear23.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/README.md,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/main.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/LICENSE.tex,file://:@/home/gabriel/Documents/Repos/texplates/.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex10.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex9.tex,file://:@/home/gabriel/Notes/Linearit/linear10.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex7.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex5.tex,file://:@/home/gabriel/Notes/5784a/Dast/dast.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/template.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex8.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex9.tex,file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex,file://:@/home/gabriel/Documents/Repos/texplates/.tex,file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/week1.tex,file://:@/home/gabriel/Documents/Repos/texplates/preamble.tex
+Documents=file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex
+Saved Documents=file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex5.tex,file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/usr/share/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/usr/share/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf,file://:@/home/gabriel/Notes/cv/cv.tex,file://:@/home/gabriel/test.tex,file://:@/home/gabriel/test.tex,file://:@/home/gabriel/test.tex,file://:@/home/gabriel/pearl_cv.tex,file://:@/home/gabriel/heb.tex,file://:@/home/gabriel/heb.tex,file://:@/home/gabriel/heb.tex,file://:@/home/gabriel/ral.tex,file://:@/home/gabriel/ral.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex1.tex,file://:@/home/gabriel/Notes/Linearit/Linear23.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Linearit/Linear23.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/README.md,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/preamble.tex,file://:@/home/gabriel/Notes/Set Theory/Notes/main.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/cs-article.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/LICENSE.tex,file://:@/home/gabriel/Documents/Repos/texplates/.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cover-page/title.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Documents/Repos/texplates/bidi-article/bidi-article-tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex10.tex,file://:@/home/gabriel/Documents/Repos/texplates/cs-article/Ex11.tex,file://:@/home/gabriel/Notes/Set Theory/Exercises/ex9.tex
 
 [Show]
-BottomBarSize=172
+BottomBarSize=132
 HideProblemBadBox=true
 HideProblemWarning=true
 ShowSplashScreen=false
@@ -1450,7 +1419,7 @@ to=xdvi
 type=Process
 
 [ToolSelectAction]
-Compile=14
+Compile=11
 Convert=0
 Quick=0
 View=5
@@ -1537,14 +1506,6 @@ DefaultProjectLocation=/home/gabriel/Notes
 [VersionInfo]
 RCVersion=8
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/.tex]
-CursorColumn=0
-CursorLine=10
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"414e822c54561b8ca1de7594caf953eeed5225f9","ranges":[]}
-ViMarks=.,1,0,[,1,0,],1,17,^,3,0
-
 [View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/LICENSE.tex]
 CursorColumn=0
 CursorLine=0
@@ -1586,35 +1547,19 @@ TextFolding={"checksum":"5af0d8273b0f63aca6fbddb538360c98293ef796","ranges":[]}
 ViMarks=.,12,30,<,15,0,>,15,0,[,15,25,],12,30,^,15,0
 
 [View-Settings,View=0,URL=file://:@/home/gabriel/Documents/Repos/texplates/math-article/math-article.tex]
-CursorColumn=0
-CursorLine=11
+CursorColumn=11
+CursorLine=47
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"8fc5848210232037ff975f9510d588eb651f767d","ranges":[]}
-ViMarks=.,10,21,<,45,0,>,45,0,[,10,21,],10,21,^,10,21
+TextFolding={"checksum":"a1364b688af8951df054c7d11b7a11316d606c26","ranges":[]}
+ViMarks=.,45,0,[,45,0,],45,0,^,47,11
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex5.tex]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex6.tex]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"543a084c4b20f434fe1775b2630a73c9f30254d4","ranges":[]}
-ViMarks=
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/Ex7.tex]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"07074121e657d5440049d71a729c42cc53f76146","ranges":[]}
-ViMarks=
-
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/5784a/Dast/dast.tex]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=true
-JumpList=
-TextFolding={"checksum":"861119666e8318c3b0e38f2bf5f69509d1a96415","ranges":[]}
+TextFolding={"checksum":"9f44f75a9f497a32bc155dbc2b3ff4867b93d974","ranges":[]}
 ViMarks=
 
 [View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Linearit/Linear23.tex]
@@ -1649,13 +1594,13 @@ JumpList=
 TextFolding={"checksum":"cf6c8f2623b7997a84de0867a602136d253388d9","ranges":[]}
 ViMarks=<,31,0,>,31,0
 
-[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/Set Theory/Notes/week1.tex]
+[View-Settings,View=0,URL=file://:@/home/gabriel/Notes/cv/cv.tex]
 CursorColumn=0
-CursorLine=1
+CursorLine=49
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"f51d1374df5a18c5bc22eb2c97bb49ad9debe31a","ranges":[]}
-ViMarks=
+TextFolding={"checksum":"077dcb830dd49815c1749558694b2fe4cd502f51","ranges":[]}
+ViMarks=.,49,0,<,107,256,>,107,256,[,47,0,],49,0,^,107,256
 
 [View-Settings,View=0,URL=file://:@/home/gabriel/heb.tex]
 CursorColumn=38
@@ -1686,7 +1631,15 @@ CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"e9fc44c0948319902643a7ce882e18163e1ae2ec","ranges":[]}
+TextFolding={"checksum":"","ranges":[]}
+ViMarks=
+
+[View-Settings,View=0,URL=file://:@/usr/share/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf]
+CursorColumn=0
+CursorLine=4
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"118151405ee01e940972b58d76bf96ba4e7cb33a","ranges":[]}
 ViMarks=
 
 [Wizard]
