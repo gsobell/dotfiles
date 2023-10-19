@@ -33,6 +33,7 @@ export ERRFILE="$HOME/.cache/X11/xsession-errors"
 export HISTFILE="$XDG_DATA_HOME"/bash/history
 export HISTORY_IGNORE="(ls|cd|pwd|exit|history|cd -|cd ..)"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
 colors() {
 	local fgc bgc vals seq0
