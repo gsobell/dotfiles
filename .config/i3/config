@@ -20,7 +20,7 @@ font pango: Noto Mono 12
 
 # Start a terminal
 bindsym Mod1+Return    exec alacritty
-bindsym Mod4+Return    exec urxvt
+bindsym Mod4+Return    exec konsole
 bindsym Mod4+backslash exec alacritty -e ranger 
 bindsym Mod1+backslash exec thunar
 
