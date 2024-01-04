@@ -10,7 +10,7 @@
 
 # Set mod key and default terminal
 set $mod      Mod1
-set $terminal alacritty
+set $terminal konsole
 set $editor   helix
 
 
@@ -19,9 +19,9 @@ set $editor   helix
 font pango: Noto Mono 12
 
 # Start a terminal
-bindsym Mod1+Return    exec alacritty
-bindsym Mod4+Return    exec konsole
-bindsym Mod4+backslash exec alacritty -e ranger 
+bindsym Mod4+Return    exec alacritty
+bindsym Mod1+Return    exec konsole
+bindsym Mod4+backslash exec $terminal -e ranger 
 bindsym Mod1+backslash exec thunar
 
 # Kill focused window

@@ -131,7 +131,7 @@ alias i3rc='vim ~/.config/i3/config'
 alias i3b='vim ~/.config/i3blocks/config'
 alias ala='vim ~/.config/alacritty/alacritty.yml'
 
-# alias t='cd ~/Notes && taskell && cd - &> /dev/null'
+alias u='taskell ~/Notes/u.md'
 alias v='vim'
 alias p='python'
 alias r="ranger"
