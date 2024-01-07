@@ -129,7 +129,7 @@ alias newsrc='vim -p ~/.config/newsboat/urls ~/.config/newsboat/config'
 alias dmenurc='vim ~/.config/dmenu-recent/config'
 alias i3rc='vim ~/.config/i3/config'
 alias i3b='vim ~/.config/i3blocks/config'
-alias ala='vim ~/.config/alacritty/alacritty.yml'
+alias ala='vim ~/.config/alacritty/alacritty.toml'
 
 alias u='taskell ~/Notes/u.md'
 alias v='vim'
