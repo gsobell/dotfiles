@@ -10,8 +10,8 @@
 
 # Set mod key and default terminal
 set $mod      Mod1
-set $terminal konsole
-set $editor   helix
+set $terminal alacritty
+set $editor   vim
 
 
 # Font for window titles. Define i3bar font{} below.
@@ -19,8 +19,8 @@ set $editor   helix
 font pango: Noto Mono 12
 
 # Start a terminal
-bindsym Mod4+Return    exec alacritty
-bindsym Mod1+Return    exec konsole
+bindsym Mod1+Return    exec alacritty
+bindsym Mod4+Return    exec konsole
 bindsym Mod4+backslash exec $terminal -e ranger 
 bindsym Mod1+backslash exec thunar
 
