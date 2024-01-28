@@ -1,13 +1,3 @@
 [[language]]
-name = "markdown"
-language-server = { command = "ltex-ls" }
-
-# [[language]]
-# name = "latex"
-# language-server = { command = "texlab" }
-
-
-
-[[language]]
-name = "bash"
-file-types = ["config","sh", "bash", "zsh", ".bash_login", ".bash_logout", ".bash_profile", ".bashrc", ".profile", ".zshenv", ".zlogin", ".zlogout", ".zprofile", ".zshrc", "APKBUILD", "PKGBUILD", "eclass", "ebuild", "bazelrc", ".bash_aliases"]
+name = "latex"
+language-servers = [ "texlab", "ltex-ls" ]
