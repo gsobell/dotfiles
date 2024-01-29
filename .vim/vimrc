@@ -1,11 +1,14 @@
-syntax on
+syntax enable
 autocmd BufEnter * colorscheme nord
 autocmd BufEnter *.md colorscheme nord
 autocmd BufEnter *.tex colorscheme nord
 filetype on
 filetype plugin on
+filetype plugin on
 
+set omnifunc=syntaxcomplete#Complete
 
+let g:vimtex_view_method = 'zathura'
 
 set foldmethod=marker
 set wrap linebreak
@@ -57,8 +60,6 @@ function s:math()
 	syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
 endfunction
 
-autocmd FileType tex :nmap <c-s> :!pdflatex % <CR>
-
 set showmatch
 
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
@@ -70,3 +71,8 @@ autocmd FileType markdown inoremap $ $$<ESC>ha
 set directory=$XDG_CACHE_HOME/vim,~/,/tmp
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
+
+let g:UltiSnipsExpandTrigger       = '<Tab>'    " use Tab to expand snippets
+let g:UltiSnipsJumpForwardTrigger  = '<Tab>'    " use Tab to move forward through tabstops
+let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'  " use Shift-Tab to move backward through tabstops
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']          " using Vim

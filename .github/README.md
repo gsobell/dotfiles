@@ -21,7 +21,7 @@
 - [newsboat](https://newsboat.org/) - An RSS/Atom feed reader for the text console
 - [paru](https://github.com/Morganamilo/paru) - feature packed AUR helper
 - [taskell](https://github.com/smallhadroncollider/taskell) -  Command-line Kanban board
-- [clisp](https://clisp.sourceforge.io/) -  GNU ANSI common lisp implementation
+- [ghci](https://www.haskell.org/ghc/)(https://clisp.sourceforge.io/) - The Glasgow Haskell Compiler interactive REPL 
 
 ### gui
 - [alacritty](https://github.com/alacritty/alacritty) - OpenGL terminal emulator.
@@ -43,3 +43,4 @@
 - [computer modern](https://cm-unicode.sourceforge.io/index.html) - typesetting and print
 - [dejavu sans](https://github.com/dejavu-fonts/dejavu-fonts) - monospace
 - [noto sans](https://github.com/notofonts) - system UI
+- [fira code](https://github.com/tonsky/FiraCode) - for `haskell`
