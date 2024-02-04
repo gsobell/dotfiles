@@ -1,14 +1,18 @@
 syntax enable
 autocmd BufEnter * colorscheme nord
-autocmd BufEnter *.md colorscheme nord
-autocmd BufEnter *.tex colorscheme nord
 filetype on
 filetype plugin on
 filetype plugin on
 
 set omnifunc=syntaxcomplete#Complete
 
+"VimTex
 let g:vimtex_view_method = 'zathura'
+" aux file clean on close
+augroup vimtex_config
+  autocmd!
+  autocmd Filetype tex autocmd BufUnload <buffer> VimtexClean
+augroup END
 
 set foldmethod=marker
 set wrap linebreak
@@ -26,53 +30,50 @@ let g:clipbrdDefaultReg = '+'
 set showmatch
 set noerrorbells
 set belloff=all
-"set termguicolors
 set number relativenumber
-set undodir=~/.vim/undodir
 set undofile
 set wildmenu
 set wildmode=list:longest,full
 set backup
-set backupdir=~/.vim/backup
-set directory=~/.vim/tmp
+set showmatch
 source $VIMRUNTIME/vimrc_example.vim
+set directory=$XDG_CACHE_HOME/vim,~/,/tmp
+set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
+set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
+"set undodir=~/.vim/undodir
+"set directory=~/.vim/tmp
+"set backupdir=~/.vim/backup
 "inoremap { {}<ESC>ha
 "inoremap \" \""<ESC>ha
 "inoremap { {}<ESC>ha
+"inoremap ] ]<ESC>ha
+"inoremap ) )<ESC>ha
 
 :nmap <c-s> :w<CR>
 :imap <c-s> <Esc>:w<CR>a
 
-inoremap ] ]<ESC>ha
-inoremap ) )<ESC>ha
-autocmd BufEnter *.md setlocal spell
 autocmd BufEnter *.md set spelllang=nl,en_us
 autocmd BufEnter *.md inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 set clipboard=unnamedplus
 
-au BufRead /tmp/mutt-* set tw=72
-
 "Portable basic LaTeX highlighting, in lieu of a plugin 
-function s:math()
-	syntax region Statement oneline matchgroup=Delimiter start="\$" end="\$" contains=Statement
-	syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
-	syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
-endfunction
+"function s:math()
+"	syntax region Statement oneline matchgroup=Delimiter start="\$" end="\$" contains=Statement
+"	syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
+"	syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
+"endfunction
 
-set showmatch
-
+" mardown [.md]
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
 autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
 autocmd FileType markdown :call <SID>math()
-autocmd FileType markdown set norelativenumber number
 autocmd FileType markdown inoremap $ $$<ESC>ha
 
-set directory=$XDG_CACHE_HOME/vim,~/,/tmp
-set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
-set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
-
+"UltiSnips
 let g:UltiSnipsExpandTrigger       = '<Tab>'    " use Tab to expand snippets
 let g:UltiSnipsJumpForwardTrigger  = '<Tab>'    " use Tab to move forward through tabstops
 let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'  " use Shift-Tab to move backward through tabstops
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']          " using Vim
+"update snipits:
+nnoremap <leader>u <Cmd>call UltiSnips#RefreshSnippets()<CR>
