@@ -1,3 +1,19 @@
+# Thank you Gilles Castel
+
+global !p
+def math():
+	return vim.eval('vimtex#syntax#in_mathzone()') == '1'
+
+def comment(): 
+	return vim.eval('vimtex#syntax#in_comment()') == '1'
+
+def env(name):
+	[x,y] = vim.eval("vimtex#env#is_inside('" + name + "')") 
+	return x != '0' and y != '0'
+endglobal
+
+
+# LaTex Structure
 snippet beg "begin{} / end{}" bA
 \begin{$1}
 	$2
@@ -5,22 +21,213 @@ snippet beg "begin{} / end{}" bA
 $0
 endsnippet
 
-snippet enum "enumerate" b
+snippet enum "enumerate" bA
 \begin{enumerate}
 	\item $0
 \end{enumerate}
 endsnippet
 
-snippet item "itemize" b
+snippet item "itemize" bA
 \begin{itemize}
 	\item $0
 \end{itemize}
 endsnippet
 
-snippet ff "fraction" A
+snippet sec "section" bA
+\section{$0}
+endsnippet
+
+snippet ssec "subsection" bA
+\subsection{$0}
+endsnippet
+
+snippet sssec "subsubsection" bA
+\subsubsection{$0}
+endsnippet
+
+snippet marg "margin note" bA
+\marginpar{$0}
+endsnippet
+
+snippet mm "Math" wA
+$${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+	snip.rv = ' '
+else:
+	snip.rv = ''
+`$2
+endsnippet
+
+snippet dm "Math" wA
+\[
+${1:${VISUAL}}
+\] $0
+endsnippet
+
+snippet ali "Align" bA
+\begin{align*}
+	${1:${VISUAL}}
+.\end{align*}
+endsnippet
+
+# Logic and Operators
+context "math()"
+snippet ff "fraction" Ai
 \frac{$1}{$2}$0
 endsnippet
 
-snippet bb "blackboard bold" A
+snippet != "equals" iA
+\neq
+endsnippet
+
+context "math()"
+snippet ceil "ceil" iA
+\left\lceil $1 \right\rceil $0
+endsnippet
+
+context "math()"
+snippet floor "floor" iA
+\left\lfloor $1 \right\rfloor$0
+endsnippet
+
+context "math()"
+snippet <= "leq" iA
+\leqslant
+endsnippet
+
+context "math()"
+snippet >= "geq" iA
+\geqslant
+endsnippet
+
+context "math()"
+snippet ee "geq" iA
+\exists
+endsnippet
+
+context "math()"
+snippet aa "forall" iA
+\forall
+endsnippet
+
+context "math()"
+snippet xx "cross" iA
+\times
+endsnippet
+
+priority 100
+snippet ** "cdot" iA
+\cdot
+endsnippet
+
+context "math()"
+snippet to "->" A
+\to
+endsnippet
+
+context "math()"
+snippet iff "iff" Ai
+\iff
+endsnippet
+
+# Math Typesetting
+context "math()"
+snippet bb "blackboard bold" Ai
 \mathbb{$0}
+endsnippet
+
+snippet bb "blackboard bold" Ai
+$\mathbb{$0}$
+endsnippet
+
+snippet sum "sum" w
+\sum_{n=${1:1}}^{${2:\infty}} ${3:a_n z^n}
+endsnippet
+
+snippet taylor "taylor" w
+\sum_{${1:k}=${2:0}}^{${3:\infty}} ${4:c_$1} (x-a)^$1 $0
+endsnippet
+
+snippet lim "limit" w
+\lim_{${1:n} \to ${2:\infty}}
+endsnippet
+
+context "math()"
+snippet sr "^2" iA
+^2
+endsnippet
+
+context "math()"
+snippet cb "^3" iA
+^3
+endsnippet
+
+snippet __ "subscript" iA
+_{$1}$0
+endsnippet
+
+snippet ^^ "superscript" iA
+^{$1}$0
+endsnippet
+
+context "math()"
+snippet rt "n-root" iA
+\sqrt[${1:2}]{$2}
+endsnippet
+
+snippet cvec "column vector" iA
+\begin{pmatrix} ${1:x}_${2:1}\\\\ \vdots\\\\ $1_${2:n} \end{pmatrix}
+endsnippet
+
+global !p
+def create_matrix(snip):
+
+        matrix_str = (snip.buffer[snip.line].split('mat')[0]+'matrix').strip()
+
+        rows = 'x'.join(snip.buffer[snip.line].split("x", 2)[:-1])
+        cols = 'x'.join(snip.buffer[snip.line].split("x", 2)[-1:])
+
+        int_val = lambda string: int(''.join(s for s in string if s.isdigit()))
+
+        rows = int_val(rows)
+        cols = int_val(cols)
+
+        offset = cols + 1
+        old_spacing = snip.buffer[snip.line][:snip.buffer[snip.line].rfind('\t') + 1]
+
+        snip.buffer[snip.line] = ''
+
+        final_str = old_spacing + "\\begin{"+matrix_str+"}\n"
+        for i in range(rows):
+                final_str += old_spacing + '\t'
+                final_str += " & ".join(['$' + str(i * cols + j + offset) for j in range(cols)])
+
+                final_str += " \\\\\\\n"
+
+        final_str += old_spacing + "\\end{"+matrix_str+"}\n$0"
+
+        snip.expand_anon(final_str)
+endglobal
+
+pre_expand "create_matrix(snip)"
+snippet "(small|[bBpvV])?mat(rix)?(\d+)x(\d+)" "Generate (small|[bBpvV])?matrix of *rows* by *columns*" br
+endsnippet
+
+
+#context "math()"
+#snippet () "left( right)" iA
+#\left( ${1:${VISUAL}} \right) $0
+#endsnippet
+
+# Greek
+snippet lam "λ"
+\lambda
+endsnippet
+
+snippet eps "ε"
+\varepsilon
+endsnippet
+
+snippet delta "δ"
+\delta
 endsnippet

@@ -121,6 +121,7 @@ unset use_color safe_term match_lhs sh
 
 alias bashrc='vim ~/.bashrc'
 alias vimrc='vim ~/.vim/vimrc'
+alias snip='vim ~/.vim/UltiSnips/tex.snippets'
 alias gitrc='vim ~/.config/git/config'
 alias helixrc='helix ~/.config/helix/config.toml'
 alias dunstrc='vim ~/.config/dunst/dunstrc'
