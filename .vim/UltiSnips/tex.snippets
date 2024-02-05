@@ -1,5 +1,7 @@
 # Thank you Gilles Castel
-
+# todo:
+# satisfactory (),[] handling
+# greek hard to backspace
 global !p
 def math():
 	return vim.eval('vimtex#syntax#in_mathzone()') == '1'
@@ -111,6 +113,11 @@ snippet aa "forall" iA
 endsnippet
 
 context "math()"
+snippet in "in" A
+\in
+endsnippet
+
+context "math()"
 snippet xx "cross" iA
 \times
 endsnippet
@@ -130,6 +137,20 @@ snippet iff "iff" Ai
 \iff
 endsnippet
 
+context "math()"
+snippet ... "..." Ai
+\ldots
+endsnippet
+
+context "math()"
+snippet st "such that" Ai
+\text{ such that }
+endsnippet
+
+snippet st "such that" Ai
+ such that 
+endsnippet
+
 # Math Typesetting
 context "math()"
 snippet bb "blackboard bold" Ai
@@ -139,6 +160,12 @@ endsnippet
 snippet bb "blackboard bold" Ai
 $\mathbb{$0}$
 endsnippet
+
+context "math()"
+snippet '  ' "derivative" rA
+ \; 
+endsnippet
+
 
 snippet sum "sum" w
 \sum_{n=${1:1}}^{${2:\infty}} ${3:a_n z^n}
@@ -220,14 +247,22 @@ endsnippet
 #endsnippet
 
 # Greek
-snippet lam "λ"
+context "math()"
+snippet la "λ" iA
 \lambda
 endsnippet
 
-snippet eps "ε"
+context "math()"
+snippet ep "ε" iA
 \varepsilon
 endsnippet
 
-snippet delta "δ"
+context "math()"
+snippet de "δ" iA
 \delta
+endsnippet
+
+context "math()"
+snippet om "ω" iA
+\omega
 endsnippet

@@ -66,8 +66,8 @@ let g:UltiSnipsExpandTrigger       = '<Tab>'    " use Tab to expand snippets
 let g:UltiSnipsJumpForwardTrigger  = '<Tab>'    " use Tab to move forward through tabstops
 let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'  " use Shift-Tab to move backward through tabstops
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']         
-
-"Comment in certain file types with ctrl + d
+"reload snippets in vim
+nnoremap <leader>u :call UltiSnips#RefreshSnippets()<CR>:echom "UltiSnips: Snippets refreshed."<CR>
 
 " Toggle comment at the beginning of the line with Ctrl+D for various file types
 autocmd FileType tex,python,vim,bash,haskell,markdown nnoremap <silent> <C-d> :call ToggleComment()<CR>
@@ -111,6 +111,9 @@ function! ToggleFormatting(format)
   endif
 endfunction
 
+"normal:
 nnoremap <silent> <C-b> :call ToggleFormatting('textbf')<CR>
-nnoremap <silent> <C-i> :call ToggleFormatting('emph')<CR>
-
+nnoremap <silent> <C-e> :call ToggleFormatting('emph')<CR>
+"insert:
+inoremap <silent> <C-b> <C-o>:call ToggleFormatting('textbf')<CR>
+inoremap <silent> <C-e> <C-o>:call ToggleFormatting('emph')<CR>
