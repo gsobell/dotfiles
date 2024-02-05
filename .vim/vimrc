@@ -4,42 +4,41 @@ filetype on
 filetype plugin on
 filetype plugin on
 
-set omnifunc=syntaxcomplete#Complete
-
 "VimTex
 let g:vimtex_view_method = 'zathura'
+set omnifunc=syntaxcomplete#Complete
 " aux file clean on close
 augroup vimtex_config
   autocmd!
   autocmd Filetype tex autocmd BufUnload <buffer> VimtexClean
 augroup END
 
-set foldmethod=marker
-set wrap linebreak
-set mouse=a
-set showcmd
-set expandtab
+let g:clipbrdDefaultReg = '+'
 set autoindent
-set smartindent
-set smarttab
-set smartcase
+set backup
+set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
+set belloff=all
+set directory=$XDG_CACHE_HOME/vim,~/,/tmp
+set expandtab
+set foldmethod=marker
+set hlsearch
 set ignorecase
 set incsearch
-set hlsearch
-let g:clipbrdDefaultReg = '+'
-set showmatch
+set mouse=a
 set noerrorbells
-set belloff=all
 set number relativenumber
+set showcmd
+set showmatch
+set showmatch
+set smartcase
+set smartindent
+set smarttab
 set undofile
+set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 set wildmenu
 set wildmode=list:longest,full
-set backup
-set showmatch
+set wrap linebreak
 source $VIMRUNTIME/vimrc_example.vim
-set directory=$XDG_CACHE_HOME/vim,~/,/tmp
-set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
-set backupdir=$XDG_CACHE_HOME/vim,~/,/tmp
 "set undodir=~/.vim/undodir
 "set directory=~/.vim/tmp
 "set backupdir=~/.vim/backup
@@ -57,14 +56,6 @@ autocmd BufEnter *.md inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 set clipboard=unnamedplus
 
-"Portable basic LaTeX highlighting, in lieu of a plugin 
-"function s:math()
-"	syntax region Statement oneline matchgroup=Delimiter start="\$" end="\$" contains=Statement
-"	syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
-"	syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Constant
-"endfunction
-
-" mardown [.md]
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
 autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
 autocmd FileType markdown :call <SID>math()
@@ -74,6 +65,52 @@ autocmd FileType markdown inoremap $ $$<ESC>ha
 let g:UltiSnipsExpandTrigger       = '<Tab>'    " use Tab to expand snippets
 let g:UltiSnipsJumpForwardTrigger  = '<Tab>'    " use Tab to move forward through tabstops
 let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'  " use Shift-Tab to move backward through tabstops
-let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']          " using Vim
-"update snipits:
-nnoremap <leader>u <Cmd>call UltiSnips#RefreshSnippets()<CR>
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']         
+
+"Comment in certain file types with ctrl + d
+
+" Toggle comment at the beginning of the line with Ctrl+D for various file types
+autocmd FileType tex,python,vim,bash,haskell,markdown nnoremap <silent> <C-d> :call ToggleComment()<CR>
+
+function! ToggleComment()
+    let s:line_num = line('.')
+    let s:line = getline(s:line_num)
+
+    " Check the file type and set the comment character accordingly
+    let s:comment_char = 
+        \ (&ft == 'tex' ? '%' :
+        \ &ft == 'python' ? '#' :
+        \ &ft == 'vim' ? '"' :
+        \ &ft == 'bash' ? '#' :
+        \ &ft == 'haskell' ? '--' :
+        \ &ft == 'markdown' ? '<!--' : '')
+
+    " Check if the line starts with the comment character
+    if s:line =~ '^\s*' . s:comment_char
+        " Remove the comment character at the beginning of the line
+        execute 's/^\s*' . s:comment_char . '//'
+    else
+        " Add the comment character at the beginning of the line
+        execute 's/^\(\s*\)/\1' . s:comment_char . '/'
+    endif
+endfunction
+
+" Toggle format in LaTex files
+function! ToggleFormatting(format)
+  let word = expand('<cword>')
+  let line = getline('.')
+  let cursor_col = col('.')
+  let start_col = searchpos('\%'.cursor_col.'c' . word, 'n', line('.'))[1]
+
+  if line =~ '\v\\' . a:format . '\{' . word . '\}'
+    " Word is already in the specified format, remove formatting
+    execute 'silent s/\\' . a:format . '{' . word . '}/' . word . '/ge'
+  else
+    " Word is not in the specified format, add formatting
+    execute 'silent s/' . word . '/\\' . a:format . '{' . word . '}/ge'
+  endif
+endfunction
+
+nnoremap <silent> <C-b> :call ToggleFormatting('textbf')<CR>
+nnoremap <silent> <C-i> :call ToggleFormatting('emph')<CR>
+
