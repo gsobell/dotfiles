@@ -1,7 +1,8 @@
 # Thank you Gilles Castel
 # todo:
 # satisfactory (),[] handling
-# greek hard to backspace
+# cos, sin detection
+
 global !p
 def math():
 	return vim.eval('vimtex#syntax#in_mathzone()') == '1'
@@ -138,20 +139,61 @@ snippet iff "iff" Ai
 endsnippet
 
 context "math()"
+snippet fx "f(x)" iA
+f(${0:x})
+endsnippet
+
+context "math()"
 snippet ... "..." Ai
 \ldots
 endsnippet
+
+context "math()"
+snippet nn "cap" iA
+\cap 
+endsnippet
+
+context "math()"
+snippet uu "cup" iA
+\cup 
+endsnippet
+
 
 context "math()"
 snippet st "such that" Ai
 \text{ such that }
 endsnippet
 
-snippet st "such that" Ai
+snippet st "such that" 
  such that 
 endsnippet
 
 # Math Typesetting
+snippet N "Naturals" A
+\mathbb{N}
+endsnippet
+
+snippet Z "Integers" A
+\mathbb{Z}
+endsnippet
+
+snippet Q "Rationals" A
+\mathbb{Q}
+endsnippet
+
+snippet R "Reals" A
+\mathbb{R}
+endsnippet
+
+snippet C "Complex" A
+\mathbb{C}
+endsnippet
+
+context "math()"
+snippet F "Field" A
+\mathbb{F}
+endsnippet
+
 context "math()"
 snippet bb "blackboard bold" Ai
 \mathbb{$0}
@@ -161,14 +203,30 @@ snippet bb "blackboard bold" Ai
 $\mathbb{$0}$
 endsnippet
 
+snippet lr( "left( right)" i
+\left( ${1:${VISUAL}} \right) $0
+endsnippet
+
+snippet lr| "left| right|" i
+\left| ${1:${VISUAL}} \right| $0
+endsnippet
+
+snippet lr{ "left\{ right\}" i
+\left\\{ ${1:${VISUAL}} \right\\} $0
+endsnippet
+
+snippet lr[ "left[ right]" i
+\left[ ${1:${VISUAL}} \right] $0
+endsnippet
+
 context "math()"
-snippet '  ' "derivative" rA
+snippet '  ' "space" rA
  \; 
 endsnippet
 
 
 snippet sum "sum" w
-\sum_{n=${1:1}}^{${2:\infty}} ${3:a_n z^n}
+\sum_{k=${1:1}}^{${2:\infty}} ${3:a_k z^n}
 endsnippet
 
 snippet taylor "taylor" w
@@ -241,28 +299,34 @@ snippet "(small|[bBpvV])?mat(rix)?(\d+)x(\d+)" "Generate (small|[bBpvV])?matrix 
 endsnippet
 
 
-#context "math()"
-#snippet () "left( right)" iA
-#\left( ${1:${VISUAL}} \right) $0
-#endsnippet
-
 # Greek
 context "math()"
-snippet la "λ" iA
+snippet la "λ" i
 \lambda
 endsnippet
 
 context "math()"
-snippet ep "ε" iA
+snippet ep "ε" i
 \varepsilon
 endsnippet
 
 context "math()"
-snippet de "δ" iA
+snippet de "δ" i
 \delta
 endsnippet
 
 context "math()"
-snippet om "ω" iA
+snippet om "ω" i
 \omega
 endsnippet
+
+context "math()"
+snippet pi "π" i
+\pi
+endsnippet
+
+context "math()"
+snippet al "α" i
+\alpha
+endsnippet
+

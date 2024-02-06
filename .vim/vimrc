@@ -33,6 +33,7 @@ set showmatch
 set smartcase
 set smartindent
 set smarttab
+set term=kitty
 set undofile
 set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
 set wildmenu
@@ -51,14 +52,15 @@ source $VIMRUNTIME/vimrc_example.vim
 :nmap <c-s> :w<CR>
 :imap <c-s> <Esc>:w<CR>a
 
-autocmd BufEnter *.md set spelllang=nl,en_us
-autocmd BufEnter *.md inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+"autocmd FileType tex,markdown setlocal spell spelllang=en_us
+autocmd FileType markdown setlocal spell spelllang=en_us
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
 
 set clipboard=unnamedplus
 
 autocmd BufNewFile,BufReadPre,BufRead *.md setfiletype markdown
 autocmd Filetype markdown setlocal com=s1:/*,mb:*,ex:*/,://,b:%,:XCOMM,n:>,b:- | set formatoptions=tcroqln
-autocmd FileType markdown :call <SID>math()
 autocmd FileType markdown inoremap $ $$<ESC>ha
 
 "UltiSnips
@@ -66,8 +68,12 @@ let g:UltiSnipsExpandTrigger       = '<Tab>'    " use Tab to expand snippets
 let g:UltiSnipsJumpForwardTrigger  = '<Tab>'    " use Tab to move forward through tabstops
 let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'  " use Shift-Tab to move backward through tabstops
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']         
+
 "reload snippets in vim
 nnoremap <leader>u :call UltiSnips#RefreshSnippets()<CR>:echom "UltiSnips: Snippets refreshed."<CR>
+
+"reload vimrc
+nnoremap <leader>v :source $MYVIMRC<CR>:echom "Vim configuration reloaded"<CR>
 
 " Toggle comment at the beginning of the line with Ctrl+D for various file types
 autocmd FileType tex,python,vim,bash,haskell,markdown nnoremap <silent> <C-d> :call ToggleComment()<CR>
