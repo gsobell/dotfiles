@@ -15,9 +15,11 @@
 ### tui
 - [vim](https://github.com/vim/vim) - vi improved
 - [helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+- [vimtex](https://github.com/lervag/vimtex) - A modern Vim filetype plugin for LaTeX files. 
+- [ultisnips](https://github.com/SirVer/ultisnips) - The ultimate snippet solution for Vim
 - [mocp](https://github.com/jonsafari/mocp) - music on console player
 - [ranger](https://github.com/ranger/ranger) - a vim-inspired filemanager for the console
-- [bottom](https://github.com/ClementTsang/bottom) - proccess/system monitor in rust
+- [bottom](https://github.com/ClementTsang/bottom) - process/system monitor in rust
 - [newsboat](https://newsboat.org/) - An RSS/Atom feed reader for the text console
 - [paru](https://github.com/Morganamilo/paru) - feature packed AUR helper
 - [taskell](https://github.com/smallhadroncollider/taskell) -  Command-line Kanban board
@@ -41,6 +43,6 @@
 
 ### fonts
 - [computer modern](https://cm-unicode.sourceforge.io/index.html) - typesetting and print
-- [dejavu sans](https://github.com/dejavu-fonts/dejavu-fonts) - monospace
+- [fira code](https://github.com/tonsky/FiraCode) - monospace
+- [dejavu sans](https://github.com/dejavu-fonts/dejavu-fonts) - alternate monospace
 - [noto sans](https://github.com/notofonts) - system UI
-- [fira code](https://github.com/tonsky/FiraCode) - for `haskell`

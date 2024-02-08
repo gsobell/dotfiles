@@ -48,7 +48,18 @@ snippet sssec "subsubsection" bA
 \subsubsection{$0}
 endsnippet
 
-snippet marg "margin note" bA
+snippet foot "footnote" 
+\footnote{$0}
+endsnippet
+
+snippet the "theorem" b
+\begin{theorem}
+	$1
+\end{theorem}
+$0
+endsnippet
+
+snippet marg "margin note" 
 \marginpar{$0}
 endsnippet
 
@@ -95,58 +106,89 @@ snippet floor "floor" iA
 endsnippet
 
 context "math()"
-snippet <= "leq" iA
+snippet le "<=" A
 \leqslant
 endsnippet
 
 context "math()"
-snippet >= "geq" iA
+snippet ge ">=" A
 \geqslant
 endsnippet
 
 context "math()"
-snippet ee "geq" iA
+snippet ne "!=" A
+\neq
+endsnippet
+
+
+context "math()"
+snippet ee "∃" A
 \exists
 endsnippet
 
 context "math()"
-snippet aa "forall" iA
+snippet aa "∀" A
 \forall
 endsnippet
 
 context "math()"
-snippet in "in" A
+snippet in "∈" A
 \in
 endsnippet
 
 context "math()"
-snippet xx "cross" iA
+snippet nin "!∈" A
+\notin
+endsnippet
+
+context "math()"
+snippet xx "cross" A
 \times
 endsnippet
 
 priority 100
-snippet ** "cdot" iA
+snippet ** "cdot" A
 \cdot
 endsnippet
 
 context "math()"
-snippet qq "spaceing" iA
+snippet qq "spaceing" A
 \qquad
 endsnippet
 
 context "math()"
-snippet to "->" A
+snippet to "->" 
 \to
 endsnippet
 
 context "math()"
-snippet iff "iff" Ai
+snippet => "=>" 
+\implies
+endsnippet
+
+context "math()"
+snippet iff "iff" A
 \iff
+endsnippet
+
+context "math()"
+snippet fx0 "f(x_0)" iA
+f(x_0) $0
 endsnippet
 
 context "math()"
 snippet fx "f(x)" iA
 f(x) $0
+endsnippet
+
+context "math()"
+snippet f'x "f(x)" iA
+f'(x)  $0
+endsnippet
+
+context "math()"
+snippet ab "(a,b)" A
+(a, b) 
 endsnippet
 
 context "math()"
@@ -159,15 +201,24 @@ snippet ooo "∞" Ai
 \infty
 endsnippet
 
+context "math()"
+snippet x0 "x_0" Ai
+x_{0}
+endsnippet
 
 context "math()"
-snippet nn "cap" iA
+snippet nn "∩" A
 \cap 
 endsnippet
 
 context "math()"
-snippet uu "cup" iA
+snippet uu "∪" A
 \cup 
+endsnippet
+
+context "math()"
+snippet cc "⊆" A
+\subseteq 
 endsnippet
 
 context "math()"
@@ -176,7 +227,7 @@ snippet st "such that" Ai
 endsnippet
 
 snippet st "such that" 
- such that 
+such that
 endsnippet
 
 # Math Typesetting
@@ -218,6 +269,12 @@ endsnippet
 snippet bb "blackboard bold" Ai
 $\mathbb{$0}$
 endsnippet
+
+context "math()"
+snippet tt "text, AMS" A
+\text{$1} $0
+endsnippet
+
 
 snippet lr( "left( right)" i
 \left( ${1:${VISUAL}} \right) $0
@@ -330,6 +387,21 @@ snippet plot "Plot" w
 	\label{${9:$8}}
 \end{figure}
 endsnippet
+
+# These cause leading '$' to turn to '\'. What???
+#priority 200
+#context "math()"
+#snippet '(?<!\\)(arcsin|arccos|arctan|arccot|arccsc|arcsec|)' "ln" rwA
+#\\`!p snip.rv = match.group(1)`
+#endsnippet
+
+
+#priority 100
+#context "math()"
+#snippet '(?<!\\)(sin|cos|tan|cot|csc|ln|log|exp)' "ln" rwA
+#\\`!p snip.rv = match.group(1)`
+#endsnippet
+
 
 # Greek
 context "math()"

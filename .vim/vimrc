@@ -6,6 +6,10 @@ filetype plugin on
 
 "VimTex
 let g:vimtex_view_method = 'zathura'
+if empty(v:servername) && exists('*remote_startserver')
+  call remote_startserver('VIM')
+endif
+"nmap <localleader>vv <plug>(vimtex-view)
 set omnifunc=syntaxcomplete#Complete
 " aux file clean on close
 augroup vimtex_config
