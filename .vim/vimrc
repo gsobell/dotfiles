@@ -56,6 +56,16 @@ source $VIMRUNTIME/vimrc_example.vim
 :nmap <c-s> :w<CR>
 :imap <c-s> <Esc>:w<CR>a
 
+" portable bracket handling
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+
 "autocmd FileType tex,markdown setlocal spell spelllang=en_us
 autocmd FileType markdown setlocal spell spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
