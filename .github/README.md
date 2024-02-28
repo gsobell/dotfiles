@@ -26,6 +26,7 @@
 - [ghci](https://www.haskell.org/ghc/)(https://clisp.sourceforge.io/) - The Glasgow Haskell Compiler interactive REPL 
 
 ### gui
+-[kitty](https://github.com/kovidgoyal/kitty) - the fast, feature-rich (font ligatures!), cross-platform, GPU based terminal
 - [alacritty](https://github.com/alacritty/alacritty) - OpenGL terminal emulator.
 - [zathura](https://git.pwmt.org/pwmt/zathura) - document viewer with vim bindings
 - [firefox](https://searchfox.org/mozilla-central/source) - gecko-based web browser

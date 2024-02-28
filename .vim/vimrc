@@ -57,13 +57,13 @@ source $VIMRUNTIME/vimrc_example.vim
 :imap <c-s> <Esc>:w<CR>a
 
 " portable bracket handling
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+" inoremap " ""<left>
+" inoremap ' ''<left>
+"inoremap ( ()<left>
+"inoremap [ []<left>
+"inoremap { {}<left>
+"inoremap {<CR> {<CR>}<ESC>O
+"inoremap {;<CR> {<CR>};<ESC>O
 
 
 "autocmd FileType tex,markdown setlocal spell spelllang=en_us

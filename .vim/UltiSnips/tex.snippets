@@ -24,6 +24,22 @@ snippet beg "begin{} / end{}" bA
 $0
 endsnippet
 
+snippet \beg "begin{} / end{}" bA
+\begin{$1}
+	$2
+\end{$1}
+$0
+endsnippet
+
+
+snippet def "begin{definition}" bA
+\begin{definition}
+	$1
+\end{definition}
+$0
+endsnippet
+
+
 snippet enum "enumerate" bA
 \begin{enumerate}
 	\item $0
@@ -56,6 +72,13 @@ snippet the "theorem" b
 \begin{theorem}
 	$1
 \end{theorem}
+$0
+endsnippet
+
+snippet def "definition" b
+\begin{definition}
+	$1
+\end{definition}
 $0
 endsnippet
 
@@ -117,13 +140,13 @@ endsnippet
 
 
 context "math()"
-snippet ee "∃" A
-\exists
+snippet ee "∃" iiA
+\exists \; 
 endsnippet
 
 context "math()"
-snippet aa "∀" A
-\forall
+snippet aa "∀" iA
+\forall \; 
 endsnippet
 
 context "math()"
@@ -167,7 +190,7 @@ snippet iff "iff" A
 endsnippet
 
 context "math()"
-snippet fx0 "f(x_0)" iA
+snippet f0 "f(x_0)" iA
 f(x_0) $0
 endsnippet
 
@@ -182,7 +205,7 @@ f'(x)  $0
 endsnippet
 
 context "math()"
-snippet ab "(a,b)" A
+snippet ab "(a,b)" Ai
 (a, b) 
 endsnippet
 
@@ -217,7 +240,7 @@ snippet cc "⊆" A
 endsnippet
 
 context "math()"
-snippet st "such that" Ai
+snippet st "such that" A
 \text{ such that }
 endsnippet
 
@@ -246,18 +269,18 @@ snippet R "Reals" A
 \mathbb{R}
 endsnippet
 
-context "math()"
-snippet C "Complex" A
+context "math()" 
+snippet C "Complex"
 \mathbb{C}
 endsnippet
 
 context "math()"
-snippet F "Field" A
+snippet F "Field" 
 \mathbb{F}
 endsnippet
 
 context "math()"
-snippet bb "blackboard bold" Ai
+snippet bb "blackboard bold" i
 \mathbb{$0}
 endsnippet
 
@@ -328,6 +351,24 @@ snippet rt "n-root" iA
 \sqrt[${1:2}]{$2}
 endsnippet
 
+context "math()"
+snippet log "log"  A
+\log
+endsnippet
+
+
+context "math()"
+snippet cos "cos"  A
+\cos
+endsnippet
+
+
+context "math()"
+snippet sin "sin"  A
+\sin
+endsnippet
+
+
 snippet cvec "column vector" iA
 \begin{pmatrix} ${1:x}_${2:1}\\\\ \vdots\\\\ $1_${2:n} \end{pmatrix}
 endsnippet
@@ -382,6 +423,7 @@ snippet plot "Plot" w
 	\label{${9:$8}}
 \end{figure}
 endsnippet
+
 
 # These cause leading '$' to turn to '\'. What???
 #priority 200

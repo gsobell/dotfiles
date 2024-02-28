@@ -138,10 +138,10 @@ exec        --no-startup-id blueman-applet
 exec        --no-startup-id parcellite
 exec        --no-startup-id unclutter -grab --timeout 10
 exec        --no-startup-id mpris-proxy
+exec        --no-startup-id pa-applet
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
-exec         :  & sleep 2 && volumeicon 
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
