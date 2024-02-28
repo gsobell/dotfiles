@@ -115,6 +115,10 @@ function! ToggleComment()
     endif
 endfunction
 
+"spelling dropdown
+nnoremap <Leader>s ea<C-X><C-S>
+inoremap <expr> <CR> pumvisible() ? "\<C-y><Esc>" : "\<CR>"
+
 " Toggle format in LaTex files
 function! ToggleFormatting(format)
   let word = expand('<cword>')
