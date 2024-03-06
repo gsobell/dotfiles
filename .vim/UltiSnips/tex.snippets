@@ -31,15 +31,6 @@ snippet \beg "begin{} / end{}" bA
 $0
 endsnippet
 
-
-snippet def "begin{definition}" bA
-\begin{definition}
-	$1
-\end{definition}
-$0
-endsnippet
-
-
 snippet enum "enumerate" bA
 \begin{enumerate}
 	\item $0
@@ -68,17 +59,24 @@ snippet foot "footnote"
 \footnote{$0}
 endsnippet
 
-snippet the "theorem" b
+snippet theorem "theorem" bA
 \begin{theorem}
 	$1
 \end{theorem}
 $0
 endsnippet
 
-snippet def "definition" b
+snippet def "definition" bA
 \begin{definition}
 	$1
 \end{definition}
+$0
+endsnippet
+
+snippet claim "claim" bA
+\begin{claim}
+	$1
+\end{claim}
 $0
 endsnippet
 
@@ -109,7 +107,7 @@ endsnippet
 
 # Logic and Operators
 context "math()"
-snippet ff "fraction" Ai
+snippet ff "fraction" A
 \frac{$1}{$2}$0
 endsnippet
 
@@ -165,7 +163,7 @@ snippet xx "cross" A
 endsnippet
 
 priority 100
-snippet ** "cdot" A
+snippet cd "cdot" A
 \cdot
 endsnippet
 
@@ -175,7 +173,7 @@ snippet qq "spaceing" A
 endsnippet
 
 context "math()"
-snippet to "->" 
+snippet to "->" A 
 \to
 endsnippet
 
@@ -185,7 +183,7 @@ snippet => "=>"
 endsnippet
 
 context "math()"
-snippet iff "iff" A
+snippet iff "iff" Ai
 \iff
 endsnippet
 
@@ -205,8 +203,8 @@ f'(x)  $0
 endsnippet
 
 context "math()"
-snippet ab "(a,b)" Ai
-(a, b) 
+snippet ab "(a,b)" iA
+a, b
 endsnippet
 
 context "math()"
@@ -284,7 +282,7 @@ snippet bb "blackboard bold" i
 \mathbb{$0}
 endsnippet
 
-snippet bb "blackboard bold" Ai
+snippet bb "blackboard bold" i
 $\mathbb{$0}$
 endsnippet
 
@@ -311,13 +309,18 @@ snippet lr[ "left[ right]" i
 endsnippet
 
 context "math()"
-snippet '   ' "space" rA
- \; 
+snippet ub "underbrace" A
+\underbrace{$1}_{$2}
 endsnippet
 
-
+context "math()"
 snippet sum "sum" w
 \sum_{k=${1:1}}^{${2:\infty}} ${3:a_k z^n}
+endsnippet
+
+context "math()"
+snippet \int "integral" wA
+\int_{${1:a}}^{${2:b}} ${3:f(x)}\, dx
 endsnippet
 
 snippet taylor "taylor" w

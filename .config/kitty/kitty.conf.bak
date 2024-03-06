@@ -24,7 +24,7 @@ font_family      Fira Code
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-font_size 13.0
+font_size 16.0
 
 #: Font size (in pts)
 
@@ -932,7 +932,7 @@ disable_ligatures never
 #: insensitive, from the set 0-9A-Z\-=[];',./\\`. Specify your
 #: preference as a string of characters.
 
-# confirm_os_window_close -1
+confirm_os_window_close 0
 
 #: Ask for confirmation when closing an OS window or a tab with at
 #: least this number of kitty windows in it by window manager (e.g.
@@ -2452,4 +2452,7 @@ disable_ligatures never
 
 #: }}}
 
-include ./nord.conf
+# BEGIN_KITTY_THEME
+# Nord
+include current-theme.conf
+# END_KITTY_THEME

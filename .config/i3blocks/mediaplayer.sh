@@ -27,7 +27,7 @@
 use Time::HiRes qw(usleep);
 use Env qw(BLOCK_INSTANCE);
 
-use constant DELAY => 50; # Delay in ms to let network-based players (spotify) reflect new data.
+use constant DELAY => 0; # Delay in ms to let network-based players (spotify) reflect new data.
 use constant SPOTIFY_STR => 'spotify';
 
 my @metadata = ();

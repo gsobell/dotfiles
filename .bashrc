@@ -21,7 +21,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
 export EDITOR='vim'
-export TERMINAL='alacritty'
+export TERMINAL='kitty'
 export READER='zathura'
 export BROWSER='firefox'
 export TRUEBROWSER='firefox'
@@ -168,7 +168,7 @@ alias www='curl wttr.in/Jerusalem'
 alias ww='curl v2.wttr.in/Jerusalem'
 alias zmanim='hebcal -tZEC Jerusalem'
 alias sunset='zmanim | grep "Sunset"'
-alias rainy=' mpv https://rainyday.radio.mynoise.net/'
+alias rainy=' mpv https://rainyday.radio.mynoise.net/ & rain'
 alias wiki="wikicurses"
 alias heb='trans :he'
 alias ttyc='tty-clock -cC 4'

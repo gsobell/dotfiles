@@ -6,6 +6,13 @@
 #
 SCRIPT_DIR="~/.config/i3blocks/"
 
+separator=false
+separator_block_width=5
+border_top=0
+border_left=0
+border_right=0
+border_bottom=0
+
 [weather]
 command=~/.config/i3blocks/weather.sh
 label=
@@ -23,6 +30,7 @@ color=#a3be8c
 command=~/.config/i3blocks/mediaplayer.sh
 interval=5
 signal=10
+border=#b48ead
 color=#b48ead
 
 #[battery2]
@@ -41,7 +49,7 @@ color=#81a1c1
 [memory]
 command=~/.config/i3blocks/memory.sh
 label=
-interval=30
+interval=1
 color=#81a1c1
 
 # Update time every 10 seconds

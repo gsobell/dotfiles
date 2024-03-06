@@ -83,11 +83,9 @@ bindsym Mod4+r       exec $terminal -e 'ranger'
 bindsym Mod4+g       exec $terminal -e 'neomutt'
 bindsym Mod4+m       exec $terminal -e 'mocp'
 bindsym Mod4+n       exec $terminal -e 'newsboat'
-bindsym Mod4+v       exec $terminal -e 'vim -c startinsert'
 bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+t       exec 'thunar'
 bindsym Mod4+f       exec 'firefox'
-bindsym Mod4+s       exec 'signal-desktop'
 bindsym Mod4+q       exec 'qutebrowser'
 bindsym Mod1+z       exec 'zathura'
 bindsym Mod4+Shift+k exec 'kate'
@@ -118,8 +116,6 @@ bindsym $mod+Ctrl+x  --release exec --no-startup-id xkill
 # Open applications in specific workspaces
 assign     [class="firefox"]   $ws2
 assign     [class="Audacious"] $ws3
-assign     [title="Signal"]    $ws3
-assign     [title="neomutt"]   $ws4
 # for_window [title="mocp"] move container to workspace $ws3
 
 # Autostart applications
@@ -145,7 +141,12 @@ exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
-for_window [class="Clipgrab"]             floating enable for_window [class="Lightdm-settings"]     floating enable for_window [title="Event Tester"]         floating enable for_window [title="Bluetooth Devices"]    floating enable for_window [title="Screen Layout Editor"] floating enable for_window [class="Xfburn"]               floating enable 
+for_window [class="Clipgrab"]             floating enable
+for_window [class="Lightdm-settings"]     floating enable 
+for_window [title="Event Tester"]         floating enable 
+for_window [title="Bluetooth Devices"]    floating enable 
+for_window [title="Screen Layout Editor"] floating enable
+for_window [class="Xfburn"]               floating enable 
 for_window [class="Pavucontrol"]          floating enable
 for_window [title="alsamixer"]            floating enable
 for_window [class="Pavucontrol"]          floating enable
@@ -156,8 +157,6 @@ for_window [class="Lxappearance"]         floating enable sticky enable border n
 for_window [class="Nitrogen"]             floating enable sticky enable border normal
 for_window [class="qt5ct"]                floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"]         floating enable sticky enable border normal
-
-
 
 # switch to workspace with urgent window automatically
 for_window       [urgent=latest] focus
@@ -234,7 +233,7 @@ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 # navigate workspaces next/previous, and toggle back/forth
 workspace_auto_back_and_forth yes
 bindsym $mod+Tab        workspace next
-bindsym $mod+Shift+Tab  workspace previous
+bindsym $mod+Shift+Tab  workspace prev
 #bindsym $mod+Tab       workspace back_and_forth
 #bindsym $mod+Shift+Tab move container to workspace back_and_forth; workspace back_and_forth
 
@@ -374,7 +373,6 @@ bar {
 	position top
         tray_output primary 
 	
-#       font xft:URWGothic-Book 11
 	strip_workspace_numbers yes
 
     colors {
@@ -383,11 +381,11 @@ bar {
         separator  #454947
 
 #                   	   border  backgr. text
-        focused_workspace  #7CAFC2 #7CAFC2 #292F34
-        active_workspace   #7CAFC2 #353836 #FDF6E3
-        inactive_workspace #1D1F21 #1D1F21 #EEE8D5
+        focused_workspace  #1D1F21 #1D1F21 #eceff4
+        active_workspace   #1D1F21 #1D1F21 #d8dee9
+        inactive_workspace #1D1F21 #1D1F21 #4c566a
         binding_mode	   #7CAFC2 #7CAFC2 #292F34
-        urgent_workspace   #AB4642 #AB4642 #EEE8D5
+        urgent_workspace   #1D1F21 #1D1F21 #bf616a
     }
 }
 
@@ -461,9 +459,9 @@ bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 bindsym $mod+n border normal
 
-# Set inner/outer gaps
-gaps inner 14
-gaps outer -2
+# Set default inner/outer gaps
+gaps inner 0
+gaps outer 0
 
 # Smart gaps and borders
 smart_gaps	on
