@@ -7,17 +7,20 @@
 SCRIPT_DIR="~/.config/i3blocks/"
 
 separator=false
-separator_block_width=5
+separator_block_width=10
 border_top=0
 border_left=0
 border_right=0
 border_bottom=0
+min_width=full
+align=left
 
-[weather]
-command=~/.config/i3blocks/weather.sh
-label=
-interval=600
-color=#81a1c1
+#[weather]
+#command=~/.config/i3blocks/weather.sh
+#label=
+#interval=600
+#separator_block_width=10
+#color=#81a1c1
 
 [moc]
 command=~/.config/i3blocks/moc.sh

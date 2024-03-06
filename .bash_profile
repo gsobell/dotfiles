@@ -1,19 +1,17 @@
-#
 # ~/.bash_profile
-#
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # Export Default MIME Programs
 
 export VISUAL='vim'
-export EDITOR="$VISUAL"
-export TERMINAL=/usr/bin/alacritty
-export READER=/usr/bin/zathura
-export BROWSER=/usr/bin/firefox
-export TRUEBROWSER=/usr/bin/firefox
-export COLORTERM="truecolor"
-export PAGER="less"
+export EDITOR='$VISUAL'
+export TERMINAL='kitty'
+export READER='zathura'
+export BROWSER='firefox'
+export TRUEBROWSER='firefox'
+export COLORTERM='truecolor'
+export PAGER='less'
 
 # Frameworks
 
