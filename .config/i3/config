@@ -32,9 +32,7 @@ bindsym Mod4+d exec --no-startup-id rofi -show run -font "Noto Mono 10"
 bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 
 # set us,il keyboard, swap caps lock and escape
-exec_always --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle
-exec_always --no-startup-id xmodmap -e "clear lock"
-exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+exec_always --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle -option caps:escape
 bindsym Mod4+k exec --no-startup-id qvkbd # on-screen keyboard
 exec --no-startup-id gxkb                 # language indicator 
 
