@@ -114,6 +114,14 @@ source $VIMRUNTIME/vimrc_example.vim
 autocmd FileType markdown setlocal spell spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
+
+" Save *.tex files when focus is lost
+"autocmd FocusLost *.tex :wa
+
+" Save *.tex files when idle for 'updatetime'
+"set updatetime=300 
+"autocmd CursorHold,CursorHoldI *tex silent! :wa
+
 " ctrl-click forward search to zathura
 " nnoremap <C-LeftMouse> <plug>(vimtex-view)
 

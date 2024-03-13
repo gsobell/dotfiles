@@ -3,8 +3,9 @@ set statusbar-h-padding 0
 set statusbar-v-padding 0
 set selection-clipboard clipboard
 set highlight-color \#88c0d0
-set statusbar-bg \2e3440
-set inputbar-bg \2e3440
+set highlight-active-color \#b48ead
+set statusbar-bg \#2e3440
+set inputbar-bg \#2e3440
 set recolor-lightcolor \#2e3440
 set guioptions none
 set recolor-keephue true

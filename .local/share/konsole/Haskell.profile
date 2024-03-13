@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=nord-dark
+ColorScheme=nord
 Font=Fira Code,14,-1,5,50,0,0,0,0,0
 
 [General]
