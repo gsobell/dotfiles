@@ -1,3 +1,5 @@
 [[language]]
 name = "latex"
 language-servers = [ "texlab", "ltex-ls" ]
+
+

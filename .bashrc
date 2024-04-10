@@ -32,8 +32,10 @@ export GIT_PAGER='colordiff'
 export ERRFILE="$HOME/.cache/X11/xsession-errors"
 export HISTFILE="$XDG_DATA_HOME"/bash/history
 export HISTORY_IGNORE="(ls|cd|pwd|exit|history|cd -|cd ..)"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+#export MANPAGER="less -R --use-color -Dd+r -Du+b"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export MANROFFOPT="-P -c"
 
 colors() {
 	local fgc bgc vals seq0
@@ -125,12 +127,12 @@ alias snips='vim ~/.vim/UltiSnips/tex.snippets'
 alias gitrc='vim ~/.config/git/config'
 alias helixrc='helix ~/.config/helix/config.toml'
 alias dunstrc='vim ~/.config/dunst/dunstrc'
-alias muttrc='vim ~/.config/mutt/muttrc'
 alias newsrc='vim -p ~/.config/newsboat/urls ~/.config/newsboat/config'
 alias dmenurc='vim ~/.config/dmenu-recent/config'
 alias i3rc='vim ~/.config/i3/config'
 alias i3b='vim ~/.config/i3blocks/config'
 alias ala='vim ~/.config/alacritty/alacritty.toml'
+alias kit='vim ~/.config/kitty/kitty.conf'
 
 alias u='taskell ~/Notes/u.md'
 alias v='vim'
@@ -140,19 +142,15 @@ alias sr='sudo ranger'
 alias h='helix'
 alias hx='helix'
 
-
-alias td='vim ~/Notes/to.do.md'
 alias cr='cd ~/Documents/Repos; ls'
 alias diff='colordiff'
 alias df='df -h'
 alias ll='ls -la' 
 alias lsa='ls -a'
 alias cp='cp -i'
-alias nn='cd ~/Notes'
 alias n='cd ~/Notes'
 alias mkdir='mkdir -pv'
 alias py='bpython'
-alias backlight='xset dpms force off'
 
 alias j='journalctl'
 alias jg='journalctl -g --boot=-1'    #grep last boot
@@ -225,12 +223,13 @@ ex () {
   fi
 }
 
+
 command_not_found_handle() {
       if [[ $1 =~ .*.md  ]]; then vim "$1"
     elif [[ $1 =~ .*.csv ]]; then sc-im "$1"
     elif [[ $1 =~ .*.pdf ]]; then zathura "$1" & disown
     elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then exec feh "$1" & disown
-    else echo "Command not found"
+    echo "Command not found"
     fi
 }
 

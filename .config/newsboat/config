@@ -1,5 +1,6 @@
 #external-url-viewer "urlscan"
 
+html-renderer "readable - | html2text -nobs -utf8"
 external-url-viewer "urlscan -dc -r 'linkhandler {}'"
 
 reload-threads 100
@@ -48,7 +49,8 @@ highlight article ":.*\\(embedded flash\\)$" magenta default
 highlight feedlist "---.*---" cyan default bold
 highlight feedlist ".*0/0.." default default invis
 
-browser w3m
+
+browser elinks
 macro , open-in-browser
 macro p set browser "readable --low-confidence force %u | w3m -T text/html" ; open-in-browser ; set browser "w3m"
 macro u set browser "readable %u -p text-content > article.tmp; clear; speedread article.tmp" ; open-in-browser ; set browser "w3m"
