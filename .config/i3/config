@@ -18,7 +18,7 @@ set $editor   vim
 font pango: Noto Mono 12
 
 # Start a terminal
-bindsym Mod1+Return    exec kitty
+bindsym Mod1+Return    exec kitty 
 bindsym Mod4+Return    exec alacritty
 bindsym Mod4+backslash exec $terminal -e ranger 
 bindsym Mod1+backslash exec thunar
@@ -27,7 +27,7 @@ bindsym Mod1+backslash exec thunar
 bindsym $mod+q kill
 
 # Defaults to start various launchers
-bindsym Mod1+d exec --no-startup-id dmenu_recency
+bindsym Mod1+d exec --no-startup-id dmenu_run
 bindsym Mod4+d exec --no-startup-id rofi -show run -font "Noto Mono 10"
 bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 
@@ -52,9 +52,9 @@ bindsym Mod4+x  exec --no-startup-id playerctl previous
 bindsym Mod4+c  exec --no-startup-id playerctl next
 
 
-bindsym Mod4+Shift+z exec mocp --toggle-pause
-bindsym Mod4+Shift+x exec mocp --previous
-bindsym Mod4+Shift+c exec mocp --next
+#bindsym Mod4+Shift+z exec mocp --toggle-pause
+#bindsym Mod4+Shift+x exec mocp --previous
+#bindsym Mod4+Shift+c exec mocp --next
 
 # Standard media key setup, for aux keyboard
 #bindsym XF86AudioPlay exec playerctl play-pause
@@ -88,16 +88,16 @@ bindsym Mod4+q       exec 'qutebrowser'
 bindsym Mod1+z       exec 'zathura'
 bindsym Mod4+Shift+k exec 'kate'
 bindsym Mod1+Shift+b exec 'blueman-manager'
-bindsym XF86Display  exec 'arandr'
 
-#Anti-Pocket
-bindsym Mod4+p       exec "xclip -o >> ~/To\ Read/saved_urls ; notify-send 'Link Saved'"
-bindsym Mod4+Shift+p exec 'readable --low-confidence force --base  > ~/To\ Read/"$(curl $url | readable --low-confidence force --properties title)"'
 
-# screen grab
-bindsym Print                      exec --no-startup-id i3-scrot -dc
-bindsym Mod1+Print       --release exec --no-startup-id i3-scrot
-bindsym Mod1+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym XF86Display           exec 'arandr'
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5% 
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%- 
+#&& dunstify -h "int:value: $(brightnessctl g )" 
+
+
+# screen grab TODO change to spectacle
+bindsym Print                      exec --no-startup-id spectacle
 bindsym Mod4+Print       --release exec --no-startup-id spectacle --region
 
 # bindings I don't use
@@ -127,38 +127,28 @@ exec        --no-startup-id nitrogen --restore; sleep 1; picom -b
 exec        --no-startup-id xfce4-power-manager
 exec        --no-startup-id nm-applet
 exec        --no-startup-id blueman-applet
-exec        --no-startup-id kdeconnect-indicator
-exec        --no-startup-id blueman-applet
 exec        --no-startup-id parcellite
 exec        --no-startup-id unclutter -grab --timeout 10
 exec        --no-startup-id mpris-proxy
-exec        --no-startup-id pa-applet
-exec_always --no-startup-id ff-theme-util
-exec_always --no-startup-id fix_xcursor
+exec        --no-startup-id volumeicon
 exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
-for_window [class="Clipgrab"]             floating enable
 for_window [class="Lightdm-settings"]     floating enable 
 for_window [title="Event Tester"]         floating enable 
 for_window [title="Bluetooth Devices"]    floating enable 
 for_window [title="Screen Layout Editor"] floating enable
-for_window [class="Xfburn"]               floating enable 
 for_window [class="Pavucontrol"]          floating enable
 for_window [title="alsamixer"]            floating enable
-for_window [class="Pavucontrol"]          floating enable
-for_window [title="pavucontrol"]          floating enable
 for_window [title="ImageMagick*"]	  floating enable move absolute position center
 for_window [title="Picture-in-Picture"]	  floating enable sticky enable border none
 for_window [class="Lxappearance"]         floating enable sticky enable border normal
 for_window [class="Nitrogen"]             floating enable sticky enable border normal
 for_window [class="qt5ct"]                floating enable sticky enable border normal
-for_window [class="Qtconfig-qt4"]         floating enable sticky enable border normal
 
 # switch to workspace with urgent window automatically
 for_window       [urgent=latest] focus
-# bindsym $mod+x [urgent=latest] focus
 
 #=================================================================================================#
 #===========================================WORKSPACES============================================#
@@ -328,9 +318,9 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # Lock screen
-bindsym Mod4+L       exec --no-startup-id blurlock
+bindsym Mod4+L       exec --no-startup-id betterlockscreen -l
 bindsym Mod4+Shift+L exec systemctl suspend
-exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id xautolock -time 10 -locker betterlockscreen -l
 # Use light-locker to enable PAM fingerprint unlocking, via light-dm
 #bindsym $mod+9 exec --no-startup-id light-locker-command -l
 

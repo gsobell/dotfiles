@@ -18,13 +18,13 @@ DEFAULT_SESSION='i3 --shmlog-size 0'
 
 # merge in defaults and keymaps
 
-if [ -f $sysresources ]; then
-    xrdb -merge $sysresources
-fi
+#if [ -f $sysresources ]; then
+#    xrdb -merge $sysresources
+#fi
 
-if [ -f $sysmodmap ]; then
-    xmodmap $sysmodmap
-fi
+#if [ -f $sysmodmap ]; then
+#    xmodmap $sysmodmap
+#fi
 
 if [ -f "$userresources" ]; then
     xrdb -merge "$userresources"

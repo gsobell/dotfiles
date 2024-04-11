@@ -29,8 +29,11 @@ export COLORTERM='truecolor'
 export PAGER='less'
 export GIT_PAGER='colordiff'
 
+export SUDO_EDITOR="vim sudoedit"
+export SUDO_PROMPT="$(tput setaf 1 bold)Password:$(tput sgr0) "
+
 export ERRFILE="$HOME/.cache/X11/xsession-errors"
-export HISTFILE="$XDG_DATA_HOME"/bash/history
+export HISTFILE="$XDG_DATA_HOME/bash/history"
 export HISTORY_IGNORE="(ls|cd|pwd|exit|history|cd -|cd ..)"
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 #export MANPAGER="less -R --use-color -Dd+r -Du+b"
@@ -223,15 +226,15 @@ ex () {
   fi
 }
 
-
-command_not_found_handle() {
-      if [[ $1 =~ .*.md  ]]; then vim "$1"
-    elif [[ $1 =~ .*.csv ]]; then sc-im "$1"
-    elif [[ $1 =~ .*.pdf ]]; then zathura "$1" & disown
-    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then exec feh "$1" & disown
-    echo "Command not found"
-    fi
-}
+source /usr/share/doc/pkgfile/command-not-found.bash
+#command_not_found_handle() {
+#      if [[ $1 =~ .*.md  ]]; then vim "$1"
+#    elif [[ $1 =~ .*.csv ]]; then sc-im "$1"
+#    elif [[ $1 =~ .*.pdf ]]; then zathura "$1" & disown
+#    elif [[ $1 =~ .*.jpg ]]||[[ $1 =~ .*.png ]]; then exec feh "$1" & disown
+#    echo "Command not found"
+#    fi
+#}
 
 
 t (){
