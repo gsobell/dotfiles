@@ -1,16 +1,19 @@
 # packlist
 
-Listing of user installed packages. Naming convention is `$HOSTNAME` for for progressively tracked list.
+Listing of explicitly installed packages.
 
-Not to be confused with `paclist`. [Paclist](https://aur.archlinux.org/packages/paclist/) prints a list categorized by repository, as opposed to whether the package was explicitly installed by the user.
-
-Example packlist usage is as follows:
-
-```bash
-pacman -Qet -q > "Packages-$(date +%F).txt"
+Running `packlist` performs the following.
+```sh
+pacman -Qqe > $HOSTNAME.txt
 ```
-Example paclist usage is as follows:
-```bash
-paclist community | awk '{print $1}'
+
+To restore or populate a new device:
+
+```sh
+yay -S --needed - < $HOSTNAME$.txt
 ```
-To be used to restore a snapshot of installed packages, and with [deployrable](https://github.com/gsobell/deployrable).
+
+See more [here.](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#List_of_installed_packages)
+
+
+

@@ -35,7 +35,7 @@ export SUDO_PROMPT="$(tput setaf 1 bold)Password:$(tput sgr0) "
 export ERRFILE="$HOME/.cache/X11/xsession-errors"
 export HISTFILE="$XDG_DATA_HOME/bash/history"
 export HISTORY_IGNORE="(ls|cd|pwd|exit|history|cd -|cd ..)"
-export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+export PATH="$PATH:$HOME/.cabal/bin:$HOME/.ghcup/bin"
 #export MANPAGER="less -R --use-color -Dd+r -Du+b"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export MANROFFOPT="-P -c"
@@ -146,6 +146,7 @@ alias h='helix'
 alias hx='helix'
 
 alias cr='cd ~/Documents/Repos; ls'
+alias cs='cd ~/Documents/Repos/gsobell.github.io; ls'
 alias diff='colordiff'
 alias df='df -h'
 alias ll='ls -la' 
@@ -247,13 +248,12 @@ else
 fi
 }
 
-#Prints a list of installed packages
+textract (){
+sh ~/.local/bin/textractor.sh
+}
 
 packlist() {
-	pacman -Qet -q > ~/.config/packlist/"$HOSTNAME-$(date +%F)"
-        /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.config/packlist/"$HOSTNAME-$(date +%F)"
 	pacman -Qet -q > ~/.config/packlist/"$HOSTNAME"
-	/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add ~/.config/packlist/"$HOSTNAME"
 }
 
 present() {
@@ -279,22 +279,6 @@ recent() {
 	i=1; find $HOME/Notes -type f -name "*.md" -printf '%TY-%Tm-%Td %TT %p\n' | sort | tail -n 5  | cut -c 32- | while read f;do ln -sf "$f" $HOME/; ((i++));done
 }
 
-nw() {
-        set "$(cd ~/Notes ; ls -d */ )";
-        select subject in "${@%/}";
-        do 
-	read -p "Note title: " title;
-        echo "# $title $subject $(date +%d-%m-%C)" > ~/Notes/$subject/$(date +%d-%m-%C).md
-        vim ~/Notes/$subject/$(date +%d-%m-%C).md  
-	break; done;
-
-}
-
-wpc(){
-        sudo
-        cp $1 /usr/share/backgrounds/"$1"
-        lightdm-gtk-greeter-settings 
-}
 
 ns() {
         cd $HOME/Notes; git add -A
