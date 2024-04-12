@@ -34,7 +34,7 @@
 - [kdevelop](https://invent.kde.org/kdevelop) - KDE IDE for C, C++
 - [kile](https://invent.kde.org/office/kile) - KDE LaTeX editor suite
 
-## theming
+### theming
 - [nord](https://github.com/arcticicestudio/nord) - an arctic, north-bluish color palette.
 - [arc-theme](https://github.com/jnsh/arc-theme) - a flat theme with transparent elements
 

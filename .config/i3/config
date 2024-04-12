@@ -4,32 +4,23 @@
 #| |___) | | (_| (_) | | | |  _| | (_| |
 #|_|____/   \___\___/|_| |_|_| |_|\__, | (v4)
 #                                 |___/ 
-#
-# Please see https://wiki.archlinux.org/index.php/i3 for a complete reference!
-#
 
-# Set mod key and default terminal
 set $mod      Mod1
 set $terminal kitty
 set $editor   vim
 
-
 # Font for window titles. Define i3bar font{} below.
 font pango: Noto Mono 12
 
-# Start a terminal
 bindsym Mod1+Return    exec kitty 
 bindsym Mod4+Return    exec alacritty
 bindsym Mod4+backslash exec $terminal -e ranger 
 bindsym Mod1+backslash exec thunar
 
-# Kill focused window
 bindsym $mod+q kill
 
-# Defaults to start various launchers
-bindsym Mod1+d exec --no-startup-id dmenu_run
+bindsym Mod1+d exec --no-startup-id dmenu_run -fn "Noto-13" -nb "#1D1F21" -nf  "#4c566a" -sb  "#1D1F21" 
 bindsym Mod4+d exec --no-startup-id rofi -show run -font "Noto Mono 10"
-bindsym Mod4+b exec --no-startup-id $terminal -e 'bmenu'
 
 # set us,il keyboard, swap caps lock and escape
 exec_always --no-startup-id setxkbmap -model pc105 -layout us,il -option grp:shifts_toggle -option caps:escape
@@ -40,35 +31,17 @@ exec --no-startup-id gxkb                 # language indicator
 #===========================================SOUND=================================================#
 #=================================================================================================#
 
-# Every time you touch the following five lines, you break something. Leave it alone!!
-
-# exec_always          --no-startup-id volumeicon
-
-bindcode 164 	  exec   mocp --toggle-pause
-
-# First choice for media keys, F9, F10 and F11, are outside of X11 mapping (keycodes 452,453,454)
 bindsym Mod4+z  exec --no-startup-id playerctl play-pause
 bindsym Mod4+x  exec --no-startup-id playerctl previous
 bindsym Mod4+c  exec --no-startup-id playerctl next
 
-
-#bindsym Mod4+Shift+z exec mocp --toggle-pause
-#bindsym Mod4+Shift+x exec mocp --previous
-#bindsym Mod4+Shift+c exec mocp --next
-
-# Standard media key setup, for aux keyboard
-#bindsym XF86AudioPlay exec playerctl play-pause
-#bindsym XF86AudioPause exec playerctl play-pause
-#bindsym XF86AudioNext exec playerctl next
-#bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
 
 # Microphone mute toggle
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/audio-input-microphone-muted.svg  "Mute Toggled" 
-# bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/audio-input-microphone-muted.svg  "Mute" && notify-send -i /usr/share/icons/Papirus-Dark/16x16/panel/mic-ready.svg  "Unmuted" 
-
-# Fix this later
-
-# End of sound section.
 
 #=================================================================================================#
 #===========================================BINDINGS==============================================#
@@ -84,19 +57,13 @@ bindsym Mod4+n       exec $terminal -e 'newsboat'
 bindsym Mod4+a       exec 'audacious'
 bindsym Mod4+t       exec 'thunar'
 bindsym Mod4+f       exec 'firefox'
-bindsym Mod4+q       exec 'qutebrowser'
-bindsym Mod1+z       exec 'zathura'
-bindsym Mod4+Shift+k exec 'kate'
-bindsym Mod1+Shift+b exec 'blueman-manager'
-
+bindsym Mod4+b       exec 'blueman-manager'
+bindsym $mod+Ctrl+x  --release exec --no-startup-id xkill
 
 bindsym XF86Display           exec 'arandr'
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5% 
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%- 
-#&& dunstify -h "int:value: $(brightnessctl g )" 
 
-
-# screen grab TODO change to spectacle
 bindsym Print                      exec --no-startup-id spectacle
 bindsym Mod4+Print       --release exec --no-startup-id spectacle --region
 
@@ -104,8 +71,6 @@ bindsym Mod4+Print       --release exec --no-startup-id spectacle --region
 bindsym $mod+t                 exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t            exec --no-startup-id picom -b --experimental-backend 
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
-bindsym $mod+Ctrl+x  --release exec --no-startup-id xkill
-#bindsym Mod4+Shift+r exec 'pkill -USR1 redshift'
 
 #=================================================================================================#
 #===================================APPLICATION SPECIFIC SETTINGS=================================#
@@ -113,7 +78,8 @@ bindsym $mod+Ctrl+x  --release exec --no-startup-id xkill
 
 # Open applications in specific workspaces
 assign     [class="firefox"]   $ws2
-assign     [class="Audacious"] $ws3
+assign     [class="Audacious"] $ws1
+
 # for_window [title="mocp"] move container to workspace $ws3
 
 # Autostart applications
@@ -130,7 +96,7 @@ exec        --no-startup-id blueman-applet
 exec        --no-startup-id parcellite
 exec        --no-startup-id unclutter -grab --timeout 10
 exec        --no-startup-id mpris-proxy
-exec        --no-startup-id volumeicon
+exec_always --no-startup-id pkill volumeicon && volumeicon
 exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
 
 # Open specific applications in floating mode
@@ -222,13 +188,6 @@ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 workspace_auto_back_and_forth yes
 bindsym $mod+Tab        workspace next
 bindsym $mod+Shift+Tab  workspace prev
-#bindsym $mod+Tab       workspace back_and_forth
-#bindsym $mod+Shift+Tab move container to workspace back_and_forth; workspace back_and_forth
-
-# Layout rendered mostly obsolete by autotiling
-#bindsym $mod+b split h;exec notify-send 'Tile horizontally'
-#bindsym $mod+v split v;exec notify-send 'Tile vertically'
-#bindsym $mod+Shift+q split toggle
 
 # Change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -325,34 +284,6 @@ exec --no-startup-id xautolock -time 10 -locker betterlockscreen -l
 # Hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
-# i3status
-
-# bar {
-#	i3bar_command i3bar
-# 	status_command i3status
-#	position top
-      # status_command i3blocks
-#
-#	bindsym button4 nop
-#	bindsym button5 nop
-#       font xft:URWGothic-Book 11
-#	strip_workspace_numbers yes
-
-#   colors {
-#        background #1D1F21
-#        statusline #F9FAF9
-#        separator  #454947
-#
-#                   	   border  backgr. text
-#        focused_workspace  #7CAFC2 #7CAFC2 #292F34
-#        active_workspace   #7CAFC2 #353836 #FDF6E3
-#        inactive_workspace #1D1F21 #1D1F21 #EEE8D5
-#        binding_mode	   #7CAFC2 #7CAFC2 #292F34
-#        urgent_workspace   #AB4642 #AB4642 #EEE8D5
-#    }
-#}
-
-
 bar {
 	i3bar_command i3bar
         status_command i3blocks
@@ -361,19 +292,19 @@ bar {
 	
 	strip_workspace_numbers yes
 
-    colors {
-        background #1D1F21
-        statusline #F9FAF9
-        separator  #454947
+        colors {
+                background #1D1F21
+                statusline #F9FAF9
+                separator  #454947
 
-#                   	   border  backgr. text
-        focused_workspace  #1D1F21 #1D1F21 #eceff4
-        active_workspace   #1D1F21 #1D1F21 #d8dee9
-        inactive_workspace #1D1F21 #1D1F21 #4c566a
-        binding_mode	   #7CAFC2 #7CAFC2 #292F34
-        urgent_workspace   #1D1F21 #1D1F21 #bf616a
-    }
-}
+#                        	   border  backgr. text
+                focused_workspace  #1D1F21 #1D1F21 #eceff4
+                active_workspace   #1D1F21 #1D1F21 #d8dee9
+                inactive_workspace #1D1F21 #1D1F21 #4c566a
+                binding_mode	   #7CAFC2 #7CAFC2 #292F34
+                urgent_workspace   #1D1F21 #1D1F21 #bf616a
+            }
+        }
 
 
 # Exit i3 (logs you out of your X session)
@@ -383,14 +314,14 @@ bar {
 #=================================================================================================#
 
 # Theme colors
-# class                   border  backgr. text    indic.   child_border
-  client.focused          #2F3D44 #556064 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-  client.urgent           #CB4B16 #2F3D44 #AB4642 #268BD2
-  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+# class                  border  backgr. text    indic.   child_border
+client.focused          #2F3D44 #556064 #80FFF9 #FDF6E3
+client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+client.urgent           #CB4B16 #2F3D44 #AB4642 #268BD2
+client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
-  client.background       #2B2C2B
+client.background       #2B2C2B
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # https://i3wm.org/docs/userguide.html#xresources
@@ -416,10 +347,10 @@ set_from_resource $term_color15    color15
 # Window titles
 title_align center
 
-# Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border		none
+# Configure border style <normal|1pixel|pixel xx|none|pixel> 
+default_border none
 default_floating_border pixel
-hide_edge_borders	none
+hide_edge_borders none
 
 # Change borders
 bindsym $mod+u border none
@@ -431,8 +362,8 @@ gaps inner 0
 gaps outer 0
 
 # Smart gaps and borders
-smart_gaps	on
-smart_borders	on
+smart_gaps    on
+smart_borders on
 
 # Toggle inner gaps
 bindsym mod4+0     gaps inner all set 0
@@ -444,12 +375,12 @@ set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
 bindsym $mod+Shift+g mode "$mode_gaps"
 
-mode "$mode_gaps" {
+mode "$mode_gaps"{
         bindsym o      mode "$mode_gaps_outer"
         bindsym i      mode "$mode_gaps_inner"
         bindsym Return mode "default"
         bindsym Escape mode "default"
-}
+                }
 mode "$mode_gaps_inner" {
         bindsym plus  gaps inner current plus 5
         bindsym minus gaps inner current minus 5
