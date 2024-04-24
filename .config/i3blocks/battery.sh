@@ -43,6 +43,7 @@ $status = $1;
 $percent = $2;
 $full_text = "$label$percent%";
 
+
 if ($status eq 'Discharging') {
 	$full_text .= ' 🔋';
 } elsif ($status eq 'Charging') {

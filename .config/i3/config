@@ -19,7 +19,7 @@ bindsym Mod1+backslash exec thunar
 
 bindsym $mod+q kill
 
-bindsym Mod1+d exec --no-startup-id dmenu_run -fn "Noto-13" -nb "#1D1F21" -nf  "#4c566a" -sb  "#1D1F21" 
+bindsym Mod1+d exec --no-startup-id dmenu_run_history -fn "Noto-13" -nb "#1D1F21" -nf  "#4c566a" -sb  "#1D1F21" 
 bindsym Mod4+d exec --no-startup-id rofi -show run -font "Noto Mono 10"
 
 # set us,il keyboard, swap caps lock and escape
@@ -96,14 +96,15 @@ exec        --no-startup-id blueman-applet
 exec        --no-startup-id parcellite
 exec        --no-startup-id unclutter -grab --timeout 10
 exec        --no-startup-id mpris-proxy
-exec_always --no-startup-id pkill volumeicon && volumeicon
+exec        volumeicon
+#exec_always --no-startup-id pkill volumeicon && volumeicon
 exec_always --no-startup-id xrdb -merge /home/gabriel/.config/X11/Xresources
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"]       floating enable
 for_window [class="Lightdm-settings"]     floating enable 
 for_window [title="Event Tester"]         floating enable 
-for_window [title="Bluetooth Devices"]    floating enable 
+for_window [title="blueman-manager"]    floating enable 
 for_window [title="Screen Layout Editor"] floating enable
 for_window [class="Pavucontrol"]          floating enable
 for_window [title="alsamixer"]            floating enable
@@ -279,7 +280,8 @@ bindsym $mod+Shift+r restart
 # Lock screen
 bindsym Mod4+L       exec --no-startup-id betterlockscreen -l
 bindsym Mod4+Shift+L exec systemctl suspend
-exec --no-startup-id xautolock -time 10 -locker betterlockscreen -l
+##exec_always xautolock -time 10 -locker betterlockscreen
+exec_always --no-startup-id xautolock -time 15 -locker 'systemctl suspend' -notify 600 -notifier 'betterlockscreen -l | xset dpms force off' &
 
 # Hide/unhide i3status bar
 bindsym $mod+m bar mode toggle

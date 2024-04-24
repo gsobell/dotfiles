@@ -2,11 +2,11 @@ set sandbox none
 set statusbar-h-padding 0
 set statusbar-v-padding 0
 set selection-clipboard clipboard
-set highlight-color \#88c0d0
-set highlight-active-color \#b48ead
-set statusbar-bg \#2e3440
-set inputbar-bg \#2e3440
-set recolor-lightcolor \#2e3440
+set highlight-color "rgba(136, 192, 208, 0.5)"
+set highlight-active-color "rgba(180, 142, 173, 0.5)"
+set statusbar-bg "rgba(46, 52, 64, 1)"
+set inputbar-bg "rgba(46, 52, 64, 1)"
+set recolor-lightcolor "rgba(46, 52, 64, 1)"
 set guioptions none
 set recolor-keephue true
 set recolor

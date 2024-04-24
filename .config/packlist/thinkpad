@@ -9,6 +9,7 @@ ascii
 ascii-rain-git
 asciinema
 asciiquarium
+aspell-en
 audacious
 autotiling
 base
@@ -33,6 +34,7 @@ downgrade
 dunst
 dust
 efibootmgr
+fastfetch
 fd
 figlet
 filelight
@@ -42,10 +44,12 @@ fprintd
 gestures
 ghc
 ghostwriter
+gnome-disk-utility
 gpick
 gxkb
 hebcal
 helix
+hplip
 htop
 hugo
 hyperfine
@@ -82,7 +86,7 @@ perl-unicode-linebreak
 picom
 pipes.sh
 pkgfile
-playerctl
+playerctld-systemd-unit
 polkit-gnome
 progress
 psensor
@@ -91,12 +95,14 @@ qt5ct
 qt6ct
 ranger
 redshift
+ristretto
 rsibreak
 sabaki
 sc
 smartmontools
 sof-firmware
 spectacle
+system-config-printer
 taarich
 taskell
 tealdeer
@@ -121,7 +127,6 @@ vi
 vim-ultisnips
 vim-vimtex
 volumeicon
-wget
 wikicurses
 wireless_tools
 xautolock

@@ -35,7 +35,7 @@ export SUDO_PROMPT="$(tput setaf 1 bold)Password:$(tput sgr0) "
 export ERRFILE="$HOME/.cache/X11/xsession-errors"
 export HISTFILE="$XDG_DATA_HOME/bash/history"
 export HISTORY_IGNORE="(ls|cd|pwd|exit|history|cd -|cd ..)"
-export PATH="$PATH:$HOME/.cabal/bin:$HOME/.ghcup/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.cabal/bin:$HOME/.ghcup/bin"
 #export MANPAGER="less -R --use-color -Dd+r -Du+b"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export MANROFFOPT="-P -c"
@@ -187,7 +187,6 @@ alias :q='exit'
 alias :q!='shutdown now'
 alias :l='clear'
 alias :w='fortune'
-alias ZZ='blurlock && systemctl suspend'
 
 # The following are the X11 specific aliases
 

@@ -6,6 +6,7 @@ export TRUEBROWSER=/usr/bin/firefox
 export READER=/usr/bin/zathura
 export COLORTERM="truecolor"
 export PAGER="less"
+export PATH="$PATH:$HOME/.local/bin"
 
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'

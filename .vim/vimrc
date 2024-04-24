@@ -61,6 +61,17 @@ augroup vimtex_config
   autocmd Filetype tex autocmd BufUnload <buffer> VimtexClean
 augroup END
 
+
+
+augroup MarkdownMappings
+    autocmd!
+    autocmd FileType markdown nnoremap <buffer> <silent> <Up> g<Up>
+    autocmd FileType markdown nnoremap <buffer> <silent> <Down> g<Down>
+
+    autocmd FileType markdown inoremap <buffer> <silent> <Up> <C-o>g<Up>
+    autocmd FileType markdown inoremap <buffer> <silent> <Down> <C-o>g<Down>
+augroup END
+
 let g:clipbrdDefaultReg = '+'
 set autoindent
 set backup
